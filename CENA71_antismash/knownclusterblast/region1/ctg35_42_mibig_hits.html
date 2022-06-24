@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHI58838.1</td>
+              <td>aromatic_prenyl_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>95.0</td>
+              <td>99.7</td>
+              <td>609.0</td>
+              <td>3.8e-174</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62774.1</td>
+              <td>aromatic_prenyl_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>95.0</td>
+              <td>99.7</td>
+              <td>608.0</td>
+              <td>5e-174</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79564.1</td>
+              <td>FimD</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>95.0</td>
+              <td>99.7</td>
+              <td>608.0</td>
+              <td>5e-174</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79618.1</td>
+              <td>FisD</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>95.0</td>
+              <td>99.7</td>
+              <td>608.0</td>
+              <td>5e-174</td>
+          </tr>
+    
+          <tr>
+              <td>APB62260.1</td>
+              <td>Aromatic_prenyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>95.0</td>
+              <td>99.7</td>
+              <td>608.0</td>
+              <td>5e-174</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79597.1</td>
+              <td>FilD2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>94.0</td>
+              <td>99.7</td>
+              <td>607.0</td>
+              <td>8.5e-174</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62764.1</td>
+              <td>aromatic_prenyl_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>58.0</td>
+              <td>97.7</td>
+              <td>362.0</td>
+              <td>8.2e-100</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79587.1</td>
+              <td>FilD1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>58.0</td>
+              <td>97.7</td>
+              <td>362.0</td>
+              <td>8.2e-100</td>
+          </tr>
+    
+          <tr>
+              <td>APB62250.1</td>
+              <td>aromatic_prenyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>58.0</td>
+              <td>97.7</td>
+              <td>362.0</td>
+              <td>8.2e-100</td>
+          </tr>
+    
+          <tr>
+              <td>ABS50489.1</td>
+              <td>NapT8</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000652/1">BGC0000652</a></td>
+              <td>Terpene</td>
+              <td>29.0</td>
+              <td>63.6</td>
+              <td>81.0</td>
+              <td>2.8e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ABS50461.1</td>
+              <td>putative_prenyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001079/1">BGC0001079</a></td>
+              <td>Terpene + Polyketide:Type III</td>
+              <td>29.0</td>
+              <td>63.6</td>
+              <td>81.0</td>
+              <td>2.8e-15</td>
+          </tr>
+    
+          <tr>
+              <td>CAX48655.1</td>
+              <td>5,10-dihydrophenazine-1-carboxylate_9-dimethylallyltransferase_(dihydro-PCA_prenyltransferase)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001080/1">BGC0001080</a></td>
+              <td>Other:Phenazine</td>
+              <td>23.0</td>
+              <td>91.9</td>
+              <td>75.0</td>
+              <td>2e-13</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>APZ79627.1</td>
+              <td>FisI5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>97.0</td>
+              <td>100.0</td>
+              <td>814.0</td>
+              <td>6.2e-236</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58831.1</td>
+              <td>tryptophan_synthase_subunit_beta_(TrpB)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>94.0</td>
+              <td>99.5</td>
+              <td>794.0</td>
+              <td>8.7e-230</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79604.1</td>
+              <td>FilI5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>95.0</td>
+              <td>100.0</td>
+              <td>794.0</td>
+              <td>8.7e-230</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79571.1</td>
+              <td>FimI5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>95.0</td>
+              <td>99.5</td>
+              <td>791.0</td>
+              <td>7.3e-229</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62781.1</td>
+              <td>tryptophan_synthase_subunit_beta_(TrpB)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>94.0</td>
+              <td>99.5</td>
+              <td>790.0</td>
+              <td>1.3e-228</td>
+          </tr>
+    
+          <tr>
+              <td>APB62267.1</td>
+              <td>tryptophan_synthase_subunit_beta</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>94.0</td>
+              <td>99.5</td>
+              <td>790.0</td>
+              <td>1.3e-228</td>
+          </tr>
+    
+          <tr>
+              <td>WP_030684670.1</td>
+              <td>TrpB-like_pyridoxal_phosphate-dependent_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001607/1">BGC0001607</a></td>
+              <td>Other</td>
+              <td>31.0</td>
+              <td>91.3</td>
+              <td>127.0</td>
+              <td>6e-29</td>
+          </tr>
+    
+          <tr>
+              <td>ANY57960.1</td>
+              <td>tryptophan_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001369/1">BGC0001369</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>89.6</td>
+              <td>124.0</td>
+              <td>5e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ARK19475.1</td>
+              <td>tryptophan_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001540/1">BGC0001540</a></td>
+              <td>Other</td>
+              <td>30.0</td>
+              <td>91.3</td>
+              <td>123.0</td>
+              <td>1.1e-27</td>
+          </tr>
+    
+          <tr>
+              <td>ADZ13547.1</td>
+              <td>YtkJ</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000466/1">BGC0000466</a></td>
+              <td>NRP</td>
+              <td>30.0</td>
+              <td>95.4</td>
+              <td>120.0</td>
+              <td>7.3e-27</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

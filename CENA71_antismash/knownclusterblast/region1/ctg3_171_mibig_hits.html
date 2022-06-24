@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAJ88196.1</td>
+              <td>putative_dTDP-glucose_4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000151/1">BGC0000151</a></td>
+              <td>Polyketide:Modular type I + Saccharide:Hybrid/tailoring</td>
+              <td>28.0</td>
+              <td>100.0</td>
+              <td>111.0</td>
+              <td>2.7e-24</td>
+          </tr>
+    
+          <tr>
+              <td>BAL15723.1</td>
+              <td>oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000432/1">BGC0000432</a></td>
+              <td>NRP</td>
+              <td>31.0</td>
+              <td>73.3</td>
+              <td>110.0</td>
+              <td>4.7e-24</td>
+          </tr>
+    
+          <tr>
+              <td>ctg1_20</td>
+              <td></td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001931/1">BGC0001931</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>100.3</td>
+              <td>97.0</td>
+              <td>3.1e-20</td>
+          </tr>
+    
+          <tr>
+              <td>WP_079030449.1</td>
+              <td>dTDP-glucose_4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002033/1">BGC0002033</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>100.3</td>
+              <td>92.0</td>
+              <td>1.7e-18</td>
+          </tr>
+    
+          <tr>
+              <td>CBH32800.1</td>
+              <td>NDP-glucose-4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000263/1">BGC0000263</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>73.9</td>
+              <td>84.0</td>
+              <td>4.7e-16</td>
+          </tr>
+    
+          <tr>
+              <td>CBH32097.1</td>
+              <td>putative_TDP-glucose-4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000211/1">BGC0000211</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>75.4</td>
+              <td>82.0</td>
+              <td>1.4e-15</td>
+          </tr>
+    
+          <tr>
+              <td>BAC57025.1</td>
+              <td>4-ketoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000102/1">BGC0000102</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>56.4</td>
+              <td>53.0</td>
+              <td>8.9e-07</td>
+          </tr>
+    
+          <tr>
+              <td>WP_012015341.1</td>
+              <td>SDR_family_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001458/1">BGC0001458</a></td>
+              <td>Other:Aminocoumarin</td>
+              <td>24.0</td>
+              <td>56.4</td>
+              <td>51.0</td>
+              <td>2.6e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

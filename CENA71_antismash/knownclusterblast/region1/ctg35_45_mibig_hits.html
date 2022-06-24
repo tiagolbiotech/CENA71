@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHB62777.1</td>
+              <td>3-deoxy-D-arabinoheptulosonate_7-phosphate_(DAHP)_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>98.0</td>
+              <td>100.0</td>
+              <td>584.0</td>
+              <td>9.9e-167</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79600.1</td>
+              <td>FilI1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>98.0</td>
+              <td>100.0</td>
+              <td>584.0</td>
+              <td>9.9e-167</td>
+          </tr>
+    
+          <tr>
+              <td>APB62263.1</td>
+              <td>3-deoxy-D-arabinoheptulosonate-7-phosphate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>98.0</td>
+              <td>100.0</td>
+              <td>584.0</td>
+              <td>9.9e-167</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79623.1</td>
+              <td>FisI1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>97.0</td>
+              <td>100.0</td>
+              <td>582.0</td>
+              <td>2.9e-166</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79567.1</td>
+              <td>FimI1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>97.0</td>
+              <td>100.0</td>
+              <td>579.0</td>
+              <td>4.2e-165</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58835.1</td>
+              <td>3-deoxy-D-arabinoheptulosonate_7-phosphate_(DAHP)_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>574.0</td>
+              <td>1e-163</td>
+          </tr>
+    
+          <tr>
+              <td>ATN39913.1</td>
+              <td>MstT</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001664/1">BGC0001664</a></td>
+              <td>Terpene</td>
+              <td>80.0</td>
+              <td>93.4</td>
+              <td>458.0</td>
+              <td>6.3e-129</td>
+          </tr>
+    
+          <tr>
+              <td>ARR97042.1</td>
+              <td>SphI</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001780/1">BGC0001780</a></td>
+              <td>NRP</td>
+              <td>62.0</td>
+              <td>91.7</td>
+              <td>313.0</td>
+              <td>3.3e-85</td>
+          </tr>
+    
+          <tr>
+              <td>BAM73634.1</td>
+              <td>putative_phospho-2-dehydro-3-deoxyheptonate_aldolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000889/1">BGC0000889</a></td>
+              <td>Other</td>
+              <td>54.0</td>
+              <td>88.0</td>
+              <td>279.0</td>
+              <td>6.8e-75</td>
+          </tr>
+    
+          <tr>
+              <td>ALK27898.1</td>
+              <td>putative_3-deoxy-D-arabinoseheptulosonate_7-phosphate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001233/1">BGC0001233</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>93.0</td>
+              <td>279.0</td>
+              <td>6.8e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AGS77329.1</td>
+              <td>DAHP_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001178/1">BGC0001178</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>53.0</td>
+              <td>92.7</td>
+              <td>279.0</td>
+              <td>8.9e-75</td>
+          </tr>
+    
+          <tr>
+              <td>CAE53368.1</td>
+              <td>phospho-2-dehydro-3-deoxyheptonate_aldolase,_AroA_type</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000440/1">BGC0000440</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>51.0</td>
+              <td>92.4</td>
+              <td>276.0</td>
+              <td>4.4e-74</td>
+          </tr>
+    
+          <tr>
+              <td>OLZ52452.1</td>
+              <td>3-deoxy-7-phosphoheptulonate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001462/1">BGC0001462</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>51.0</td>
+              <td>92.4</td>
+              <td>274.0</td>
+              <td>2.9e-73</td>
+          </tr>
+    
+          <tr>
+              <td>AVI10275.1</td>
+              <td>putative_phospho-2-dehydro-3-deoxyheptonate_aldolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002029/1">BGC0002029</a></td>
+              <td>Other</td>
+              <td>53.0</td>
+              <td>88.0</td>
+              <td>274.0</td>
+              <td>2.9e-73</td>
+          </tr>
+    
+          <tr>
+              <td>CAG15026.1</td>
+              <td>heptulosonate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000441/1">BGC0000441</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>92.4</td>
+              <td>272.0</td>
+              <td>8.3e-73</td>
+          </tr>
+    
+          <tr>
+              <td>AFV52120.1</td>
+              <td>DAHP_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000081/1">BGC0000081</a></td>
+              <td>Polyketide:Iterative type I + Polyketide:Enediyne type I</td>
+              <td>54.0</td>
+              <td>77.7</td>
+              <td>257.0</td>
+              <td>2.8e-68</td>
+          </tr>
+    
+          <tr>
+              <td>CAO85892.1</td>
+              <td>NorJ_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000110/1">BGC0000110</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>52.0</td>
+              <td>75.4</td>
+              <td>250.0</td>
+              <td>2.6e-66</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

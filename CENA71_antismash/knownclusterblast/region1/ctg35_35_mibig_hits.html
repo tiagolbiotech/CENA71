@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>APZ79612.1</td>
+              <td>FisM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>84.0</td>
+              <td>100.0</td>
+              <td>446.0</td>
+              <td>2.1e-125</td>
+          </tr>
+    
+          <tr>
+              <td>CCH92966.1</td>
+              <td>Methyltransferase/putative_prenyl_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000483/1">BGC0000483</a></td>
+              <td>RiPP:Cyanobactin</td>
+              <td>26.0</td>
+              <td>79.9</td>
+              <td>60.0</td>
+              <td>5.5e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AFZ08007.1</td>
+              <td>Methyltransferase-putative_prenyl_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000471/1">BGC0000471</a></td>
+              <td>RiPP:Cyanobactin</td>
+              <td>29.0</td>
+              <td>63.0</td>
+              <td>59.0</td>
+              <td>1.2e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AGA37281.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000819/1">BGC0000819</a></td>
+              <td>NRP + Alkaloid</td>
+              <td>30.0</td>
+              <td>44.5</td>
+              <td>58.0</td>
+              <td>1.6e-08</td>
+          </tr>
+    
+          <tr>
+              <td>AAG23267.1</td>
+              <td>methyltransferase-like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000148/1">BGC0000148</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>41.3</td>
+              <td>56.0</td>
+              <td>7.9e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ACF35464.1</td>
+              <td>mbcU</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000090/1">BGC0000090</a></td>
+              <td>Polyketide</td>
+              <td>31.0</td>
+              <td>41.3</td>
+              <td>56.0</td>
+              <td>1e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AAW33974.1</td>
+              <td>PedO</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000255/1">BGC0000255</a></td>
+              <td>Polyketide</td>
+              <td>24.0</td>
+              <td>71.7</td>
+              <td>55.0</td>
+              <td>1.8e-07</td>
+          </tr>
+    
+          <tr>
+              <td>BAC55218.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000825/1">BGC0000825</a></td>
+              <td>Alkaloid</td>
+              <td>27.0</td>
+              <td>50.4</td>
+              <td>54.0</td>
+              <td>3e-07</td>
+          </tr>
+    
+          <tr>
+              <td>ARV85769.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001742/1">BGC0001742</a></td>
+              <td>Polyketide</td>
+              <td>32.0</td>
+              <td>42.9</td>
+              <td>53.0</td>
+              <td>5.1e-07</td>
+          </tr>
+    
+          <tr>
+              <td>BAC76486.1</td>
+              <td>putative_NDP-hexose_3-O-methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000085/1">BGC0000085</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>46.1</td>
+              <td>51.0</td>
+              <td>2.5e-06</td>
+          </tr>
+    
+          <tr>
+              <td>ARK19478.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001540/1">BGC0001540</a></td>
+              <td>Other</td>
+              <td>27.0</td>
+              <td>41.7</td>
+              <td>50.0</td>
+              <td>5.7e-06</td>
+          </tr>
+    
+          <tr>
+              <td>WP_030684667.1</td>
+              <td>class_I_SAM-dependent_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001607/1">BGC0001607</a></td>
+              <td>Other</td>
+              <td>26.0</td>
+              <td>41.3</td>
+              <td>50.0</td>
+              <td>5.7e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AEZ54383.1</td>
+              <td>PieB2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000124/1">BGC0000124</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>42.9</td>
+              <td>49.0</td>
+              <td>9.7e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

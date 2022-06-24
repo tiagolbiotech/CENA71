@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHZ20785.1</td>
+              <td>major_facilitator_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000369/1">BGC0000369</a></td>
+              <td>NRP + Saccharide:Hybrid/tailoring</td>
+              <td>46.0</td>
+              <td>97.2</td>
+              <td>324.0</td>
+              <td>2e-88</td>
+          </tr>
+    
+          <tr>
+              <td>CZT62790.1</td>
+              <td>major_facilitator_superfamily_transporter,_involved_in_Hassallidin_biosynthesis</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001614/1">BGC0001614</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>97.5</td>
+              <td>322.0</td>
+              <td>1e-87</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ20770.1</td>
+              <td>major_facilitator_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000369/1">BGC0000369</a></td>
+              <td>NRP + Saccharide:Hybrid/tailoring</td>
+              <td>39.0</td>
+              <td>97.2</td>
+              <td>312.0</td>
+              <td>1.4e-84</td>
+          </tr>
+    
+          <tr>
+              <td>CZT62779.1</td>
+              <td>major_facilitator_transporter,_involved_in_Hassallidin_biosynthesis</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001614/1">BGC0001614</a></td>
+              <td>NRP</td>
+              <td>39.0</td>
+              <td>88.0</td>
+              <td>300.0</td>
+              <td>5.4e-81</td>
+          </tr>
+    
+          <tr>
+              <td>KPN90371.1</td>
+              <td>class_III_aminotransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001416/1">BGC0001416</a></td>
+              <td>NRP</td>
+              <td>29.0</td>
+              <td>98.6</td>
+              <td>182.0</td>
+              <td>1.3e-45</td>
+          </tr>
+    
+          <tr>
+              <td>AED90000.1</td>
+              <td>putative_MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000443/1">BGC0000443</a></td>
+              <td>NRP:Beta-lactam</td>
+              <td>29.0</td>
+              <td>97.5</td>
+              <td>179.0</td>
+              <td>1.1e-44</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

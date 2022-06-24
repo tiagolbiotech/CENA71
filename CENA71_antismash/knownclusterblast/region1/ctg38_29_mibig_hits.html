@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ABW69176.1</td>
+              <td>PrnC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000924/1">BGC0000924</a></td>
+              <td>Other</td>
+              <td>41.0</td>
+              <td>88.0</td>
+              <td>450.0</td>
+              <td>6e-126</td>
+          </tr>
+    
+          <tr>
+              <td>AEI98659.1</td>
+              <td>CtcP</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000209/1">BGC0000209</a></td>
+              <td>Polyketide</td>
+              <td>42.0</td>
+              <td>83.4</td>
+              <td>421.0</td>
+              <td>2.3e-117</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15878.1</td>
+              <td>halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000132/1">BGC0000132</a></td>
+              <td>Polyketide</td>
+              <td>43.0</td>
+              <td>80.5</td>
+              <td>418.0</td>
+              <td>1.5e-116</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15852.1</td>
+              <td>halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000130/1">BGC0000130</a></td>
+              <td>Polyketide</td>
+              <td>42.0</td>
+              <td>80.5</td>
+              <td>413.0</td>
+              <td>4.8e-115</td>
+          </tr>
+    
+          <tr>
+              <td>AWS21281.1</td>
+              <td>FADH2-dependent_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001934/1">BGC0001934</a></td>
+              <td>Polyketide</td>
+              <td>43.0</td>
+              <td>81.1</td>
+              <td>412.0</td>
+              <td>1.4e-114</td>
+          </tr>
+    
+          <tr>
+              <td>AZY91994.1</td>
+              <td>Ams9</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002022/1">BGC0002022</a></td>
+              <td>Polyketide</td>
+              <td>43.0</td>
+              <td>81.1</td>
+              <td>412.0</td>
+              <td>1.4e-114</td>
+          </tr>
+    
+          <tr>
+              <td>AGC24269.1</td>
+              <td>prlO</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001038/1">BGC0001038</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>42.0</td>
+              <td>83.5</td>
+              <td>408.0</td>
+              <td>2e-113</td>
+          </tr>
+    
+          <tr>
+              <td>BAD38872.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000111/1">BGC0000111</a></td>
+              <td>Polyketide</td>
+              <td>42.0</td>
+              <td>81.9</td>
+              <td>405.0</td>
+              <td>1.3e-112</td>
+          </tr>
+    
+          <tr>
+              <td>AFU65886.1</td>
+              <td>DacE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000216/1">BGC0000216</a></td>
+              <td>Polyketide</td>
+              <td>40.0</td>
+              <td>80.8</td>
+              <td>403.0</td>
+              <td>4.9e-112</td>
+          </tr>
+    
+          <tr>
+              <td>AMX23341.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001500/1">BGC0001500</a></td>
+              <td>Polyketide</td>
+              <td>42.0</td>
+              <td>79.5</td>
+              <td>402.0</td>
+              <td>1.1e-111</td>
+          </tr>
+    
+          <tr>
+              <td>ATN39895.1</td>
+              <td>MstA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001664/1">BGC0001664</a></td>
+              <td>Terpene</td>
+              <td>40.0</td>
+              <td>88.5</td>
+              <td>402.0</td>
+              <td>1.4e-111</td>
+          </tr>
+    
+          <tr>
+              <td>AGC24268.1</td>
+              <td>prlN</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001038/1">BGC0001038</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>42.0</td>
+              <td>79.5</td>
+              <td>395.0</td>
+              <td>1.3e-109</td>
+          </tr>
+    
+          <tr>
+              <td>WP_106433807.1</td>
+              <td>FAD-dependent_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001819/1">BGC0001819</a></td>
+              <td>Polyketide</td>
+              <td>42.0</td>
+              <td>79.6</td>
+              <td>390.0</td>
+              <td>4.3e-108</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15853.1</td>
+              <td>halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000130/1">BGC0000130</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>80.1</td>
+              <td>384.0</td>
+              <td>4e-106</td>
+          </tr>
+    
+          <tr>
+              <td>AMX23346.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001500/1">BGC0001500</a></td>
+              <td>Polyketide</td>
+              <td>40.0</td>
+              <td>80.8</td>
+              <td>380.0</td>
+              <td>5.8e-105</td>
+          </tr>
+    
+          <tr>
+              <td>AFP87528.1</td>
+              <td>FADH2-dependent_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001159/1">BGC0001159</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>39.0</td>
+              <td>87.2</td>
+              <td>379.0</td>
+              <td>1.3e-104</td>
+          </tr>
+    
+          <tr>
+              <td>AFP87527.1</td>
+              <td>FADH2-dependent_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001159/1">BGC0001159</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>40.0</td>
+              <td>80.9</td>
+              <td>373.0</td>
+              <td>5.5e-103</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15879.1</td>
+              <td>halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000132/1">BGC0000132</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>80.1</td>
+              <td>373.0</td>
+              <td>9.3e-103</td>
+          </tr>
+    
+          <tr>
+              <td>AWS21280.1</td>
+              <td>FADH2-dependent_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001934/1">BGC0001934</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>81.4</td>
+              <td>363.0</td>
+              <td>7.4e-100</td>
+          </tr>
+    
+          <tr>
+              <td>AZY91993.1</td>
+              <td>Ams8</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002022/1">BGC0002022</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>81.4</td>
+              <td>363.0</td>
+              <td>7.4e-100</td>
+          </tr>
+    
+          <tr>
+              <td>AAD24882.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000127/1">BGC0000127</a></td>
+              <td>Polyketide</td>
+              <td>37.0</td>
+              <td>81.6</td>
+              <td>347.0</td>
+              <td>5.5e-95</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15847.1</td>
+              <td>halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000130/1">BGC0000130</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>84.2</td>
+              <td>238.0</td>
+              <td>3.6e-62</td>
+          </tr>
+    
+          <tr>
+              <td>AGC24267.1</td>
+              <td>prlM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001038/1">BGC0001038</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>29.0</td>
+              <td>87.6</td>
+              <td>232.0</td>
+              <td>2e-60</td>
+          </tr>
+    
+          <tr>
+              <td>AAQ90171.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000128/1">BGC0000128</a></td>
+              <td>Polyketide</td>
+              <td>40.0</td>
+              <td>46.2</td>
+              <td>217.0</td>
+              <td>5e-56</td>
+          </tr>
+    
+          <tr>
+              <td>BBE36474.1</td>
+              <td>tryptophan_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001922/1">BGC0001922</a></td>
+              <td>Polyketide</td>
+              <td>22.0</td>
+              <td>56.5</td>
+              <td>72.0</td>
+              <td>2e-12</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

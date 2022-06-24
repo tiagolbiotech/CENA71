@@ -1,0 +1,25 @@
+ClusterBlast scores for c00029_NODE_29..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg29_52	54022	54283	-		
+ctg29_53	54495	56214	+		
+ctg29_54	56220	56616	-		
+ctg29_55	56678	57650	-		
+ctg29_56	57884	59336	+		
+ctg29_57	59475	59694	+		
+ctg29_58	60163	60601	+		
+ctg29_59	60961	62416	-		
+ctg29_60	62845	64756	+		
+ctg29_61	65008	65860	+		
+ctg29_62	65999	66755	-		
+ctg29_63	67320	68304	-		
+ctg29_64	69327	70281	-		
+ctg29_65	70306	70747	-		
+ctg29_66	70954	73072	-		
+ctg29_67	73195	74905	-		
+
+
+Significant hits: 
+
+
+Details:

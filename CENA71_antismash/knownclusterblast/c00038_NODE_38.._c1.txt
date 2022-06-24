@@ -1,0 +1,64 @@
+ClusterBlast scores for c00038_NODE_38..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg38_20	16305	16866	-		
+ctg38_21	17036	20606	-		
+ctg38_22	21088	21238	-		
+ctg38_23	21435	21834	-		
+ctg38_24	21830	22484	-		
+ctg38_25	22599	23205	+		
+ctg38_26	23253	23916	+		
+ctg38_27	23887	24655	-		
+ctg38_28	24911	25925	+		
+ctg38_29	26176	28036	+		
+ctg38_30	28318	29458	+		
+ctg38_31	29591	30746	+		
+ctg38_32	30773	31505	+		
+ctg38_33	31726	32425	+		
+ctg38_34	32494	33322	+		
+ctg38_35	33561	34758	+		
+ctg38_36	35360	35873	+		
+ctg38_37	35985	39120	+		
+ctg38_38	39125	44189	+		
+ctg38_39	44350	46195	+		
+ctg38_40	46231	48160	+		
+ctg38_41	48253	48661	+		
+ctg38_42	48710	49055	+		
+ctg38_43	49179	50097	+		
+ctg38_44	50237	50558	+		
+ctg38_45	50646	51138	+		
+ctg38_46	51174	51924	-		
+ctg38_47	52095	52506	-		
+ctg38_48	53266	55657	+		
+ctg38_49	55960	56377	+		
+
+
+Significant hits: 
+1. BGC0001526	bartolosides E / bartolosides F / bartolosides G / bartolosides H / bartolosides I / bartolosides J / bartolosides K
+
+
+Details:
+
+>>
+1. BGC0001526
+Source: bartolosides E / bartolosides F / bartolosides G / bartolosides H / bartolosides I / bartolosides J / bartolosides K
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 395
+
+Table of genes, locations, strands and annotations of subject cluster:
+AOH72619.1	AOH72619.1	1	1674	-	glycosyltransferase
+AOH72618.1	AOH72618.1	2378	4873	+	haemolysin-type_calcium-binding_repeat
+AOH72617.1	AOH72617.1	5103	6032	+	dialkylresorcinol-condensing_enzyme
+AOH72616.1	AOH72616.1	6135	7286	+	dialkylresorcinol-condensing_enzyme
+AOH72615.1	AOH72615.1	7433	8629	+	glycosyltransferase
+AOH72614.1	AOH72614.1	8890	10170	+	DevB_family_protein
+AOH72613.1	AOH72613.1	10428	11501	+	DevC_family_protein
+AOH72612.1	AOH72612.1	11555	12232	+	DevA_family_protein
+AOH72611.1	AOH72611.1	12314	13522	+	putative_halogenase
+AOH72610.1	AOH72610.1	14028	14417	-	endonuclease
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg38_30	AOH72614.1	49	132	43.53562005277045	1.3e-30
+ctg38_32	AOH72612.1	61	263	88.88888888888889	4.1e-70
+

@@ -1,0 +1,187 @@
+ClusterBlast scores for c00013_NODE_14..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg13_19	21258	21378	+		
+ctg13_20	21382	22054	+		
+ctg13_21	22046	22937	+		
+ctg13_22	22982	25232	+		
+ctg13_23	25234	25846	+		
+ctg13_24	25936	26224	+		
+ctg13_25	26298	27024	+		
+ctg13_26	27452	28421	+		
+ctg13_27	28569	28935	-		
+ctg13_28	29098	29278	+		
+ctg13_29	29465	30029	+		
+ctg13_30	30331	31537	-		
+ctg13_31	31579	32206	-		
+ctg13_32	32279	33230	-		
+ctg13_33	33361	34621	+		
+ctg13_34	34666	35362	-		
+ctg13_35	35387	36560	-		
+ctg13_36	36656	37862	-		
+ctg13_37	38109	38424	-		
+ctg13_38	39245	39518	+		
+ctg13_39	40069	47212	+		
+ctg13_40	47314	50497	+		
+ctg13_41	50625	52275	+		
+ctg13_42	52289	53207	+		
+ctg13_43	53284	54436	+		
+ctg13_44	54585	56370	+		
+ctg13_45	56532	57750	+		
+ctg13_46	57765	59232	+		
+ctg13_47	59368	59668	+		
+ctg13_48	59737	59869	-		
+ctg13_49	59886	61758	+		
+ctg13_50	61811	63218	+		
+ctg13_51	63257	64646	+		
+ctg13_52	64711	65713	+		
+ctg13_53	65717	66188	+		
+ctg13_54	66540	67440	-		
+ctg13_55	67526	68810	-		
+ctg13_56	68920	70219	-		
+ctg13_57	70771	71131	-		
+ctg13_58	71294	73058	+		
+ctg13_59	73092	73293	-		
+ctg13_60	73447	73579	+		
+ctg13_61	73672	74053	-		
+
+
+Significant hits: 
+1. BGC0001525	bartoloside 2 / bartoloside 3 / bartoloside 4
+2. BGC0001526	bartolosides E / bartolosides F / bartolosides G / bartolosides H / bartolosides I / bartolosides J / bartolosides K
+3. BGC0000869	heterocyst glycolipids
+4. BGC0001663	merocyclophane C / merocyclophane D
+5. BGC0001357	carbamidocyclophane A / carbamidocyclophane B / carbamidocyclophane C / carbamidocyclophane D / carbamidocyclophane E / carbamidocyclophane F / carbamidocyclophane H / carbamidocyclophane M / carbamidocyclophane N / carbamidocyclophane O / carbamidocyclophane P / carbamidocyclophane Q / carbamidocyclophane R / carbamidocyclophane S / carbamidocyclophane T / carbamidocyclophane U
+
+
+Details:
+
+>>
+1. BGC0001525
+Source: bartoloside 2 / bartoloside 3 / bartoloside 4
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1451
+
+Table of genes, locations, strands and annotations of subject cluster:
+AKV71846.1	AKV71846.1	1	1674	-	glycosyltransferase
+AKV71847.1	AKV71847.1	2260	4764	+	haemolysin-type_calcium-binding_repeat
+AKV71848.1	AKV71848.1	4995	5936	+	dialkylresorcinol_condensing_enzyme_(aromatase)
+AKV71849.1	AKV71849.1	6022	7173	+	dialkylresorcinol_condensing_enzyme_(ketosynthase)
+AKV71850.1	AKV71850.1	7260	8522	+	glycosyltransferase
+AKV71851.1	AKV71851.1	8598	9845	+	glycosyltransferase
+AKV71852.1	AKV71852.1	10081	11433	+	DevB_family_protein
+AKV71853.1	AKV71853.1	11596	12765	+	DevC_family_protein
+AKV71854.1	AKV71854.1	12818	13495	+	DevA_family_protein
+AKV71855.1	AKV71855.1	13578	14783	+	hypothetical_protein
+AKV71856.1	AKV71856.1	14896	16392	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg13_34	AKV71854.1	59	256	94.37229437229438	4.7e-68
+ctg13_42	AKV71848.1	51	316	97.04918032786885	6.6e-86
+ctg13_43	AKV71849.1	62	497	99.47780678851174	2e-140
+ctg13_45	AKV71855.1	49	382	94.07407407407408	7.7e-106
+
+
+
+>>
+2. BGC0001526
+Source: bartolosides E / bartolosides F / bartolosides G / bartolosides H / bartolosides I / bartolosides J / bartolosides K
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1444
+
+Table of genes, locations, strands and annotations of subject cluster:
+AOH72619.1	AOH72619.1	1	1674	-	glycosyltransferase
+AOH72618.1	AOH72618.1	2378	4873	+	haemolysin-type_calcium-binding_repeat
+AOH72617.1	AOH72617.1	5103	6032	+	dialkylresorcinol-condensing_enzyme
+AOH72616.1	AOH72616.1	6135	7286	+	dialkylresorcinol-condensing_enzyme
+AOH72615.1	AOH72615.1	7433	8629	+	glycosyltransferase
+AOH72614.1	AOH72614.1	8890	10170	+	DevB_family_protein
+AOH72613.1	AOH72613.1	10428	11501	+	DevC_family_protein
+AOH72612.1	AOH72612.1	11555	12232	+	DevA_family_protein
+AOH72611.1	AOH72611.1	12314	13522	+	putative_halogenase
+AOH72610.1	AOH72610.1	14028	14417	-	endonuclease
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg13_34	AOH72612.1	59	257	94.37229437229438	2.8e-68
+ctg13_42	AOH72617.1	51	323	97.04918032786885	3.2e-88
+ctg13_43	AOH72616.1	60	488	99.21671018276761	9.4e-138
+ctg13_45	AOH72611.1	48	376	94.07407407407408	5.5e-104
+
+
+
+>>
+3. BGC0000869
+Source: heterocyst glycolipids
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 3905
+
+Table of genes, locations, strands and annotations of subject cluster:
+AGJ76601.1	AGJ76601.1	1	5445	+	HglE
+AGJ76602.1	AGJ76602.1	5589	7316	+	HglG
+AGJ76603.1	AGJ76603.1	7505	12253	+	HglC
+AGJ76604.1	AGJ76604.1	12371	14134	+	PfaD
+AGJ76605.1	AGJ76605.1	14137	15651	+	HglB
+AGJ76606.1	AGJ76606.1	16328	17131	+	SDR
+AGJ76607.1	AGJ76607.1	17235	17945	-	HetI
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg13_39	AGJ76601.1	58	1956	77.14285714285715	0.0
+ctg13_40	AGJ76603.1	49	1032	106.60377358490567	4.8e-301
+ctg13_41	AGJ76604.1	71	804	100.0	8.5e-233
+ctg13_47	AGJ76605.1	63	113	80.8080808080808	2.8e-25
+
+
+
+>>
+4. BGC0001663
+Source: merocyclophane C / merocyclophane D
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1013
+
+Table of genes, locations, strands and annotations of subject cluster:
+AQA28560.1	AQA28560.1	1	315	+	acyl_carrier_protein
+AQA28561.1	AQA28561.1	817	2223	+	hypothetical_protein
+AQA28562.1	AQA28562.1	2484	10193	+	type_I_polyketide_synthase
+AQA28563.1	AQA28563.1	10206	14396	+	type_I_polyketide_synthase
+AQA28564.1	AQA28564.1	14506	15630	+	type_III_polyketide_synthase
+AQA28565.1	AQA28565.1	15639	16238	+	isoprenylcysteine_carboxyl_methyltransferase
+AQA28566.1	AQA28566.1	16389	17771	+	cytochrome_P450
+AQA28567.1	AQA28567.1	17888	20653	+	hemolysin/beta_propeller_containing_protein
+AQA28568.1	AQA28568.1	21151	22989	+	acyl-CoA_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg13_44	AQA28567.1	50	579	95.28619528619528	4.8e-165
+ctg13_45	AQA28561.1	49	434	115.55555555555554	2.2e-121
+
+
+
+>>
+5. BGC0001357
+Source: carbamidocyclophane A / carbamidocyclophane B / carbamidocyclophane C / carbamidocyclophane D / carbamidocyclophane E / carbamidocyclophane F / carbamidocyclophane H / carbamidocyclophane M / carbamidocyclophane N / carbamidocyclophane O / carbamidocyclophane P / carbamidocyclophane Q / carbamidocyclophane R / carbamidocyclophane S / carbamidocyclophane T / carbamidocyclophane U
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 944
+
+Table of genes, locations, strands and annotations of subject cluster:
+AMB48444.1	AMB48444.1	1	1815	+	long-chain-fatty-acid--CoA_ligase
+AMB48454.1	AMB48454.1	1946	2257	+	acyl_carrier_protein
+AMB48447.1	AMB48447.1	2507	3922	+	hypothetical_protein
+AMB48442.1	AMB48442.1	4171	8328	+	polyketide_synthase
+AMB48449.1	AMB48449.1	8318	9559	+	beta-ketoacyl_synthase
+AMB48448.1	AMB48448.1	9564	10823	+	hydroxymethylglutaryl-CoA_synthase
+AMB48451.1	AMB48451.1	10814	11590	+	enoyl-CoA_hydratase
+AMB48441.1	AMB48441.1	11578	17811	+	polyketide_synthase
+AMB48450.1	AMB48450.1	17904	19025	+	type_III_polyketide_synthase
+AMB48453.1	AMB48453.1	19038	19637	+	isoprenylcysteine_carboxyl_methyltransferase
+AMB48443.1	AMB48443.1	20012	22075	+	beta-propeller_repeat-containing_protein
+AMB48445.1	AMB48445.1	22374	24119	+	carbamoyltransferase
+AMB48446.1	AMB48446.1	25424	26932	+	Rieske_[2Fe-2S]_iron-sulfur_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg13_44	AMB48443.1	47	542	100.16835016835017	1.1e-153
+ctg13_45	AMB48447.1	48	402	112.34567901234568	7.2e-112
+

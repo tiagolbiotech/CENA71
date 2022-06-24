@@ -1,0 +1,416 @@
+ClusterBlast scores for c00025_NODE_25..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg25_18	29371	30826	-		
+ctg25_19	30934	32581	-		
+ctg25_20	32828	33635	+		
+ctg25_21	33775	35701	+		
+ctg25_22	35757	36450	+		
+ctg25_23	37196	37673	+		
+ctg25_24	37781	39050	+		
+ctg25_25	39123	39852	+		
+ctg25_26	39907	41467	+		
+ctg25_27	41572	43117	+		
+ctg25_28	43308	44514	-		
+ctg25_29	44601	45822	-		
+ctg25_30	46765	46948	-		
+ctg25_31	46975	48283	-		
+ctg25_32	48275	55724	-		
+ctg25_33	55720	59134	-		
+ctg25_34	59218	65602	-		
+ctg25_35	65761	66799	-		
+ctg25_36	66850	67876	-		
+ctg25_37	69409	72334	-		
+ctg25_38	72403	74773	-		
+ctg25_39	74899	76339	-		
+ctg25_40	76528	77626	-		
+ctg25_41	77900	78098	-		
+ctg25_42	78196	78460	-		
+ctg25_43	78545	78767	-		
+ctg25_44	78878	79097	-		
+ctg25_45	79217	79436	-		
+ctg25_46	79845	80493	+		
+ctg25_47	80467	80587	+		
+ctg25_48	80938	81904	+		
+ctg25_49	81900	82803	-		
+ctg25_50	82905	83760	+		
+ctg25_51	83973	85248	+		
+
+
+Significant hits: 
+1. BGC0001028	nostopeptolide A2
+2. BGC0000331	cyanopeptin
+3. BGC0000397	nostocyclopeptide A2
+4. BGC0000332	cyanopeptolin
+5. BGC0001018	micropeptin K139
+6. BGC0000975	cryptophycin-327
+7. BGC0001125	puwainaphycin A / puwainaphycin B / puwainaphycin C / puwainaphycin D
+8. BGC0001951	puwainaphycin F / minutissamide A
+9. BGC0001950	puwainaphycin F / minutissamide A
+10. BGC0000302	anabaenopeptin
+11. BGC0001953	puwainaphycin F / minutissamide A / minutissamide B / minutissamide C / minutissamide D
+12. BGC0001952	minutissamide A / minutissamide C / minutissamide D
+13. BGC0001800	theonellamide
+14. BGC0001479	anabaenopeptin NZ857 / nostamide A
+
+
+Details:
+
+>>
+1. BGC0001028
+Source: nostopeptolide A2
+Type: Polyketide + NRP:Cyclic depsipeptide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 14733
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF15891.2	AAF15891.2	1370	14509	+	nosA
+AAF15892.2	AAF15892.2	14506	18240	+	nosB
+AAF17280.1	AAF17280.1	18312	28265	+	nosC
+AAF17281.1	AAF17281.1	28262	35614	+	nosD
+AAF17282.1	AAF17282.1	35820	36617	+	Unknown
+AAF17283.1	AAF17283.1	36665	37771	+	nosE
+AAF17284.1	AAF17284.1	37811	38632	+	nosF
+AAF17285.1	AAF17285.1	38734	40725	+	nosG
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_32	AAF17281.1	48	2108	98.99274778404512	0.0
+ctg25_32	AAF17280.1	49	2005	91.82111200644641	0.0
+ctg25_32	AAF15891.2	48	1949	89.60515713134569	0.0
+ctg25_33	AAF17280.1	48	981	96.74582233948989	1e-285
+ctg25_33	AAF17281.1	48	964	97.18557607739666	1.7e-280
+ctg25_33	AAF15891.2	47	952	99.38434476693052	6.8e-277
+ctg25_34	AAF15891.2	50	1926	103.24400564174894	0.0
+ctg25_34	AAF17280.1	50	1925	102.67983074753172	0.0
+ctg25_34	AAF17281.1	50	1923	101.45745181006112	0.0
+
+
+
+>>
+2. BGC0000331
+Source: cyanopeptin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 10528
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABI26076.1	ABI26076.1	1	2064	-	ABC_transporter
+ABI26077.1	ABI26077.1	2349	12782	+	OciA
+ABI26078.1	ABI26078.1	12779	26965	+	OciB
+ABI26079.1	ABI26079.1	26962	31215	+	OciC
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_32	ABI26077.1	49	1907	87.18775181305399	0.0
+ctg25_32	ABI26078.1	47	1862	87.42949234488316	0.0
+ctg25_33	ABI26078.1	47	943	97.0976253298153	2.4e-274
+ctg25_33	ABI26077.1	48	937	96.74582233948989	2.3e-272
+ctg25_34	ABI26078.1	50	1917	100.84626234132581	0.0
+ctg25_34	ABI26077.1	50	1915	101.78655383168783	0.0
+ctg25_34	ABI26079.1	53	1047	50.399623883403855	3.8e-305
+
+
+
+>>
+3. BGC0000397
+Source: nostocyclopeptide A2
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 9837
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAO23328.1	AAO23328.1	1175	1996	-	NcpE
+AAO23329.1	AAO23329.1	2036	3142	-	NcpD
+AAO23330.1	AAO23330.1	3191	3988	-	unknown
+AAO23331.1	AAO23331.1	4090	5694	-	penicillin-binding_protein-like_protein
+AAO23332.1	AAO23332.1	5793	7811	-	NcpC
+AAO23333.1	AAO23333.1	8496	19703	+	NcpA
+AAO23334.1	AAO23334.1	19700	34111	+	NcpB
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_32	AAO23333.1	49	1976	89.36341659951653	0.0
+ctg25_32	AAO23334.1	47	1915	92.7880741337631	0.0
+ctg25_33	AAO23334.1	49	990	99.38434476693052	1.7e-288
+ctg25_33	AAO23333.1	49	982	98.15303430079155	4.7e-286
+ctg25_34	AAO23334.1	51	2045	103.94922425952045	0.0
+ctg25_34	AAO23333.1	50	1929	101.36342266102491	0.0
+
+
+
+>>
+4. BGC0000332
+Source: cyanopeptolin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 6685
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAZ03548.1	AAZ03548.1	85	1254	-	McnG
+AAZ03549.1	AAZ03549.1	1316	3385	-	McnF
+AAZ03550.1	AAZ03550.1	3953	7249	+	McnA
+AAZ03551.1	AAZ03551.1	7252	10569	+	McnB
+AAZ03552.1	AAZ03552.1	10566	24731	+	McnC
+AAZ03553.1	AAZ03553.1	24728	26605	+	McnD
+AAZ03554.1	AAZ03554.1	26602	30858	+	McnE
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_32	AAZ03552.1	46	1834	87.63094278807412	0.0
+ctg25_33	AAZ03552.1	48	938	97.44942832014073	1.3e-272
+ctg25_34	AAZ03552.1	51	1995	100.5171603196991	0.0
+ctg25_34	AAZ03554.1	52	1027	51.01081335213916	3.1e-299
+ctg25_34	AAZ03550.1	48	891	50.117536436295254	3.5e-258
+
+
+
+>>
+5. BGC0001018
+Source: micropeptin K139
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 5706
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAH22761.1	BAH22761.1	162	2231	-	putative_ABC_transporter
+BAH22762.1	BAH22762.1	2804	6142	+	nonribosomal_peptide_synthetase
+BAH22763.1	BAH22763.1	6145	9462	+	nonribosomal_peptide_synthetase
+BAH22764.1	BAH22764.1	9459	23657	+	nonribosomal_peptide_synthetase
+BAH22765.1	BAH22765.1	23920	28080	+	nonribosomal_peptide_synthetase
+BAH22766.1	BAH22766.1	28304	28837	+	hypothetical_protein
+BAH22767.1	BAH22767.1	29850	30638	+	putative_methyltransferase
+BAH22768.1	BAH22768.1	30796	31530	+	putative_acyl-carrier_protein_reductase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_32	BAH22764.1	46	1849	88.35616438356165	0.0
+ctg25_33	BAH22764.1	46	937	96.83377308707124	2.3e-272
+ctg25_34	BAH22764.1	50	1894	100.84626234132581	0.0
+ctg25_34	BAH22765.1	52	1026	51.01081335213916	7e-299
+
+
+
+>>
+6. BGC0000975
+Source: cryptophycin-327
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1401
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABM21569.1	ABM21569.1	9964	18789	+	crpA
+ABM21570.1	ABM21570.1	18814	29223	+	crpB
+ABM21571.1	ABM21571.1	29220	35051	+	crpC
+ABM21572.1	ABM21572.1	35090	45121	+	crpD
+ABM21573.1	ABM21573.1	45180	46532	+	crpE
+ABM21574.1	ABM21574.1	46916	47800	+	crpF
+ABM21575.1	ABM21575.1	47812	48153	+	crpG
+ABM21576.1	ABM21576.1	48796	50271	+	crpH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	ABM21572.1	56	500	43.007915567282325	5.4e-141
+ctg25_34	ABM21571.1	52	901	42.83027738598966	3.4e-261
+
+
+
+>>
+7. BGC0001125
+Source: puwainaphycin A / puwainaphycin B / puwainaphycin C / puwainaphycin D
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 5397
+
+Table of genes, locations, strands and annotations of subject cluster:
+AIW82276.1	AIW82276.1	1	1980	-	ORF1
+AIW82277.1	AIW82277.1	2060	10672	-	PuwA
+AIW82278.1	AIW82278.1	10848	14198	-	ORF2
+AIW82279.1	AIW82279.1	16099	23703	+	PuwB
+AIW82280.1	AIW82280.1	23707	25500	+	PuwC
+AIW82281.1	AIW82281.1	25762	26067	+	PuwD
+AIW82282.1	AIW82282.1	26336	35569	+	PuwE
+AIW82283.1	AIW82283.1	35566	42678	+	PuwF
+AIW82284.1	AIW82284.1	42729	53207	+	PuwG
+AIW82285.1	AIW82285.1	53421	56729	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AIW82283.1	48	959	96.04221635883906	5.6e-279
+ctg25_33	AIW82284.1	49	946	93.93139841688655	3.7e-275
+ctg25_33	AIW82277.1	48	929	94.45910290237467	4.7e-270
+ctg25_34	AIW82284.1	47	1732	100.1880582980724	0.0
+ctg25_34	AIW82282.1	46	831	50.30559473436765	2.5e-240
+
+
+
+>>
+8. BGC0001951
+Source: puwainaphycin F / minutissamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 4466
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93583.1	AXN93583.1	1	1995	-	ORF1
+AXN93584.1	AXN93584.1	2075	10687	-	PuwA
+AXN93585.1	AXN93585.1	10864	16491	-	ORF2
+AXN93586.1	AXN93586.1	18202	25980	+	PuwB
+AXN93587.1	AXN93587.1	25984	27756	+	PuwC
+AXN93588.1	AXN93588.1	27949	28239	+	PuwD
+AXN93589.1	AXN93589.1	28551	37916	+	PuwE
+AXN93590.1	AXN93590.1	37913	55468	+	PuwF-G
+AXN93591.1	AXN93591.1	55576	58884	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AXN93590.1	48	945	96.04221635883906	1.1e-274
+ctg25_33	AXN93584.1	48	933	94.45910290237467	2.5e-271
+ctg25_34	AXN93590.1	48	1757	98.49553361542078	0.0
+ctg25_34	AXN93589.1	46	831	51.01081335213916	3.3e-240
+
+
+
+>>
+9. BGC0001950
+Source: puwainaphycin F / minutissamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 4461
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93574.1	AXN93574.1	1	1995	-	ORF1
+AXN93575.1	AXN93575.1	2075	10687	-	PuwA
+AXN93576.1	AXN93576.1	10864	15363	-	ORF2
+AXN93577.1	AXN93577.1	17074	24852	+	PuwB
+AXN93578.1	AXN93578.1	24856	26628	+	PuwC
+AXN93579.1	AXN93579.1	26797	27111	+	PuwD
+AXN93580.1	AXN93580.1	27423	36788	+	PuwE
+AXN93581.1	AXN93581.1	36785	54340	+	PuwF-G
+AXN93582.1	AXN93582.1	54511	57756	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AXN93581.1	48	944	96.04221635883906	1.9e-274
+ctg25_33	AXN93575.1	48	933	94.45910290237467	2.5e-271
+ctg25_34	AXN93581.1	48	1753	98.49553361542078	0.0
+ctg25_34	AXN93580.1	46	831	51.01081335213916	3.3e-240
+
+
+
+>>
+10. BGC0000302
+Source: anabaenopeptin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 4441
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACZ55945.1	ACZ55945.1	745	7332	+	non-ribosomal_peptide_synthetase
+ACZ55942.1	ACZ55942.1	7422	13946	+	non-ribosomal_peptide_synthetase
+ACZ55943.1	ACZ55943.1	14004	17213	+	non-ribosomal_peptide_synthetase
+ACZ55944.1	ACZ55944.1	17408	25105	+	non-ribosomal_peptide_synthetase
+ACZ55946.1	ACZ55946.1	25102	29313	+	non-ribosomal_peptide_synthetase
+ACZ55947.1	ACZ55947.1	29356	30534	+	hydroxymethylglutaryl-CoA_lyase-like_protein
+ACZ55948.1	ACZ55948.1	30943	33240	+	ABC_transporter
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	ACZ55944.1	46	911	99.12049252418646	1e-264
+ctg25_34	ACZ55942.1	47	1455	80.81805359661494	0.0
+ctg25_34	ACZ55944.1	55	1105	49.69440526563235	0.0
+ctg25_34	ACZ55946.1	50	970	49.03620122237894	4.5e-282
+
+
+
+>>
+11. BGC0001953
+Source: puwainaphycin F / minutissamide A / minutissamide B / minutissamide C / minutissamide D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 4391
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93605.1	AXN93605.1	1	8565	-	PuwA
+AXN93606.1	AXN93606.1	8971	10902	-	ORF2
+AXN93607.1	AXN93607.1	12352	14442	+	ORF3
+AXN93608.1	AXN93608.1	14989	17133	+	PuwI
+AXN93609.1	AXN93609.1	17136	18419	+	PuwJ
+AXN93610.1	AXN93610.1	18459	26108	+	PuwB
+AXN93611.1	AXN93611.1	26420	27898	+	PuwC
+AXN93612.1	AXN93612.1	27975	28256	+	PuwD
+AXN93613.1	AXN93613.1	28358	37657	+	PuwE
+AXN93614.1	AXN93614.1	37654	46308	+	PuwF
+AXN93615.1	AXN93615.1	46346	55273	+	PuwG
+AXN93616.1	AXN93616.1	55344	58709	+	PuwH
+AXN93617.1	AXN93617.1	58970	60901	+	ORF1
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AXN93615.1	48	950	94.9868073878628	2.6e-276
+ctg25_33	AXN93614.1	47	933	94.72295514511873	4.3e-271
+ctg25_33	AXN93605.1	48	844	86.45558487247142	2.6e-244
+ctg25_34	AXN93615.1	46	1664	99.20075223319229	0.0
+
+
+
+>>
+12. BGC0001952
+Source: minutissamide A / minutissamide C / minutissamide D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3451
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93592.1	AXN93592.1	1	8565	-	PuwA
+AXN93593.1	AXN93593.1	8948	10960	-	ORF2
+AXN93594.1	AXN93594.1	12331	14421	+	ORF3
+AXN93595.1	AXN93595.1	15059	17167	+	PuwI
+AXN93596.1	AXN93596.1	17182	18465	+	PuwJ
+AXN93597.1	AXN93597.1	18505	26118	+	PuwB
+AXN93598.1	AXN93598.1	26115	27884	+	PuwC
+AXN93599.1	AXN93599.1	27945	28223	+	PuwD
+AXN93600.1	AXN93600.1	28248	29645	+	PuwK
+AXN93601.1	AXN93601.1	29696	39034	+	PuwE
+AXN93602.1	AXN93602.1	39031	56646	+	PuwF-G
+AXN93603.1	AXN93603.1	56696	60061	+	PuwH
+AXN93604.1	AXN93604.1	60312	62243	+	ORF1
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AXN93602.1	48	956	94.89885664028144	3.6e-278
+ctg25_33	AXN93592.1	48	853	88.39050131926122	4.3e-247
+ctg25_34	AXN93602.1	46	1642	99.62388340385519	0.0
+
+
+
+>>
+13. BGC0001800
+Source: theonellamide
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1467
+
+Table of genes, locations, strands and annotations of subject cluster:
+AVI26388.1	AVI26388.1	622	8811	+	polyketide_synthase
+AVI26389.1	AVI26389.1	8825	14383	+	polyketide_synthase
+AVI26390.1	AVI26390.1	14419	28872	+	polyketide_synthase_/_nonribosomal_peptide_synthase_hybrid
+AVI26391.1	AVI26391.1	28877	29941	+	putative_dioxygenase
+AVI26392.1	AVI26392.1	29947	35355	+	putative_nonribosomal_peptide_synthase
+AVI26393.1	AVI26393.1	35352	47435	+	nonribosomal_peptide_synthase
+AVI26394.1	AVI26394.1	47425	48444	+	putative_monooxygenase
+AVI26395.1	AVI26395.1	48492	50999	+	nonribosomal_peptide_synthase-like_protein
+AVI26395.1	AVI26395.1	48492	50999	+	nonribosomal_peptide_synthase-like_protein
+AVI26396.1	AVI26396.1	51115	52440	+	glycosyltransferase
+AVI26397.1	AVI26397.1	52567	53190	-	DUF2063-containing_hypothetical_protein
+AVI26398.1	AVI26398.1	53299	53436	-	hypothetical_protein
+AVI26399.1	AVI26399.1	53672	53992	+	putative_dehydrogenase
+AVI26400.1	AVI26400.1	54264	54827	-	transport_protein
+AVI26401.1	AVI26401.1	54835	55291	-	transport_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_33	AVI26392.1	46	497	50.57167985927881	4.6e-140
+ctg25_34	AVI26390.1	46	970	57.122708039492245	3.5e-282
+
+
+
+>>
+14. BGC0001479
+Source: anabaenopeptin NZ857 / nostamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 1493
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg25_34	Npun_F2460	48	1493	80.81805359661494	0.0
+

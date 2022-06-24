@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAM59608.1</td>
+              <td>putative_glycosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000297/1">BGC0000297</a></td>
+              <td>NRP:Glycopeptide + Polyketide:Other + Saccharide:Hybrid/tailoring</td>
+              <td>26.0</td>
+              <td>56.4</td>
+              <td>72.0</td>
+              <td>1.4e-12</td>
+          </tr>
+    
+          <tr>
+              <td>BAD20762.1</td>
+              <td>glycosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000702/1">BGC0000702</a></td>
+              <td>Saccharide</td>
+              <td>25.0</td>
+              <td>48.1</td>
+              <td>59.0</td>
+              <td>2e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CAE46941.1</td>
+              <td>putative_glycosyl_transferase_kanE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000704/1">BGC0000704</a></td>
+              <td>Saccharide</td>
+              <td>25.0</td>
+              <td>48.1</td>
+              <td>59.0</td>
+              <td>2e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CAF31591.1</td>
+              <td>putative_paromamine_6-glucosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000705/1">BGC0000705</a></td>
+              <td>Saccharide</td>
+              <td>25.0</td>
+              <td>48.1</td>
+              <td>59.0</td>
+              <td>2e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CAE06509.2</td>
+              <td>putative_glycosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000689/1">BGC0000689</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>43.6</td>
+              <td>54.0</td>
+              <td>3.8e-07</td>
+          </tr>
+    
+          <tr>
+              <td>CAF31433.1</td>
+              <td>putatative_gentamicin_glycosyltransferase_II</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000696/1">BGC0000696</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>43.6</td>
+              <td>54.0</td>
+              <td>3.8e-07</td>
+          </tr>
+    
+          <tr>
+              <td>ARV75710.1</td>
+              <td>paromamine_glycosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001603/1">BGC0001603</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>43.6</td>
+              <td>54.0</td>
+              <td>3.8e-07</td>
+          </tr>
+    
+          <tr>
+              <td>ACN38347.1</td>
+              <td>putative_sisomicin_glycosyltransferase_II</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000714/1">BGC0000714</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>44.3</td>
+              <td>54.0</td>
+              <td>6.5e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

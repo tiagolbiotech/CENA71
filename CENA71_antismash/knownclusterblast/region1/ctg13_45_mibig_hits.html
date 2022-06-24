@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AQA28561.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001663/1">BGC0001663</a></td>
+              <td>Polyketide</td>
+              <td>49.0</td>
+              <td>115.6</td>
+              <td>434.0</td>
+              <td>2.2e-121</td>
+          </tr>
+    
+          <tr>
+              <td>AFV96137.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001064/1">BGC0001064</a></td>
+              <td>Polyketide:Modular type I + Polyketide:Type III</td>
+              <td>48.0</td>
+              <td>112.3</td>
+              <td>406.0</td>
+              <td>5e-113</td>
+          </tr>
+    
+          <tr>
+              <td>ARU81117.1</td>
+              <td>CylC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001566/1">BGC0001566</a></td>
+              <td>Polyketide</td>
+              <td>48.0</td>
+              <td>112.3</td>
+              <td>406.0</td>
+              <td>5e-113</td>
+          </tr>
+    
+          <tr>
+              <td>AMB48447.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001357/1">BGC0001357</a></td>
+              <td>Polyketide</td>
+              <td>48.0</td>
+              <td>112.3</td>
+              <td>402.0</td>
+              <td>7.2e-112</td>
+          </tr>
+    
+          <tr>
+              <td>AKL71647.1</td>
+              <td>NocN</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001703/1">BGC0001703</a></td>
+              <td>Other</td>
+              <td>44.0</td>
+              <td>115.3</td>
+              <td>397.0</td>
+              <td>2.3e-110</td>
+          </tr>
+    
+          <tr>
+              <td>AXN93600.1</td>
+              <td>PuwK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001952/1">BGC0001952</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>114.3</td>
+              <td>396.0</td>
+              <td>5.1e-110</td>
+          </tr>
+    
+          <tr>
+              <td>AKV71855.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001525/1">BGC0001525</a></td>
+              <td>Other</td>
+              <td>49.0</td>
+              <td>94.1</td>
+              <td>382.0</td>
+              <td>7.7e-106</td>
+          </tr>
+    
+          <tr>
+              <td>AOH72611.1</td>
+              <td>putative_halogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001526/1">BGC0001526</a></td>
+              <td>Other</td>
+              <td>48.0</td>
+              <td>94.1</td>
+              <td>376.0</td>
+              <td>5.5e-104</td>
+          </tr>
+    
+          <tr>
+              <td>AKL71648.1</td>
+              <td>NocO</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001703/1">BGC0001703</a></td>
+              <td>Other</td>
+              <td>44.0</td>
+              <td>108.6</td>
+              <td>340.0</td>
+              <td>4.4e-93</td>
+          </tr>
+    
+          <tr>
+              <td>AQX77693.1</td>
+              <td>NocO</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001704/1">BGC0001704</a></td>
+              <td>Other</td>
+              <td>45.0</td>
+              <td>106.4</td>
+              <td>339.0</td>
+              <td>9.7e-93</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

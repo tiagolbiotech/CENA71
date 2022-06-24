@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHB62756.1</td>
+              <td>rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>74.0</td>
+              <td>100.0</td>
+              <td>453.0</td>
+              <td>1.9e-127</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79578.1</td>
+              <td>FilB2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>74.0</td>
+              <td>100.0</td>
+              <td>453.0</td>
+              <td>1.9e-127</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79547.1</td>
+              <td>FimB2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>74.0</td>
+              <td>100.0</td>
+              <td>453.0</td>
+              <td>1.9e-127</td>
+          </tr>
+    
+          <tr>
+              <td>APB62242.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>74.0</td>
+              <td>100.0</td>
+              <td>453.0</td>
+              <td>1.9e-127</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62761.1</td>
+              <td>rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>47.0</td>
+              <td>117.9</td>
+              <td>305.0</td>
+              <td>6.4e-83</td>
+          </tr>
+    
+          <tr>
+              <td>APB62247.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>47.0</td>
+              <td>117.9</td>
+              <td>305.0</td>
+              <td>6.4e-83</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79584.1</td>
+              <td>FilB4</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>47.0</td>
+              <td>117.9</td>
+              <td>302.0</td>
+              <td>5.4e-82</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79621.1</td>
+              <td>FisB3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>47.0</td>
+              <td>116.8</td>
+              <td>301.0</td>
+              <td>1.6e-81</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62763.1</td>
+              <td>rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>47.0</td>
+              <td>117.2</td>
+              <td>299.0</td>
+              <td>4.6e-81</td>
+          </tr>
+    
+          <tr>
+              <td>APB62249.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>47.0</td>
+              <td>117.2</td>
+              <td>299.0</td>
+              <td>4.6e-81</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79586.1</td>
+              <td>FilB6</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>47.0</td>
+              <td>117.2</td>
+              <td>298.0</td>
+              <td>1.3e-80</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62762.1</td>
+              <td>rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>46.0</td>
+              <td>117.5</td>
+              <td>289.0</td>
+              <td>6.2e-78</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79585.1</td>
+              <td>FilB5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>46.0</td>
+              <td>117.5</td>
+              <td>289.0</td>
+              <td>6.2e-78</td>
+          </tr>
+    
+          <tr>
+              <td>APB62248.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>46.0</td>
+              <td>117.5</td>
+              <td>289.0</td>
+              <td>6.2e-78</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79580.1</td>
+              <td>FilB3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>46.0</td>
+              <td>117.5</td>
+              <td>286.0</td>
+              <td>5.3e-77</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79608.1</td>
+              <td>FisB2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>46.0</td>
+              <td>117.5</td>
+              <td>283.0</td>
+              <td>4.5e-76</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58819.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>44.0</td>
+              <td>116.8</td>
+              <td>280.0</td>
+              <td>2.2e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58821.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>46.0</td>
+              <td>116.8</td>
+              <td>276.0</td>
+              <td>4.2e-74</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58820.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>43.0</td>
+              <td>118.6</td>
+              <td>275.0</td>
+              <td>1.2e-73</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79553.1</td>
+              <td>FimB3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>43.0</td>
+              <td>117.2</td>
+              <td>273.0</td>
+              <td>3.5e-73</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58822.1</td>
+              <td>Rieske_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>45.0</td>
+              <td>117.9</td>
+              <td>263.0</td>
+              <td>3.7e-70</td>
+          </tr>
+    
+          <tr>
+              <td>ATN39901.1</td>
+              <td>MstG</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001664/1">BGC0001664</a></td>
+              <td>Terpene</td>
+              <td>33.0</td>
+              <td>116.5</td>
+              <td>184.0</td>
+              <td>2.2e-46</td>
+          </tr>
+    
+          <tr>
+              <td>ATN39900.1</td>
+              <td>MstF</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001664/1">BGC0001664</a></td>
+              <td>Terpene</td>
+              <td>31.0</td>
+              <td>117.2</td>
+              <td>182.0</td>
+              <td>8.2e-46</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

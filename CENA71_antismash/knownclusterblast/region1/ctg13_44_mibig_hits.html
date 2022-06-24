@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AQA28567.1</td>
+              <td>hemolysin/beta_propeller_containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001663/1">BGC0001663</a></td>
+              <td>Polyketide</td>
+              <td>50.0</td>
+              <td>95.3</td>
+              <td>579.0</td>
+              <td>4.8e-165</td>
+          </tr>
+    
+          <tr>
+              <td>AMB48443.1</td>
+              <td>beta-propeller_repeat-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001357/1">BGC0001357</a></td>
+              <td>Polyketide</td>
+              <td>47.0</td>
+              <td>100.2</td>
+              <td>542.0</td>
+              <td>1.1e-153</td>
+          </tr>
+    
+          <tr>
+              <td>AFV96145.1</td>
+              <td>hemolysin-type_calcium-binding_region</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001064/1">BGC0001064</a></td>
+              <td>Polyketide:Modular type I + Polyketide:Type III</td>
+              <td>45.0</td>
+              <td>100.3</td>
+              <td>524.0</td>
+              <td>1.8e-148</td>
+          </tr>
+    
+          <tr>
+              <td>ARU81125.1</td>
+              <td>CylK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001566/1">BGC0001566</a></td>
+              <td>Polyketide</td>
+              <td>45.0</td>
+              <td>100.3</td>
+              <td>524.0</td>
+              <td>1.8e-148</td>
+          </tr>
+    
+          <tr>
+              <td>AOH72618.1</td>
+              <td>haemolysin-type_calcium-binding_repeat</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001526/1">BGC0001526</a></td>
+              <td>Other</td>
+              <td>33.0</td>
+              <td>113.1</td>
+              <td>309.0</td>
+              <td>1.6e-83</td>
+          </tr>
+    
+          <tr>
+              <td>AKV71847.1</td>
+              <td>haemolysin-type_calcium-binding_repeat</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001525/1">BGC0001525</a></td>
+              <td>Other</td>
+              <td>31.0</td>
+              <td>115.0</td>
+              <td>294.0</td>
+              <td>5.3e-79</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

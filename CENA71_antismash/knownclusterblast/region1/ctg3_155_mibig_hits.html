@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAP11945.1</td>
+              <td>Short_chain_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000612/1">BGC0000612</a></td>
+              <td>RiPP:Thiopeptide</td>
+              <td>38.0</td>
+              <td>66.8</td>
+              <td>110.0</td>
+              <td>3.9e-24</td>
+          </tr>
+    
+          <tr>
+              <td>BBC20651.1</td>
+              <td>enoyl-(acyl_carrier_protein)_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001917/1">BGC0001917</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>67.9</td>
+              <td>98.0</td>
+              <td>2e-20</td>
+          </tr>
+    
+          <tr>
+              <td>EYT83442.1</td>
+              <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001213/1">BGC0001213</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>88.1</td>
+              <td>96.0</td>
+              <td>7.5e-20</td>
+          </tr>
+    
+          <tr>
+              <td>BAB69696.1</td>
+              <td></td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001098/1">BGC0001098</a></td>
+              <td>NRP + Polyketide</td>
+              <td>29.0</td>
+              <td>66.4</td>
+              <td>92.0</td>
+              <td>1.4e-18</td>
+          </tr>
+    
+          <tr>
+              <td>ABS74183.1</td>
+              <td>YxjF</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001090/1">BGC0001090</a></td>
+              <td>Polyketide + NRP:Lipopeptide</td>
+              <td>29.0</td>
+              <td>66.4</td>
+              <td>91.0</td>
+              <td>1.9e-18</td>
+          </tr>
+    
+          <tr>
+              <td>RZB16707.1</td>
+              <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001850/1">BGC0001850</a></td>
+              <td>Other:Shikimate-derived</td>
+              <td>27.0</td>
+              <td>89.9</td>
+              <td>91.0</td>
+              <td>1.9e-18</td>
+          </tr>
+    
+          <tr>
+              <td>AFW04566.1</td>
+              <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001783/1">BGC0001783</a></td>
+              <td>Other</td>
+              <td>26.0</td>
+              <td>88.8</td>
+              <td>90.0</td>
+              <td>4.1e-18</td>
+          </tr>
+    
+          <tr>
+              <td>ABL09955.1</td>
+              <td>ketoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000197/1">BGC0000197</a></td>
+              <td>Polyketide:Type II + Saccharide:Hybrid/tailoring</td>
+              <td>31.0</td>
+              <td>70.0</td>
+              <td>89.0</td>
+              <td>9.2e-18</td>
+          </tr>
+    
+          <tr>
+              <td>AEH42481.1</td>
+              <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000032/1">BGC0000032</a></td>
+              <td>Polyketide</td>
+              <td>24.0</td>
+              <td>89.9</td>
+              <td>82.0</td>
+              <td>1.5e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ALG65315.1</td>
+              <td>Cal21</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001297/1">BGC0001297</a></td>
+              <td>NRP</td>
+              <td>32.0</td>
+              <td>72.2</td>
+              <td>77.0</td>
+              <td>4.7e-14</td>
+          </tr>
+    
+          <tr>
+              <td>AVY05515.1</td>
+              <td>dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001571/1">BGC0001571</a></td>
+              <td>Terpene</td>
+              <td>28.0</td>
+              <td>83.8</td>
+              <td>74.0</td>
+              <td>3.1e-13</td>
+          </tr>
+    
+          <tr>
+              <td>WP_091614398.1</td>
+              <td>SDR_family_NAD(P)-dependent_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002023/1">BGC0002023</a></td>
+              <td>RiPP</td>
+              <td>29.0</td>
+              <td>69.7</td>
+              <td>72.0</td>
+              <td>1.2e-12</td>
+          </tr>
+    
+          <tr>
+              <td>CBZ42141.1</td>
+              <td>Acyl-Co_Adehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001117/1">BGC0001117</a></td>
+              <td>NRP</td>
+              <td>31.0</td>
+              <td>71.5</td>
+              <td>70.0</td>
+              <td>5.8e-12</td>
+          </tr>
+    
+          <tr>
+              <td>AQZ26590.1</td>
+              <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001710/1">BGC0001710</a></td>
+              <td>NRP</td>
+              <td>24.0</td>
+              <td>91.7</td>
+              <td>69.0</td>
+              <td>7.5e-12</td>
+          </tr>
+    
+          <tr>
+              <td>EAL89315.1</td>
+              <td>short_chain_dehydrogenase,_putative</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000686/1">BGC0000686</a></td>
+              <td>Terpene</td>
+              <td>27.0</td>
+              <td>89.9</td>
+              <td>65.0</td>
+              <td>1.9e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ABY83162.1</td>
+              <td>Azi24</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000960/1">BGC0000960</a></td>
+              <td>NRP + Polyketide</td>
+              <td>28.0</td>
+              <td>70.4</td>
+              <td>64.0</td>
+              <td>3.2e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ACY06294.1</td>
+              <td>short-chain_dehydrogenase/reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001042/1">BGC0001042</a></td>
+              <td>NRP + Polyketide</td>
+              <td>24.0</td>
+              <td>78.7</td>
+              <td>62.0</td>
+              <td>1.6e-09</td>
+          </tr>
+    
+          <tr>
+              <td>BAF98625.1</td>
+              <td>putative_2,3-dihydro-2,3-dihydroxy_benzoate_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000651/1">BGC0000651</a></td>
+              <td>Terpene</td>
+              <td>27.0</td>
+              <td>85.9</td>
+              <td>60.0</td>
+              <td>6e-09</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

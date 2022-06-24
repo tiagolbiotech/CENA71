@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAH10130.1</td>
+              <td>feruloyl-CoA_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000268/1">BGC0000268</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>73.6</td>
+              <td>118.0</td>
+              <td>2.4e-26</td>
+          </tr>
+    
+          <tr>
+              <td>AGY30675.1</td>
+              <td>Ann3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001298/1">BGC0001298</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>73.8</td>
+              <td>97.0</td>
+              <td>5.8e-20</td>
+          </tr>
+    
+          <tr>
+              <td>ONK09689.1</td>
+              <td>Beta-ketoacyl-acyl-carrier-protein_synthase_I</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001647/1">BGC0001647</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>71.9</td>
+              <td>82.0</td>
+              <td>1.9e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ACA34358.1</td>
+              <td>acyl-CoA_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001152/1">BGC0001152</a></td>
+              <td>Polyketide + NRP:Lipopeptide</td>
+              <td>23.0</td>
+              <td>74.6</td>
+              <td>80.0</td>
+              <td>9.6e-15</td>
+          </tr>
+    
+          <tr>
+              <td>AAX98201.1</td>
+              <td>acyl_CoA_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000052/1">BGC0000052</a></td>
+              <td>Polyketide</td>
+              <td>25.0</td>
+              <td>72.7</td>
+              <td>78.0</td>
+              <td>2.8e-14</td>
+          </tr>
+    
+          <tr>
+              <td>AAG28698.1</td>
+              <td>FadD</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000649/1">BGC0000649</a></td>
+              <td>Terpene</td>
+              <td>32.0</td>
+              <td>25.4</td>
+              <td>77.0</td>
+              <td>4.8e-14</td>
+          </tr>
+    
+          <tr>
+              <td>ABF88003.1</td>
+              <td>putative_long-chain-fatty-acid_CoA_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000871/1">BGC0000871</a></td>
+              <td>Other:Nucleoside</td>
+              <td>25.0</td>
+              <td>49.3</td>
+              <td>77.0</td>
+              <td>4.8e-14</td>
+          </tr>
+    
+          <tr>
+              <td>CAE16560.1</td>
+              <td></td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000196/1">BGC0000196</a></td>
+              <td>Polyketide:Type II</td>
+              <td>27.0</td>
+              <td>75.9</td>
+              <td>77.0</td>
+              <td>8.1e-14</td>
+          </tr>
+    
+          <tr>
+              <td>PHM26612.1</td>
+              <td>pvdj</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001130/1">BGC0001130</a></td>
+              <td>NRP + Polyketide</td>
+              <td>24.0</td>
+              <td>57.7</td>
+              <td>61.0</td>
+              <td>6e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AZY91996.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002022/1">BGC0002022</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>42.6</td>
+              <td>56.0</td>
+              <td>1.1e-07</td>
+          </tr>
+    
+          <tr>
+              <td>AAU34203.1</td>
+              <td>mannopeptimycin_peptide_synthetase_MppB</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000388/1">BGC0000388</a></td>
+              <td>NRP</td>
+              <td>22.0</td>
+              <td>44.9</td>
+              <td>53.0</td>
+              <td>9.6e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

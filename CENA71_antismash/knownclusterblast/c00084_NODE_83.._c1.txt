@@ -1,0 +1,11 @@
+ClusterBlast scores for c00084_NODE_83..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg84_1	1	4852	-		
+ctg84_2	5205	14817	-		
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHB62758.1</td>
+              <td>AmbU3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>94.0</td>
+              <td>100.0</td>
+              <td>443.0</td>
+              <td>2.1e-124</td>
+          </tr>
+    
+          <tr>
+              <td>APB62244.1</td>
+              <td>Stig_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>94.0</td>
+              <td>100.0</td>
+              <td>443.0</td>
+              <td>2.1e-124</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79581.1</td>
+              <td>FilC2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>93.0</td>
+              <td>100.0</td>
+              <td>440.0</td>
+              <td>2.3e-123</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79549.1</td>
+              <td>FimC2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>94.0</td>
+              <td>95.2</td>
+              <td>430.0</td>
+              <td>1.4e-120</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79579.1</td>
+              <td>FilC1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>73.0</td>
+              <td>99.6</td>
+              <td>346.0</td>
+              <td>3.5e-95</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62757.1</td>
+              <td>unknown_function</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>72.0</td>
+              <td>100.0</td>
+              <td>342.0</td>
+              <td>3.8e-94</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79548.1</td>
+              <td>FimC1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>72.0</td>
+              <td>100.0</td>
+              <td>342.0</td>
+              <td>3.8e-94</td>
+          </tr>
+    
+          <tr>
+              <td>APB62243.1</td>
+              <td>Stig_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>72.0</td>
+              <td>100.0</td>
+              <td>342.0</td>
+              <td>3.8e-94</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58823.1</td>
+              <td>Unknown</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>70.0</td>
+              <td>100.0</td>
+              <td>328.0</td>
+              <td>9.8e-90</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79554.1</td>
+              <td>FimC5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>69.0</td>
+              <td>100.0</td>
+              <td>324.0</td>
+              <td>1.8e-88</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79609.1</td>
+              <td>FisC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>69.0</td>
+              <td>100.0</td>
+              <td>321.0</td>
+              <td>9.1e-88</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62760.1</td>
+              <td>AmbU1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>65.0</td>
+              <td>98.3</td>
+              <td>292.0</td>
+              <td>5.9e-79</td>
+          </tr>
+    
+          <tr>
+              <td>APB62246.1</td>
+              <td>Stig_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>65.0</td>
+              <td>98.3</td>
+              <td>292.0</td>
+              <td>5.9e-79</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79583.1</td>
+              <td>FilC4</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>65.0</td>
+              <td>98.3</td>
+              <td>291.0</td>
+              <td>1.3e-78</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79551.1</td>
+              <td>FimC4</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>65.0</td>
+              <td>98.3</td>
+              <td>290.0</td>
+              <td>2.9e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62759.1</td>
+              <td>AmbU2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>62.0</td>
+              <td>98.7</td>
+              <td>281.0</td>
+              <td>1e-75</td>
+          </tr>
+    
+          <tr>
+              <td>APB62245.1</td>
+              <td>Stig_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>62.0</td>
+              <td>98.7</td>
+              <td>281.0</td>
+              <td>1e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58818.1</td>
+              <td>Unknown</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>62.0</td>
+              <td>100.4</td>
+              <td>279.0</td>
+              <td>6.8e-75</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79582.1</td>
+              <td>FilC3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>60.0</td>
+              <td>101.3</td>
+              <td>275.0</td>
+              <td>7.5e-74</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79550.1</td>
+              <td>FimC3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>61.0</td>
+              <td>60.9</td>
+              <td>172.0</td>
+              <td>6.9e-43</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

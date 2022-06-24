@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>QBE85645.1</td>
+              <td>BuaE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001978/1">BGC0001978</a></td>
+              <td>NRP + Polyketide</td>
+              <td>32.0</td>
+              <td>105.6</td>
+              <td>158.0</td>
+              <td>1.4e-38</td>
+          </tr>
+    
+          <tr>
+              <td>AMM63174.1</td>
+              <td>AniF</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001371/1">BGC0001371</a></td>
+              <td>NRP</td>
+              <td>30.0</td>
+              <td>98.4</td>
+              <td>153.0</td>
+              <td>4.4e-37</td>
+          </tr>
+    
+          <tr>
+              <td>EPE34347.1</td>
+              <td>nonheme_mononuclear_iron_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001035/1">BGC0001035</a></td>
+              <td>Polyketide + NRP + Other:Aminocoumarin</td>
+              <td>29.0</td>
+              <td>106.9</td>
+              <td>138.0</td>
+              <td>1.9e-32</td>
+          </tr>
+    
+          <tr>
+              <td>CAM59607.1</td>
+              <td>putative_dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000297/1">BGC0000297</a></td>
+              <td>NRP:Glycopeptide + Polyketide:Other + Saccharide:Hybrid/tailoring</td>
+              <td>36.0</td>
+              <td>74.3</td>
+              <td>127.0</td>
+              <td>3.3e-29</td>
+          </tr>
+    
+          <tr>
+              <td>AWM95787.1</td>
+              <td>non-heme_iron_dependent_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001827/1">BGC0001827</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>106.2</td>
+              <td>125.0</td>
+              <td>1.3e-28</td>
+          </tr>
+    
+          <tr>
+              <td>AEO57483.1</td>
+              <td>2OG-Fe(II)_oxygenase-like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001449/1">BGC0001449</a></td>
+              <td>NRP + Alkaloid + Polyketide:Iterative type I</td>
+              <td>31.0</td>
+              <td>105.9</td>
+              <td>116.0</td>
+              <td>1e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AFU82618.1</td>
+              <td>2-oxoglutarate_dependent_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000998/1">BGC0000998</a></td>
+              <td>NRP + Polyketide</td>
+              <td>37.0</td>
+              <td>59.5</td>
+              <td>114.0</td>
+              <td>2.9e-25</td>
+          </tr>
+    
+          <tr>
+              <td>EPE34350.1</td>
+              <td>nonheme_mononuclear_iron_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001035/1">BGC0001035</a></td>
+              <td>Polyketide + NRP + Other:Aminocoumarin</td>
+              <td>29.0</td>
+              <td>109.5</td>
+              <td>113.0</td>
+              <td>8.5e-25</td>
+          </tr>
+    
+          <tr>
+              <td>XP_002379987.1</td>
+              <td>gibberellin_2-oxidase,_putative</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001621/1">BGC0001621</a></td>
+              <td>NRP</td>
+              <td>27.0</td>
+              <td>113.8</td>
+              <td>112.0</td>
+              <td>1.5e-24</td>
+          </tr>
+    
+          <tr>
+              <td>AAV68705.1</td>
+              <td>LolO-1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000815/1">BGC0000815</a></td>
+              <td>Alkaloid</td>
+              <td>28.0</td>
+              <td>103.6</td>
+              <td>109.0</td>
+              <td>9.4e-24</td>
+          </tr>
+    
+          <tr>
+              <td>AMM63173.1</td>
+              <td>AniK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001371/1">BGC0001371</a></td>
+              <td>NRP</td>
+              <td>26.0</td>
+              <td>99.7</td>
+              <td>106.0</td>
+              <td>1e-22</td>
+          </tr>
+    
+          <tr>
+              <td>XP_002379992.1</td>
+              <td>oligopeptide_transporter,_putative</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001621/1">BGC0001621</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>59.5</td>
+              <td>87.0</td>
+              <td>2.9e-17</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

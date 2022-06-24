@@ -1,0 +1,27 @@
+ClusterBlast scores for c00018_NODE_19..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg18_69	72457	73771	-		
+ctg18_70	74561	74936	+		
+ctg18_71	75134	76253	+		
+ctg18_72	76511	76991	+		
+ctg18_73	77075	79298	-		
+ctg18_74	80543	80870	+		
+ctg18_75	81470	81785	+		
+ctg18_76	81768	82209	+		
+ctg18_77	82205	84233	+		
+ctg18_78	84359	84572	+		
+ctg18_79	85023	85218	+		
+ctg18_80	85180	85447	-		
+ctg18_81	85580	86513	+		
+ctg18_82	86509	88372	+		
+ctg18_83	88414	89545	+		
+ctg18_84	89607	91002	-		
+ctg18_85	91020	92196	-		
+ctg18_86	92218	93484	-		
+
+
+Significant hits: 
+
+
+Details:

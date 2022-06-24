@@ -1,0 +1,70 @@
+ClusterBlast scores for c00137_NODE_47..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg137_1	1	2068	-		
+
+
+Significant hits: 
+1. BGC0001479	anabaenopeptin NZ857 / nostamide A
+2. BGC0001758	rhizomide A / rhizomide B / rhizomide C
+3. BGC0001135	bicornutin A1 / bicornutin A2
+4. BGC0001128	luminmide
+
+
+Details:
+
+>>
+1. BGC0001479
+Source: anabaenopeptin NZ857 / nostamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 613
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg137_1	Npun_F2460	48	613	102.17706821480405	5.9e-175
+
+
+
+>>
+2. BGC0001758
+Source: rhizomide A / rhizomide B / rhizomide C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 581
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg137_1	RBRH_RS12370	46	581	100.29027576197387	1.5e-165
+
+
+
+>>
+3. BGC0001135
+Source: bicornutin A1 / bicornutin A2
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 572
+
+Table of genes, locations, strands and annotations of subject cluster:
+AFP87549.1	AFP87549.1	1	16848	+	NrpS
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg137_1	AFP87549.1	46	572	101.59651669085632	8.9e-163
+
+
+
+>>
+4. BGC0001128
+Source: luminmide
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 1
+Cumulative BLAST score: 557
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg137_1	plu3263	46	557	100.4354136429608	3e-158
+

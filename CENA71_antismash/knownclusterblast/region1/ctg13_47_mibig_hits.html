@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AGJ76605.1</td>
+              <td>HglB</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000869/1">BGC0000869</a></td>
+              <td>Other</td>
+              <td>63.0</td>
+              <td>80.8</td>
+              <td>113.0</td>
+              <td>2.8e-25</td>
+          </tr>
+    
+          <tr>
+              <td>ANI24099.1</td>
+              <td>polyketide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001235/1">BGC0001235</a></td>
+              <td>NRP + Polyketide</td>
+              <td>40.0</td>
+              <td>72.7</td>
+              <td>61.0</td>
+              <td>1.3e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AAZ77673.1</td>
+              <td>ChlB1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000036/1">BGC0000036</a></td>
+              <td>Polyketide:Modular type I + Polyketide:Iterative type I + Saccharide:Oligosaccharide</td>
+              <td>38.0</td>
+              <td>90.9</td>
+              <td>57.0</td>
+              <td>1.1e-08</td>
+          </tr>
+    
+          <tr>
+              <td>QDA77044.1</td>
+              <td>polyketide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002025/1">BGC0002025</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>75.8</td>
+              <td>56.0</td>
+              <td>3.1e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CAO98847.1</td>
+              <td>polyketide_synthase_AufC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000023/1">BGC0000023</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>34.0</td>
+              <td>68.7</td>
+              <td>49.0</td>
+              <td>4.9e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AQX77692.1</td>
+              <td>NocM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001704/1">BGC0001704</a></td>
+              <td>Other</td>
+              <td>34.0</td>
+              <td>64.6</td>
+              <td>49.0</td>
+              <td>4.9e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AKL71646.1</td>
+              <td>NocM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001703/1">BGC0001703</a></td>
+              <td>Other</td>
+              <td>36.0</td>
+              <td>62.6</td>
+              <td>48.0</td>
+              <td>6.4e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

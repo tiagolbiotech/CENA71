@@ -1,0 +1,267 @@
+ClusterBlast scores for c00003_NODE_52..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg3_148	178154	178331	-		
+ctg3_149	178820	179084	+		
+ctg3_150	179799	179904	-		
+ctg3_151	179991	180570	-		
+ctg3_152	180764	181487	+		
+ctg3_153	181531	182281	-		
+ctg3_154	182492	183755	+		
+ctg3_155	184312	185146	+		
+ctg3_156	185539	187084	+		
+ctg3_157	187465	188734	-		
+ctg3_158	188869	190129	-		
+ctg3_159	190226	190697	-		
+ctg3_160	190706	191714	-		
+ctg3_161	191783	192962	-		
+ctg3_162	193063	194263	-		
+ctg3_163	195115	196465	+		
+ctg3_164	197128	197452	+		
+ctg3_165	197714	203171	+		
+ctg3_166	203299	203863	+		
+ctg3_167	203934	205674	+		
+ctg3_168	205772	210452	+		
+ctg3_169	210683	212345	+		
+ctg3_170	212347	213856	+		
+ctg3_171	214396	215410	+		
+ctg3_172	216025	216352	+		
+ctg3_173	216455	216689	-		
+ctg3_174	217187	217406	+		
+ctg3_175	217486	218143	-		
+ctg3_176	218180	218963	-		
+ctg3_177	219085	219832	-		
+ctg3_178	220056	221130	+		
+ctg3_179	221190	221649	+		
+ctg3_180	221690	221951	+		
+ctg3_181	222026	222938	-		
+ctg3_182	223025	223919	-		
+ctg3_183	223968	224202	-		
+ctg3_184	224405	226004	-		
+ctg3_185	226348	226585	-		
+ctg3_186	226696	227239	-		
+ctg3_187	227731	229426	-		
+ctg3_188	230083	230260	-		
+
+
+Significant hits: 
+1. BGC0000869	heterocyst glycolipids
+2. BGC0001126	12-epi-hapalindole J isonitrile / ambiguine A isonitrile / ambiguine B isonitrile / ambiguine C isonitrile / ambiguine D isonitrile / ambiguine E isonitrile / ambiguine K isonitrile / ambiguine L isonitrile / ambiguine I isonitrile / ambiguine J isonitrile
+3. BGC0001612	ambiguine H isonitrile
+4. BGC0001594	fischerindole L
+5. BGC0001501	ambiguine P
+
+
+Details:
+
+>>
+1. BGC0000869
+Source: heterocyst glycolipids
+Type: Other
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 6684
+
+Table of genes, locations, strands and annotations of subject cluster:
+AGJ76601.1	AGJ76601.1	1	5445	+	HglE
+AGJ76602.1	AGJ76602.1	5589	7316	+	HglG
+AGJ76603.1	AGJ76603.1	7505	12253	+	HglC
+AGJ76604.1	AGJ76604.1	12371	14134	+	PfaD
+AGJ76605.1	AGJ76605.1	14137	15651	+	HglB
+AGJ76606.1	AGJ76606.1	16328	17131	+	SDR
+AGJ76607.1	AGJ76607.1	17235	17945	-	HetI
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg3_165	AGJ76601.1	64	2277	103.35533553355336	0.0
+ctg3_167	AGJ76602.1	68	814	99.48186528497409	1.5e-235
+ctg3_168	AGJ76603.1	62	1975	103.59204618345092	0.0
+ctg3_169	AGJ76604.1	78	888	100.0	4.5e-258
+ctg3_170	AGJ76605.1	68	730	100.59760956175299	2.4e-210
+
+
+
+>>
+2. BGC0001126
+Source: 12-epi-hapalindole J isonitrile / ambiguine A isonitrile / ambiguine B isonitrile / ambiguine C isonitrile / ambiguine D isonitrile / ambiguine E isonitrile / ambiguine K isonitrile / ambiguine L isonitrile / ambiguine I isonitrile / ambiguine J isonitrile
+Type: Terpene + Alkaloid
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 532
+
+Table of genes, locations, strands and annotations of subject cluster:
+AHB62752.1	AHB62752.1	257	712	+	conserved_membrane_hypothetical_protein_(possible_transporter)
+AHB62753.1	AHB62753.1	720	1913	+	_ABC_exporter_membrane_fusion_protein,_DevB_family
+AHB62754.1	AHB62754.1	1937	3103	+	DevC_protein
+AHB62755.1	AHB62755.1	3510	4460	-	halogenase,_2OG-Fe(II)_oxygenase_family
+AHB62756.1	AHB62756.1	4585	5442	-	rieske_oxygenase
+AHB62757.1	AHB62757.1	5880	6587	-	unknown_function
+AHB62758.1	AHB62758.1	6960	7652	-	AmbU3
+AHB62759.1	AHB62759.1	7982	8698	-	AmbU2
+AHB62760.1	AHB62760.1	8992	9711	-	AmbU1
+AHB62761.1	AHB62761.1	9766	10857	-	rieske_oxygenase
+AHB62762.1	AHB62762.1	11166	12248	-	rieske_oxygenase
+AHB62763.1	AHB62763.1	12336	13415	-	rieske_oxygenase
+AHB62764.1	AHB62764.1	13715	14683	-	aromatic_prenyl_transferase
+AHB62765.1	AHB62765.1	14911	16113	-	4-hydroxy-3-methylbut-2-enyl_diphosphate_reductase_(IspH)
+AHB62766.1	AHB62766.1	16186	17226	-	geranyl_diphosphate_synthase
+AHB62767.1	AHB62767.1	19791	20489	+	LuxR_family_transcriptional_regulator
+AHB62768.1	AHB62768.1	20721	21455	-	LuxR_family_transcriptional_regulator
+AHB62769.1	AHB62769.1	22948	23526	+	dephospho-CoA_kinase-like_protein
+AHB62770.1	AHB62770.1	23591	24811	+	1-deoxy-D-xylulose_5-phosphate_reductoisomerase_(IspC,_Dxr)
+AHB62771.1	AHB62771.1	25117	26076	+	isonitrile_indole_synthase_A_(IsnA)
+AHB62772.1	AHB62772.1	26268	27260	+	isonitrile_indole_synthase_A_(IsnA)
+AHB62773.1	AHB62773.1	27260	28081	+	isonitrile_indole_synthase_B_(IsnB)
+AHB62774.1	AHB62774.1	28558	29487	+	aromatic_prenyl_transferase
+AHB62775.1	AHB62775.1	29744	31687	+	1-deoxy-D-xylulose-5-phosphate_synthase_(DXS)
+AHB62776.1	AHB62776.1	31760	32986	+	4-hydroxy-3-methylbut-2-en-1-yl_diphosphate_synthase_(IspG)
+AHB62777.1	AHB62777.1	33201	34106	+	3-deoxy-D-arabinoheptulosonate_7-phosphate_(DAHP)_synthase
+AHB62778.1	AHB62778.1	34160	36364	+	anthranilate_synthase_(TrpE)
+AHB62779.1	AHB62779.1	36609	37460	+	indole-3-glycerol_phosphate_synthase_(TrpC)
+AHB62780.1	AHB62780.1	37512	38324	+	tryptophan_synthase_subunit_alpha_(TrpA)
+AHB62781.1	AHB62781.1	38486	39736	+	tryptophan_synthase_subunit_beta_(TrpB)
+AHB62782.1	AHB62782.1	39772	40869	+	anthranilate_phosphoribosyltransferase_(TrpD)
+AHB62783.1	AHB62783.1	40894	41538	+	phosphoglycerate_mutase_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg3_161	AHB62754.1	46	347	99.23469387755102	2.6e-95
+ctg3_162	AHB62753.1	59	185	99.74937343358395	1.8e-46
+
+
+
+>>
+3. BGC0001612
+Source: ambiguine H isonitrile
+Type: Alkaloid
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 532
+
+Table of genes, locations, strands and annotations of subject cluster:
+APB62238.1	APB62238.1	1	456	+	hypothetical_protein
+APB62239.1	APB62239.1	464	1657	+	DevB_family_ABC_transporter_membrane_fusion_protein
+APB62240.1	APB62240.1	1681	2847	+	ABC_transporter
+APB62241.1	APB62241.1	3254	4204	-	2OG-Fe(II)_oxygenase
+APB62242.1	APB62242.1	4329	5186	-	Rieske_oxygenase
+APB62243.1	APB62243.1	5624	6307	-	Stig_cyclase
+APB62244.1	APB62244.1	6704	7396	-	Stig_cyclase
+APB62245.1	APB62245.1	7726	8409	-	Stig_cyclase
+APB62246.1	APB62246.1	8736	9455	-	Stig_cyclase
+APB62247.1	APB62247.1	9510	10601	-	Rieske_oxygenase
+APB62248.1	APB62248.1	10909	11991	-	Rieske_oxygenase
+APB62249.1	APB62249.1	12079	13158	-	Rieske_oxygenase
+APB62250.1	APB62250.1	13458	14489	-	aromatic_prenyltransferase
+APB62251.1	APB62251.1	14654	15892	-	4-hydroxy-3-methylbut-2-enyl_diphosphate_reductase
+APB62252.1	APB62252.1	15929	16969	-	polyprenyl_synthetase
+APB62253.1	APB62253.1	19516	20232	+	LuxR_family_transcriptional_regulator
+APB62254.1	APB62254.1	20464	21198	-	LuxR_family_transcriptional_regulator
+APB62255.1	APB62255.1	22691	23269	+	dephospho-CoA_kinase-like_protein
+APB62256.1	APB62256.1	23334	24554	+	1-deoxy-D-xylulose_5-phosphate_reductoisomerase
+APB62257.1	APB62257.1	24860	25819	+	Isonitrile_synthase
+APB62258.1	APB62258.1	26011	27003	+	Isonitrile_synthase
+APB62259.1	APB62259.1	27003	27824	+	Isonitrile_synthase
+APB62260.1	APB62260.1	28301	29230	+	Aromatic_prenyltransferase
+APB62261.1	APB62261.1	29487	31430	+	1-deoxy-D-xylulose-5-phosphate_synthase
+APB62262.1	APB62262.1	31503	32729	+	4-hydroxy-3-methylbut-2-en-1-yl_diphosphate_synthase
+APB62263.1	APB62263.1	32944	33849	+	3-deoxy-D-arabinoheptulosonate-7-phosphate_synthase
+APB62264.1	APB62264.1	33903	36107	+	anthranilate_synthase_subunit_I
+APB62265.1	APB62265.1	36347	37198	+	indole-3-glycerol-phosphate_synthase
+APB62266.1	APB62266.1	37250	38062	+	tryptophan_synthase_subunit_alpha
+APB62267.1	APB62267.1	38224	39474	+	tryptophan_synthase_subunit_beta
+APB62268.1	APB62268.1	39510	40607	+	anthranilate_phosphoribosyltransferase
+APB62269.1	APB62269.1	40632	41276	+	phosphoglycerate_mutase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg3_161	APB62240.1	46	347	99.23469387755102	2.6e-95
+ctg3_162	APB62239.1	59	185	99.74937343358395	1.8e-46
+
+
+
+>>
+4. BGC0001594
+Source: fischerindole L
+Type: Alkaloid
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 532
+
+Table of genes, locations, strands and annotations of subject cluster:
+APZ79543.1	APZ79543.1	1	456	+	FimA1
+APZ79544.1	APZ79544.1	464	1657	+	FimA2
+APZ79545.1	APZ79545.1	1681	2847	+	FimA3
+APZ79546.1	APZ79546.1	3254	4204	-	FimB1
+APZ79547.1	APZ79547.1	4329	5186	-	FimB2
+APZ79548.1	APZ79548.1	5624	6307	-	FimC1
+APZ79549.1	APZ79549.1	6704	7363	-	FimC2
+APZ79550.1	APZ79550.1	7357	7788	-	FimC3
+APZ79551.1	APZ79551.1	8122	8808	-	FimC4
+APZ79552.1	APZ79552.1	9230	10240	-	FimJ
+APZ79553.1	APZ79553.1	10407	11483	-	FimB3
+APZ79554.1	APZ79554.1	11554	12240	-	FimC5
+APZ79555.1	APZ79555.1	12313	13551	-	FimE1
+APZ79556.1	APZ79556.1	13588	14628	-	FimE2
+APZ79557.1	APZ79557.1	17175	17891	+	FimF1
+APZ79558.1	APZ79558.1	18123	18857	-	FimF2
+APZ79559.1	APZ79559.1	20349	20927	+	FimG1
+APZ79560.1	APZ79560.1	20992	22212	+	FimE3
+APZ79561.1	APZ79561.1	22518	23477	+	FimH1
+APZ79562.1	APZ79562.1	23669	24664	+	FimH2
+APZ79563.1	APZ79563.1	24664	25485	+	FimH3
+APZ79564.1	APZ79564.1	25962	26891	+	FimD
+APZ79565.1	APZ79565.1	27148	29091	+	FimE4
+APZ79566.1	APZ79566.1	29164	30390	+	FimE5
+APZ79567.1	APZ79567.1	30605	31510	+	FimI1
+APZ79568.1	APZ79568.1	31564	33768	+	FimI2
+APZ79569.1	APZ79569.1	34003	34866	+	FimI3
+APZ79570.1	APZ79570.1	34921	35733	+	FimI4
+APZ79571.1	APZ79571.1	35789	37036	+	FimI5
+APZ79572.1	APZ79572.1	37076	38173	+	FimI6
+APZ79573.1	APZ79573.1	38198	38842	+	FimG2
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg3_161	APZ79545.1	46	346	99.23469387755102	4.5e-95
+ctg3_162	APZ79544.1	59	186	99.74937343358395	8e-47
+
+
+
+>>
+5. BGC0001501
+Source: ambiguine P
+Type: Alkaloid
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 530
+
+Table of genes, locations, strands and annotations of subject cluster:
+APZ79574.1	APZ79574.1	1	456	+	FilA1
+APZ79575.1	APZ79575.1	464	1657	+	FilA2
+APZ79576.1	APZ79576.1	1681	2847	+	FilA3
+APZ79577.1	APZ79577.1	3258	4208	-	FilB1
+APZ79578.1	APZ79578.1	4333	5190	-	FilB2
+APZ79579.1	APZ79579.1	5626	6309	-	FilC1
+APZ79580.1	APZ79580.1	6397	7485	-	FilB3
+APZ79581.1	APZ79581.1	7880	8572	-	FilC2
+APZ79582.1	APZ79582.1	8902	9603	-	FilC3
+APZ79583.1	APZ79583.1	9937	10623	-	FilC4
+APZ79584.1	APZ79584.1	10711	11802	-	FilB4
+APZ79585.1	APZ79585.1	12110	13192	-	FilB5
+APZ79586.1	APZ79586.1	13280	14359	-	FilB6
+APZ79587.1	APZ79587.1	15107	16138	-	FilD1
+APZ79588.1	APZ79588.1	16303	17541	-	FilE1
+APZ79589.1	APZ79589.1	17578	18618	-	FilE2
+APZ79590.1	APZ79590.1	21166	21882	+	FilF1
+APZ79591.1	APZ79591.1	22114	22848	-	FilF2
+APZ79592.1	APZ79592.1	24224	24802	+	FilG1
+APZ79593.1	APZ79593.1	24867	26087	+	FilE3
+APZ79594.1	APZ79594.1	26393	27352	+	FilH1
+APZ79595.1	APZ79595.1	27544	28539	+	FilH2
+APZ79596.1	APZ79596.1	28539	29360	+	FilH3
+APZ79597.1	APZ79597.1	29837	30766	+	FilD2
+APZ79598.1	APZ79598.1	31023	32966	+	FilE4
+APZ79599.1	APZ79599.1	33039	34265	+	FilE5
+APZ79600.1	APZ79600.1	34480	35385	+	FilI1
+APZ79601.1	APZ79601.1	35439	37643	+	FilI2
+APZ79602.1	APZ79602.1	37949	38800	+	FilI3
+APZ79603.1	APZ79603.1	38884	39696	+	FilI4
+APZ79604.1	APZ79604.1	39921	41168	+	FilI5
+APZ79605.1	APZ79605.1	41208	42305	+	FilI6
+APZ79606.1	APZ79606.1	42330	42974	+	FilG2
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg3_161	APZ79576.1	46	346	99.23469387755102	5.9e-95
+ctg3_162	APZ79575.1	59	184	99.74937343358395	3.9e-46
+

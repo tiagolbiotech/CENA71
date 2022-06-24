@@ -1,0 +1,1777 @@
+ClusterBlast scores for c00047_NODE_45..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg47_1	251	845	+		
+ctg47_2	1511	2918	-		
+ctg47_3	2955	3267	-		
+ctg47_4	3481	4879	-		
+ctg47_5	4959	6282	-		
+ctg47_6	6455	13022	-		
+ctg47_7	13018	17269	-		
+ctg47_8	17265	20511	-		
+ctg47_9	20552	23258	-		
+ctg47_10	23304	24192	-		
+ctg47_11	25168	25498	-		
+ctg47_12	25557	26484	-		
+ctg47_13	27104	28478	-		
+ctg47_14	28888	29401	-		
+ctg47_15	29518	31351	-		
+ctg47_16	31704	31836	-		
+ctg47_17	33271	36166	-		
+ctg47_18	37107	38292	+		
+ctg47_19	39408	40404	+		
+ctg47_20	40400	41561	+		
+ctg47_21	41560	42733	+		
+
+
+Significant hits: 
+1. BGC0001884	aranazole A / aranazole B / aranazole C / aranazole D
+2. BGC0001000	hectochlorin
+3. BGC0001703	nocuolin A
+4. BGC0001952	minutissamide A / minutissamide C / minutissamide D
+5. BGC0001663	merocyclophane C / merocyclophane D
+6. BGC0001953	puwainaphycin F / minutissamide A / minutissamide B / minutissamide C / minutissamide D
+7. BGC0001357	carbamidocyclophane A / carbamidocyclophane B / carbamidocyclophane C / carbamidocyclophane D / carbamidocyclophane E / carbamidocyclophane F / carbamidocyclophane H / carbamidocyclophane M / carbamidocyclophane N / carbamidocyclophane O / carbamidocyclophane P / carbamidocyclophane Q / carbamidocyclophane R / carbamidocyclophane S / carbamidocyclophane T / carbamidocyclophane U
+8. BGC0001467	hapalosin
+9. BGC0001704	nocuolin A
+10. BGC0000976	curacin A
+11. BGC0001165	curacin A
+12. BGC0001125	puwainaphycin A / puwainaphycin B / puwainaphycin C / puwainaphycin D
+13. BGC0001064	cylindrocyclophane D / cylindrocyclophane E / cylindrocyclophane F
+14. BGC0001566	cylindrocyclophane
+15. BGC0001001	jamaicamide A / jamaicamide B / jamaicamide C
+16. BGC0000954	ajudazol A
+17. BGC0001951	puwainaphycin F / minutissamide A
+18. BGC0001950	puwainaphycin F / minutissamide A
+19. BGC0000988	epothilone B
+20. BGC0001024	myxothiazol
+21. BGC0001009	melithiazol A
+22. BGC0001010	melithiazol A
+23. BGC0000990	epothilone
+24. BGC0000991	epothilone
+25. BGC0000380	leupyrrin
+26. BGC0000989	epothilone
+27. BGC0000982	cystothiazole A
+28. BGC0001161	1-heptadecene
+29. BGC0001711	occidiofungin A
+30. BGC0001971	malyngamide I
+31. BGC0001970	malyngamide C acetate
+32. BGC0000974	crocacin
+33. BGC0001559	crocagin A / crocagin B
+34. BGC0001163	1-heptadecene
+35. BGC0000975	cryptophycin-327
+36. BGC0000153	stigmatellin
+37. BGC0000981	cylindrospermopsin
+38. BGC0000978	cylindrospermopsin
+39. BGC0000017	anatoxin-a / homoanatoxin-a
+40. BGC0001772	scytophycin
+41. BGC0001029	nostophycin
+42. BGC0001800	theonellamide
+43. BGC0000986	dkxanthene
+44. BGC0001737	phenalamide
+45. BGC0001328	rakicidin A / rakicidin B
+46. BGC0001941	fulvuthiacene A / fulvuthiacene B
+47. BGC0001646	lagriamide
+48. BGC0001946	lagriamide
+49. BGC0001162	1-heptadecene
+50. BGC0001822	vioprolide A
+
+
+Details:
+
+>>
+1. BGC0001884
+Source: aranazole A / aranazole B / aranazole C / aranazole D
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 13072
+
+Table of genes, locations, strands and annotations of subject cluster:
+DAB41903.1	DAB41903.1	1	1371	+	ArzA_-_cytochrome_P450
+DAB41904.1	DAB41904.1	2003	3328	+	ArzB_-_aKG/Fe(II)_oxygenase
+DAB41905.1	DAB41905.1	3521	4729	+	ArzC_-_aKG/Fe(II)_halogenase
+DAB41906.1	DAB41906.1	4821	6158	+	ArzD_-_aKG/Fe(II)_halogenase
+DAB41907.1	DAB41907.1	6482	7402	+	ArzE_-_Rieske_protein
+DAB41908.1	DAB41908.1	7580	8902	+	ArzF_-_aKG/Fe(II)_halogenase
+DAB41909.1	DAB41909.1	8994	10289	+	ArzG_-_aKG/Fe(II)_halogenase
+DAB41910.1	DAB41910.1	10378	11781	+	ArzH_-_cytochrome_P450
+DAB41911.1	DAB41911.1	12200	13456	+	ArzI_-_aKG/Fe(II)_halogenase
+DAB41912.1	DAB41912.1	13544	14851	+	ArzJ_-_aKG/Fe(II)_halogenase
+DAB41913.1	DAB41913.1	15005	15799	+	ArzK_-_O-methyltransferase
+DAB41914.1	DAB41914.1	16731	19034	+	ArzL_-_PKS_(FAAL,_ACP)
+DAB41915.1	DAB41915.1	18967	26811	+	ArzM_-_PKS_(KS,_AT,_DH,_MT,_ER,_KR,_ACP)
+DAB41916.1	DAB41916.1	26801	32554	+	ArzN_-_PKS_(KS,_AT,_OMT,_KR,_ACP)
+DAB41917.1	DAB41917.1	32551	36813	+	ArzO_-_NRPS_(Cy,_A,_Ox,_PCP)
+DAB41918.1	DAB41918.1	36806	41956	+	ArzP_-_PKS_(KS,_AT,_OMT,_ACP,_TE)
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_4	DAB41910.1	48	403	94.83870967741936	4.8e-112
+ctg47_5	DAB41908.1	69	667	100.0	1.3e-191
+ctg47_5	DAB41909.1	69	651	100.0	1.3e-186
+ctg47_5	DAB41912.1	69	641	100.22727272727272	1.3e-183
+ctg47_5	DAB41906.1	68	639	102.04545454545455	2.9e-183
+ctg47_5	DAB41911.1	70	639	96.13636363636363	4.9e-183
+ctg47_5	DAB41905.1	72	624	93.18181818181817	1.3e-178
+ctg47_5	DAB41904.1	63	601	100.45454545454547	1.5e-171
+ctg47_7	DAB41917.1	67	1880	98.1638418079096	0.0
+ctg47_8	DAB41916.1	51	966	90.65679925994449	4.3e-281
+ctg47_8	DAB41915.1	51	905	83.8112858464385	9.1e-263
+ctg47_8	DAB41918.1	47	789	83.34875115633672	7.3e-228
+ctg47_9	DAB41916.1	60	1062	97.669256381798	2.8e-310
+ctg47_9	DAB41915.1	58	1042	98.55715871254162	5.2e-304
+ctg47_9	DAB41918.1	49	830	100.77691453940068	3.1e-240
+ctg47_15	DAB41914.1	61	733	98.36065573770492	3.5e-211
+
+
+
+>>
+2. BGC0001000
+Source: hectochlorin
+Type: NRP:Lipopeptide + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 6339
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAY42393.1	AAY42393.1	2444	4264	+	Acyl-ACP_synthetase
+AAY42394.1	AAY42394.1	5267	6721	+	Putative_halogenase
+AAY42395.1	AAY42395.1	6964	8190	+	Putative_transposase
+AAY42396.1	AAY42396.1	8248	14022	+	Polyketide_synthase
+AAY42397.1	AAY42397.1	14019	24089	+	Nonribosomal_peptide_synthetase
+AAY42398.1	AAY42398.1	24086	35923	+	Nonribosomal_peptide_synthetase
+AAY42399.1	AAY42399.1	36589	37932	+	Cytochrome_P450_monooxygenase
+AAY42400.1	AAY42400.1	38547	39881	+	Cytochrome_P450_monooxygenase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_4	AAY42400.1	48	437	95.48387096774194	2.3e-122
+ctg47_4	AAY42399.1	51	433	94.83870967741936	3.3e-121
+ctg47_7	AAY42398.1	55	1438	94.91525423728814	0.0
+ctg47_7	AAY42397.1	55	1435	95.62146892655367	0.0
+ctg47_8	AAY42396.1	53	913	82.05365402405181	4.4e-265
+ctg47_9	AAY42396.1	61	1076	98.11320754716981	0.0
+ctg47_15	AAY42393.1	51	607	95.40983606557377	1.7e-173
+
+
+
+>>
+3. BGC0001703
+Source: nocuolin A
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4273
+
+Table of genes, locations, strands and annotations of subject cluster:
+AKL71632.1	AKL71632.1	1	864	-	putative_hydrolase
+AKL71633.1	AKL71633.1	938	1582	-	NocA
+AKL71634.1	AKL71634.1	1736	2293	-	NocB
+AKL71635.1	AKL71635.1	2525	3394	-	putative_hydrolase
+AKL71636.1	AKL71636.1	3451	5103	-	NocC
+AKL71637.1	AKL71637.1	5122	5817	-	NocD
+AKL71638.1	AKL71638.1	5893	7353	-	NocE
+AKL71639.1	AKL71639.1	7462	10080	-	NocF
+AKL71640.1	AKL71640.1	10304	11347	-	NocG
+AKL71641.1	AKL71641.1	11474	13564	-	NocH
+AKL71642.1	AKL71642.1	13628	14749	-	NocI
+AKL71643.1	AKL71643.1	14753	15787	-	NocJ
+AKL71644.1	AKL71644.1	16437	17567	-	NocK
+AKL71645.1	AKL71645.1	18560	20464	+	NocL
+AKL71646.1	AKL71646.1	20784	20981	+	NocM
+AKL71647.1	AKL71647.1	21035	22441	+	NocN
+AKL71648.1	AKL71648.1	22490	23818	+	NocO
+AKL71649.1	AKL71649.1	23822	27814	+	NocP
+AKL71650.1	AKL71650.1	27811	34785	+	NocQ
+AKL71651.1	AKL71651.1	34841	36121	+	NocR
+AKL71652.1	AKL71652.1	36260	39472	+	NocS
+AKL71653.1	AKL71653.1	39777	41570	+	NocT
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	AKL71647.1	48	395	95.2991452991453	1e-109
+ctg47_3	AKL71646.1	52	80	63.10679611650486	2.1e-15
+ctg47_8	AKL71649.1	53	904	82.70120259019427	1.6e-262
+ctg47_9	AKL71649.1	56	992	100.33296337402886	3.6e-289
+ctg47_11	AKL71646.1	62	94	59.63302752293578	1.1e-19
+ctg47_13	AKL71648.1	51	438	93.21663019693655	1.3e-122
+ctg47_15	AKL71645.1	59	722	100.49180327868852	6.2e-208
+ctg47_15	AKL71641.1	55	648	94.91803278688525	1.1e-185
+
+
+
+>>
+4. BGC0001952
+Source: minutissamide A / minutissamide C / minutissamide D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5787
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93592.1	AXN93592.1	1	8565	-	PuwA
+AXN93593.1	AXN93593.1	8948	10960	-	ORF2
+AXN93594.1	AXN93594.1	12331	14421	+	ORF3
+AXN93595.1	AXN93595.1	15059	17167	+	PuwI
+AXN93596.1	AXN93596.1	17182	18465	+	PuwJ
+AXN93597.1	AXN93597.1	18505	26118	+	PuwB
+AXN93598.1	AXN93598.1	26115	27884	+	PuwC
+AXN93599.1	AXN93599.1	27945	28223	+	PuwD
+AXN93600.1	AXN93600.1	28248	29645	+	PuwK
+AXN93601.1	AXN93601.1	29696	39034	+	PuwE
+AXN93602.1	AXN93602.1	39031	56646	+	PuwF-G
+AXN93603.1	AXN93603.1	56696	60061	+	PuwH
+AXN93604.1	AXN93604.1	60312	62243	+	ORF1
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	AXN93600.1	47	368	94.44444444444444	1.7e-101
+ctg47_3	AXN93599.1	47	88	74.75728155339806	5.8e-18
+ctg47_8	AXN93597.1	49	893	86.49398704902868	3.6e-259
+ctg47_8	AXN93601.1	49	887	88.52913968547641	2.6e-257
+ctg47_9	AXN93597.1	57	1019	97.78024417314096	2.8e-297
+ctg47_9	AXN93601.1	52	966	102.66370699223086	2.8e-281
+ctg47_11	AXN93595.1	53	90	64.22018348623854	1.6e-18
+ctg47_11	AXN93599.1	53	89	64.22018348623854	2.8e-18
+ctg47_15	AXN93595.1	59	711	97.70491803278688	1.1e-204
+ctg47_15	AXN93598.1	58	676	95.40983606557377	5.1e-194
+
+
+
+>>
+5. BGC0001663
+Source: merocyclophane C / merocyclophane D
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5416
+
+Table of genes, locations, strands and annotations of subject cluster:
+AQA28560.1	AQA28560.1	1	315	+	acyl_carrier_protein
+AQA28561.1	AQA28561.1	817	2223	+	hypothetical_protein
+AQA28562.1	AQA28562.1	2484	10193	+	type_I_polyketide_synthase
+AQA28563.1	AQA28563.1	10206	14396	+	type_I_polyketide_synthase
+AQA28564.1	AQA28564.1	14506	15630	+	type_III_polyketide_synthase
+AQA28565.1	AQA28565.1	15639	16238	+	isoprenylcysteine_carboxyl_methyltransferase
+AQA28566.1	AQA28566.1	16389	17771	+	cytochrome_P450
+AQA28567.1	AQA28567.1	17888	20653	+	hemolysin/beta_propeller_containing_protein
+AQA28568.1	AQA28568.1	21151	22989	+	acyl-CoA_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	AQA28561.1	47	404	102.99145299145297	1.7e-112
+ctg47_3	AQA28560.1	51	106	98.05825242718447	2.7e-23
+ctg47_8	AQA28562.1	57	1011	83.53376503237743	9e-295
+ctg47_8	AQA28563.1	49	979	99.72247918593895	5e-285
+ctg47_9	AQA28562.1	62	1106	98.44617092119867	0.0
+ctg47_9	AQA28563.1	55	992	100.55493895671476	3.6e-289
+ctg47_11	AQA28560.1	50	103	95.41284403669725	1.9e-22
+ctg47_15	AQA28568.1	59	715	99.01639344262296	9.8e-206
+
+
+
+>>
+6. BGC0001953
+Source: puwainaphycin F / minutissamide A / minutissamide B / minutissamide C / minutissamide D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 5315
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93605.1	AXN93605.1	1	8565	-	PuwA
+AXN93606.1	AXN93606.1	8971	10902	-	ORF2
+AXN93607.1	AXN93607.1	12352	14442	+	ORF3
+AXN93608.1	AXN93608.1	14989	17133	+	PuwI
+AXN93609.1	AXN93609.1	17136	18419	+	PuwJ
+AXN93610.1	AXN93610.1	18459	26108	+	PuwB
+AXN93611.1	AXN93611.1	26420	27898	+	PuwC
+AXN93612.1	AXN93612.1	27975	28256	+	PuwD
+AXN93613.1	AXN93613.1	28358	37657	+	PuwE
+AXN93614.1	AXN93614.1	37654	46308	+	PuwF
+AXN93615.1	AXN93615.1	46346	55273	+	PuwG
+AXN93616.1	AXN93616.1	55344	58709	+	PuwH
+AXN93617.1	AXN93617.1	58970	60901	+	ORF1
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AXN93612.1	47	91	74.75728155339806	9e-19
+ctg47_8	AXN93613.1	51	887	85.56891766882516	2e-257
+ctg47_8	AXN93610.1	48	883	87.88159111933395	2.8e-256
+ctg47_9	AXN93610.1	56	1008	99.44506104328525	4.9e-294
+ctg47_9	AXN93613.1	52	962	102.44173140954496	4e-280
+ctg47_11	AXN93612.1	52	95	70.64220183486239	5e-20
+ctg47_11	AXN93608.1	51	89	64.22018348623854	4.7e-18
+ctg47_15	AXN93608.1	59	712	99.01639344262296	4.9e-205
+ctg47_15	AXN93611.1	59	588	80.16393442622952	1.1e-167
+
+
+
+>>
+7. BGC0001357
+Source: carbamidocyclophane A / carbamidocyclophane B / carbamidocyclophane C / carbamidocyclophane D / carbamidocyclophane E / carbamidocyclophane F / carbamidocyclophane H / carbamidocyclophane M / carbamidocyclophane N / carbamidocyclophane O / carbamidocyclophane P / carbamidocyclophane Q / carbamidocyclophane R / carbamidocyclophane S / carbamidocyclophane T / carbamidocyclophane U
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5048
+
+Table of genes, locations, strands and annotations of subject cluster:
+AMB48444.1	AMB48444.1	1	1815	+	long-chain-fatty-acid--CoA_ligase
+AMB48454.1	AMB48454.1	1946	2257	+	acyl_carrier_protein
+AMB48447.1	AMB48447.1	2507	3922	+	hypothetical_protein
+AMB48442.1	AMB48442.1	4171	8328	+	polyketide_synthase
+AMB48449.1	AMB48449.1	8318	9559	+	beta-ketoacyl_synthase
+AMB48448.1	AMB48448.1	9564	10823	+	hydroxymethylglutaryl-CoA_synthase
+AMB48451.1	AMB48451.1	10814	11590	+	enoyl-CoA_hydratase
+AMB48441.1	AMB48441.1	11578	17811	+	polyketide_synthase
+AMB48450.1	AMB48450.1	17904	19025	+	type_III_polyketide_synthase
+AMB48453.1	AMB48453.1	19038	19637	+	isoprenylcysteine_carboxyl_methyltransferase
+AMB48443.1	AMB48443.1	20012	22075	+	beta-propeller_repeat-containing_protein
+AMB48445.1	AMB48445.1	22374	24119	+	carbamoyltransferase
+AMB48446.1	AMB48446.1	25424	26932	+	Rieske_[2Fe-2S]_iron-sulfur_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	AMB48447.1	47	385	100.0	1.4e-106
+ctg47_3	AMB48454.1	47	100	91.2621359223301	1.5e-21
+ctg47_8	AMB48442.1	47	961	102.77520814061054	1.1e-279
+ctg47_8	AMB48441.1	46	907	98.05735430157262	1.8e-263
+ctg47_9	AMB48442.1	59	1049	100.2219755826859	4.2e-306
+ctg47_9	AMB48441.1	49	869	99.22308546059934	6e-252
+ctg47_11	AMB48454.1	52	106	80.73394495412845	2.9e-23
+ctg47_15	AMB48444.1	57	671	98.68852459016394	1.2e-192
+
+
+
+>>
+8. BGC0001467
+Source: hapalosin
+Type: NRP:Cyclic depsipeptide + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 2825
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	FIS9431_RS0128795	47	82	82.52427184466019	4.2e-16
+ctg47_8	FIS9431_RS32930	53	1005	89.82423681776133	6.5e-293
+ctg47_9	FIS9431_RS32930	54	970	102.10876803551609	2.5e-282
+ctg47_11	FIS9431_RS0128795	50	85	64.22018348623854	5.2e-17
+ctg47_15	FIS9431_RS0128795	58	683	97.21311475409836	4.1e-196
+
+
+
+>>
+9. BGC0001704
+Source: nocuolin A
+Type: Other
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 3841
+
+Table of genes, locations, strands and annotations of subject cluster:
+AQX77679.1	AQX77679.1	1	300	-	monooxygenase-like_protein
+AQX77680.1	AQX77680.1	547	1194	-	NocA
+AQX77681.1	AQX77681.1	1199	1843	-	hydrolase-like_protein
+AQX77678.1	AQX77678.1	1872	2426	-	NocB
+AQX77682.1	AQX77682.1	2704	4164	-	NocE
+AQX77683.1	AQX77683.1	4270	6888	-	NocF
+AQX77684.1	AQX77684.1	6981	8024	-	NocG
+AQX77685.1	AQX77685.1	8136	10229	-	NocH
+AQX77686.1	AQX77686.1	10344	11465	-	NocI
+AQX77687.1	AQX77687.1	11520	12503	-	NocJ
+AQX77688.1	AQX77688.1	12541	13674	-	NocK
+AQX77689.1	AQX77689.1	13737	13958	-	hypothetical_protein
+AQX77690.1	AQX77690.1	14483	16402	+	NocL
+AQX77691.1	AQX77691.1	16389	17996	+	NocC
+AQX77692.1	AQX77692.1	18229	18426	+	NocM
+AQX77693.1	AQX77693.1	18618	19922	+	NocO
+AQX77694.1	AQX77694.1	19926	22775	+	NocP
+AQX77695.1	AQX77695.1	22772	29740	+	NocQ
+AQX77696.1	AQX77696.1	29817	31133	+	NocR
+AQX77697.1	AQX77697.1	31392	35612	+	NocS
+AQX77698.1	AQX77698.1	35873	37663	+	NocT
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AQX77692.1	51	79	63.10679611650486	2.7e-15
+ctg47_8	AQX77694.1	48	922	98.51988899167438	5.5e-268
+ctg47_9	AQX77694.1	55	963	99.7780244173141	3.1e-280
+ctg47_11	AQX77692.1	57	84	59.63302752293578	8.9e-17
+ctg47_13	AQX77693.1	51	428	93.21663019693655	1.1e-119
+ctg47_15	AQX77690.1	59	734	100.65573770491802	1.6e-211
+ctg47_15	AQX77685.1	54	631	98.68852459016394	1.1e-180
+
+
+
+>>
+10. BGC0000976
+Source: curacin A
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 14827
+
+Table of genes, locations, strands and annotations of subject cluster:
+AEE88276.1	AEE88276.1	1	1011	-	hypothetical_protein
+AEE88277.1	AEE88277.1	1426	8061	-	CurM
+AEE88278.1	AEE88278.1	8064	13934	-	CurL
+AEE88279.1	AEE88279.1	14019	20717	-	CurK
+AEE88280.1	AEE88280.1	20776	27672	-	CurJ
+AEE88281.1	AEE88281.1	27740	32710	-	CurI
+AEE88282.1	AEE88282.1	32710	39309	-	CurH
+AEE88283.1	AEE88283.1	39318	44069	-	CurG
+AEE88284.1	AEE88284.1	44157	53744	-	CurF
+AEE88285.1	AEE88285.1	53732	54496	-	CurE
+AEE88286.1	AEE88286.1	54753	56012	-	CurD
+AEE88287.1	AEE88287.1	56017	57243	-	CurC
+AEE88288.1	AEE88288.1	57295	57534	-	CurB
+AEE88289.1	AEE88289.1	57553	64488	-	CurA
+AEE88290.1	AEE88290.1	65046	65189	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AEE88279.1	49	50	49.51456310679612	2.3e-06
+ctg47_3	AEE88284.1	49	49	49.51456310679612	3.9e-06
+ctg47_3	AEE88282.1	49	48	49.51456310679612	6.7e-06
+ctg47_7	AEE88284.1	59	1119	65.2542372881356	0.0
+ctg47_8	AEE88281.1	51	959	89.54671600370028	5.3e-279
+ctg47_8	AEE88278.1	50	931	90.84181313598519	1.2e-270
+ctg47_8	AEE88280.1	50	907	87.14153561517114	1.8e-263
+ctg47_8	AEE88282.1	53	895	82.14616096207216	9.4e-260
+ctg47_8	AEE88277.1	49	892	89.26919518963923	8e-259
+ctg47_8	AEE88289.1	49	853	83.44125809435707	4.1e-247
+ctg47_9	AEE88280.1	53	963	101.88679245283019	2.3e-280
+ctg47_9	AEE88281.1	54	955	101.55382907880133	6.4e-278
+ctg47_9	AEE88278.1	53	943	100.77691453940068	3.3e-274
+ctg47_9	AEE88277.1	52	936	99.55604883462819	3.1e-272
+ctg47_9	AEE88282.1	54	931	98.77913429522752	1.3e-270
+ctg47_9	AEE88289.1	53	923	100.11098779134295	3.5e-268
+ctg47_9	AEE88279.1	51	896	100.99889012208656	2.7e-260
+ctg47_9	AEE88284.1	46	801	100.2219755826859	1.5e-231
+ctg47_9	AEE88283.1	47	776	99.55604883462819	5.3e-224
+
+
+
+>>
+11. BGC0001165
+Source: curacin A
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 14826
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAT70096.1	AAT70096.1	11137	18072	+	CurA
+AAT70097.1	AAT70097.1	18091	18330	+	CurB
+AAT70098.1	AAT70098.1	18382	19608	+	CurC
+AAT70099.1	AAT70099.1	19544	20872	+	CurD
+AAT70100.1	AAT70100.1	21129	21893	+	CurE
+AAT70101.1	AAT70101.1	21881	31468	+	CurF
+AAT70102.1	AAT70102.1	31556	36307	+	CurG
+AAT70103.1	AAT70103.1	36316	42915	+	CurH
+AAT70104.1	AAT70104.1	42915	47885	+	CurI
+AAT70105.1	AAT70105.1	47953	54849	+	CurJ
+AAT70106.1	AAT70106.1	54908	61606	+	CurK
+AAT70107.1	AAT70107.1	61691	67561	+	CurL
+AAT70108.1	AAT70108.1	67564	74007	+	CurM
+AAT70109.1	AAT70109.1	73814	74839	+	CurN
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AAT70106.1	49	50	49.51456310679612	2.3e-06
+ctg47_3	AAT70101.1	49	49	49.51456310679612	3.9e-06
+ctg47_3	AAT70103.1	49	48	49.51456310679612	6.7e-06
+ctg47_7	AAT70101.1	59	1119	65.2542372881356	0.0
+ctg47_8	AAT70104.1	51	959	89.54671600370028	5.3e-279
+ctg47_8	AAT70107.1	50	931	90.84181313598519	1.2e-270
+ctg47_8	AAT70105.1	50	907	87.14153561517114	1.8e-263
+ctg47_8	AAT70103.1	53	895	82.14616096207216	9.4e-260
+ctg47_8	AAT70108.1	49	892	89.26919518963923	8e-259
+ctg47_8	AAT70096.1	49	853	83.44125809435707	4.1e-247
+ctg47_9	AAT70105.1	53	963	101.88679245283019	2.3e-280
+ctg47_9	AAT70104.1	54	955	101.55382907880133	6.4e-278
+ctg47_9	AAT70107.1	53	943	100.77691453940068	3.3e-274
+ctg47_9	AAT70108.1	52	936	99.55604883462819	3.1e-272
+ctg47_9	AAT70103.1	54	931	98.77913429522752	1.3e-270
+ctg47_9	AAT70096.1	53	923	100.11098779134295	3.5e-268
+ctg47_9	AAT70106.1	51	896	100.99889012208656	2.7e-260
+ctg47_9	AAT70101.1	46	800	100.2219755826859	3.4e-231
+ctg47_9	AAT70102.1	47	776	99.55604883462819	5.3e-224
+
+
+
+>>
+12. BGC0001125
+Source: puwainaphycin A / puwainaphycin B / puwainaphycin C / puwainaphycin D
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 4785
+
+Table of genes, locations, strands and annotations of subject cluster:
+AIW82276.1	AIW82276.1	1	1980	-	ORF1
+AIW82277.1	AIW82277.1	2060	10672	-	PuwA
+AIW82278.1	AIW82278.1	10848	14198	-	ORF2
+AIW82279.1	AIW82279.1	16099	23703	+	PuwB
+AIW82280.1	AIW82280.1	23707	25500	+	PuwC
+AIW82281.1	AIW82281.1	25762	26067	+	PuwD
+AIW82282.1	AIW82282.1	26336	35569	+	PuwE
+AIW82283.1	AIW82283.1	35566	42678	+	PuwF
+AIW82284.1	AIW82284.1	42729	53207	+	PuwG
+AIW82285.1	AIW82285.1	53421	56729	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AIW82281.1	50	93	75.72815533980582	2.4e-19
+ctg47_8	AIW82279.1	54	955	82.51618871415356	5.9e-278
+ctg47_8	AIW82282.1	51	928	87.41905642923219	1e-269
+ctg47_9	AIW82282.1	55	1016	99.88901220865705	3e-296
+ctg47_9	AIW82279.1	56	1013	100.77691453940068	2e-295
+ctg47_11	AIW82281.1	62	107	70.64220183486239	1.3e-23
+ctg47_15	AIW82280.1	59	673	91.80327868852459	2.5e-193
+
+
+
+>>
+13. BGC0001064
+Source: cylindrocyclophane D / cylindrocyclophane E / cylindrocyclophane F
+Type: Polyketide:Modular type I + Polyketide:Type III
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 4036
+
+Table of genes, locations, strands and annotations of subject cluster:
+AFV96135.1	AFV96135.1	1069	2886	+	AMP-dependent_synthetase/ligase
+AFV96136.1	AFV96136.1	3419	3745	+	acyl_carrier_protein
+AFV96137.1	AFV96137.1	4003	5418	+	hypothetical_protein
+AFV96138.1	AFV96138.1	5656	9342	+	polyketide_synthase
+AFV96139.1	AFV96139.1	9332	10573	+	beta-ketoacyl_synthase
+AFV96140.1	AFV96140.1	10578	11837	+	HMG-CoA_synthase-like_enzyme
+AFV96141.1	AFV96141.1	11840	12604	+	enoyl-CoA_hydratase/isomerase
+AFV96142.1	AFV96142.1	12592	19266	+	polyketide_synthase
+AFV96143.1	AFV96143.1	19362	20483	+	type_III_polyketide_synthase
+AFV96144.1	AFV96144.1	20495	21094	+	phospholipid_methyltransferase
+AFV96145.1	AFV96145.1	21475	23430	+	hemolysin-type_calcium-binding_region
+AFV96146.1	AFV96146.1	23972	25579	+	choline_dehydrogenase-like_flavoprotein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	AFV96137.1	47	382	98.71794871794873	8.9e-106
+ctg47_8	AFV96138.1	48	954	99.90749306197965	1.3e-277
+ctg47_9	AFV96138.1	58	1037	100.2219755826859	1.7e-302
+ctg47_9	AFV96142.1	50	873	98.22419533851277	4.2e-253
+ctg47_11	AFV96136.1	52	114	94.4954128440367	1e-25
+ctg47_15	AFV96135.1	58	676	96.39344262295081	3e-194
+
+
+
+>>
+14. BGC0001566
+Source: cylindrocyclophane
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 4036
+
+Table of genes, locations, strands and annotations of subject cluster:
+ARU81115.1	ARU81115.1	27	1844	+	CylA
+ARU81116.1	ARU81116.1	2377	2703	+	CylB
+ARU81117.1	ARU81117.1	2961	4376	+	CylC
+ARU81118.1	ARU81118.1	4612	8298	+	CylD
+ARU81119.1	ARU81119.1	8288	9529	+	CylE
+ARU81120.1	ARU81120.1	9534	10793	+	CylF
+ARU81121.1	ARU81121.1	10796	11560	+	CylG
+ARU81122.1	ARU81122.1	11548	18222	+	CylH
+ARU81123.1	ARU81123.1	18318	19439	+	CylI
+ARU81124.1	ARU81124.1	19451	20050	+	CylJ
+ARU81125.1	ARU81125.1	20357	22387	+	CylK
+ARU81126.1	ARU81126.1	22929	24536	+	CylL
+ARU81127.1	ARU81127.1	24533	25228	+	CylM
+ARU81128.1	ARU81128.1	25692	26990	+	CylN
+ARU81129.1	ARU81129.1	27052	28395	+	CylO
+ARU81130.1	ARU81130.1	28637	30178	+	CylP
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_2	ARU81117.1	47	382	98.71794871794873	8.9e-106
+ctg47_8	ARU81118.1	48	954	99.90749306197965	1.3e-277
+ctg47_9	ARU81118.1	58	1037	100.2219755826859	1.7e-302
+ctg47_9	ARU81122.1	50	873	98.22419533851277	4.2e-253
+ctg47_11	ARU81116.1	52	114	94.4954128440367	1e-25
+ctg47_15	ARU81115.1	58	676	96.39344262295081	3e-194
+
+
+
+>>
+15. BGC0001001
+Source: jamaicamide A / jamaicamide B / jamaicamide C
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 8892
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAS98794.1	AAS98794.1	1	2415	+	sucrose_synthase
+AAS98795.1	AAS98795.1	2460	2813	-	hypothetical_protein
+AAS98796.1	AAS98796.1	3126	3749	-	putative_transposase
+AAS98797.1	AAS98797.1	4382	4957	-	transposase
+AAS98774.1	AAS98774.1	6630	8408	+	Acyl-ACP_Synthetase
+AAS98775.1	AAS98775.1	8591	9556	+	Desaturase
+AAS98798.1	AAS98798.1	9718	10020	+	acyl_carrier_protein
+AAS98776.1	AAS98776.1	10463	12514	+	Putative_bromination_enzyme
+AAS98777.1	AAS98777.1	12596	17788	+	polyketide_synthetase
+AAS98799.1	AAS98799.1	17811	18050	+	acyl_carrier_protein
+AAS98778.1	AAS98778.1	18222	19448	+	ketosynthase/decarboxylase
+AAS98779.1	AAS98779.1	19453	20712	+	hydroxymethyl_glutaryl-ACP_synthase_like_activity
+AAS98780.1	AAS98780.1	20982	21746	+	enoyl_hydratase_family
+AAS98781.1	AAS98781.1	21734	31642	+	polyketide_synthase
+AAS98782.1	AAS98782.1	31659	36752	+	polyketide_synthase
+AAS98783.1	AAS98783.1	36820	48627	+	polyketide_synthase/nonribosomal_peptide_synthase_hybrid
+AAS98784.1	AAS98784.1	48697	51696	+	polyketide_synthase
+AAS98785.1	AAS98785.1	51811	53277	+	polyketide_synthase
+AAS98786.1	AAS98786.1	53274	56750	+	nonribosomal_peptide_synthetase
+AAS98787.1	AAS98787.1	56771	62197	+	polyketide_synthase/thioesterase
+AAS98788.1	AAS98788.1	62318	63646	-	cyclization_enzyme
+AAS98789.1	AAS98789.1	64050	64766	-	hypothetical_protein
+AAS98790.1	AAS98790.1	64894	65517	-	putative_transposase
+AAS98792.1	AAS98792.1	66175	66621	-	hypothetical_protein
+AAS98791.1	AAS98791.1	67688	68833	-	choloylglycine_hydrolase-like_protein
+AAS98793.1	AAS98793.1	68839	69279	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AAS98782.1	49	919	93.15448658649399	6.1e-267
+ctg47_8	AAS98783.1	50	902	87.88159111933395	5.9e-262
+ctg47_8	AAS98777.1	51	882	82.70120259019427	8.2e-256
+ctg47_8	AAS98784.1	46	799	88.06660499537465	9.2e-231
+ctg47_9	AAS98783.1	54	970	101.88679245283019	1.9e-282
+ctg47_9	AAS98777.1	55	952	98.00221975582686	4.1e-277
+ctg47_9	AAS98782.1	51	926	106.54827968923419	3.2e-269
+ctg47_9	AAS98781.1	47	819	102.21975582685904	4.2e-237
+ctg47_9	AAS98784.1	46	789	99.55604883462819	6.1e-228
+ctg47_12	AAS98775.1	53	319	97.07792207792207	7.9e-87
+ctg47_15	AAS98774.1	53	615	92.95081967213115	8.1e-176
+
+
+
+>>
+16. BGC0000954
+Source: ajudazol A
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 8577
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAQ18827.1	CAQ18827.1	6976	11652	+	putative_Trp
+CAQ18828.1	CAQ18828.1	11896	18414	+	polyketide_synthase
+CAQ18829.1	CAQ18829.1	18436	28647	+	polyketide_synthase
+CAQ18830.1	CAQ18830.1	28650	35318	+	polyketide_synthase
+CAQ18831.1	CAQ18831.1	35383	39609	+	nonribosomal_polypetide_synthetase
+CAQ18832.1	CAQ18832.1	39630	46166	+	polyketide_synthase
+CAQ18833.1	CAQ18833.1	46163	50905	+	polyketide_synthase
+CAQ18834.1	CAQ18834.1	50902	59742	+	polyketide_synthase
+CAQ18835.1	CAQ18835.1	59739	64601	+	polyketide_synthase
+CAQ18836.1	CAQ18836.1	64641	66017	+	putative_cytochrome_P450
+CAQ18837.1	CAQ18837.1	66033	67502	-	putative_cytochrome_P450
+CAQ18838.1	CAQ18838.1	67689	73346	+	polyketide_synthase
+CAQ18839.1	CAQ18839.1	73351	82734	+	hybrid_polyketide_synthase/nonribosomal_polypetide_synthetase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	CAQ18831.1	48	1275	98.58757062146893	0.0
+ctg47_8	CAQ18828.1	50	825	82.14616096207216	9.2e-239
+ctg47_8	CAQ18829.1	47	804	84.08880666049954	1.7e-232
+ctg47_8	CAQ18833.1	46	757	81.6836262719704	2.3e-218
+ctg47_8	CAQ18835.1	46	743	82.14616096207216	3.5e-214
+ctg47_9	CAQ18829.1	52	885	99.88901220865705	6.2e-257
+ctg47_9	CAQ18833.1	51	856	98.22419533851277	4e-248
+ctg47_9	CAQ18828.1	50	854	98.22419533851277	1.5e-247
+ctg47_9	CAQ18835.1	47	792	97.89123196448391	9.3e-229
+ctg47_9	CAQ18834.1	47	786	97.89123196448391	5.1e-227
+
+
+
+>>
+17. BGC0001951
+Source: puwainaphycin F / minutissamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 4548
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93583.1	AXN93583.1	1	1995	-	ORF1
+AXN93584.1	AXN93584.1	2075	10687	-	PuwA
+AXN93585.1	AXN93585.1	10864	16491	-	ORF2
+AXN93586.1	AXN93586.1	18202	25980	+	PuwB
+AXN93587.1	AXN93587.1	25984	27756	+	PuwC
+AXN93588.1	AXN93588.1	27949	28239	+	PuwD
+AXN93589.1	AXN93589.1	28551	37916	+	PuwE
+AXN93590.1	AXN93590.1	37913	55468	+	PuwF-G
+AXN93591.1	AXN93591.1	55576	58884	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AXN93589.1	49	908	90.93432007400554	1.1e-263
+ctg47_8	AXN93586.1	50	902	87.69657724329325	7.7e-262
+ctg47_9	AXN93589.1	53	984	104.32852386237515	1.3e-286
+ctg47_9	AXN93586.1	53	980	106.99223085460599	1.4e-285
+ctg47_11	AXN93588.1	60	109	70.64220183486239	2.6e-24
+ctg47_15	AXN93587.1	59	665	91.80327868852459	6.8e-191
+
+
+
+>>
+18. BGC0001950
+Source: puwainaphycin F / minutissamide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 4546
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXN93574.1	AXN93574.1	1	1995	-	ORF1
+AXN93575.1	AXN93575.1	2075	10687	-	PuwA
+AXN93576.1	AXN93576.1	10864	15363	-	ORF2
+AXN93577.1	AXN93577.1	17074	24852	+	PuwB
+AXN93578.1	AXN93578.1	24856	26628	+	PuwC
+AXN93579.1	AXN93579.1	26797	27111	+	PuwD
+AXN93580.1	AXN93580.1	27423	36788	+	PuwE
+AXN93581.1	AXN93581.1	36785	54340	+	PuwF-G
+AXN93582.1	AXN93582.1	54511	57756	+	PuwH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AXN93580.1	49	908	90.93432007400554	1.1e-263
+ctg47_8	AXN93577.1	50	902	87.69657724329325	5.9e-262
+ctg47_9	AXN93580.1	53	984	104.32852386237515	1.3e-286
+ctg47_9	AXN93577.1	52	978	106.99223085460599	5.4e-285
+ctg47_11	AXN93579.1	60	109	70.64220183486239	2.6e-24
+ctg47_15	AXN93578.1	59	665	91.80327868852459	6.8e-191
+
+
+
+>>
+19. BGC0000988
+Source: epothilone B
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 4218
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF26904.1	AAF26904.1	1	1826	+	unknown
+AAF26905.1	AAF26905.1	1900	3171	-	unknown
+AAF26906.1	AAF26906.1	3415	5556	+	unknown
+AAF26907.1	AAF26907.1	5612	5992	-	unknown
+AAF26908.1	AAF26908.1	6226	6675	+	unknown
+AAF26919.1	AAF26919.1	7610	11875	+	polyketide_synthase
+AAF26925.1	AAF26925.1	11872	16104	+	nonribosomal_peptide_synthetase
+AAF26920.1	AAF26920.1	16251	21749	+	polyketide_synthase
+AAF26921.1	AAF26921.1	21746	43519	+	polyketide_synthase
+AAF26922.1	AAF26922.1	43524	54920	+	polyketide_synthase
+AAF26923.1	AAF26923.1	54935	62254	+	polyketide_synthase
+AAF26924.1	AAF26924.1	62369	63628	+	cytochrome_P450
+AAF26909.1	AAF26909.1	63779	64333	+	unknown
+AAF26910.1	AAF26910.1	63853	64290	-	unknown
+AAF26912.1	AAF26912.1	64287	64727	-	unknown
+AAF26911.1	AAF26911.1	64363	64920	+	unknown
+AAF26914.1	AAF26914.1	65008	65874	-	unknown
+AAF26913.1	AAF26913.1	65063	65767	+	unknown
+AAF26915.1	AAF26915.1	65871	66338	-	unknown
+AAF26916.1	AAF26916.1	66667	67137	+	unknown
+AAF26917.1	AAF26917.1	67334	68251	+	putative_transport_protein
+AAF26918.1	AAF26918.1	68346	68750	+	unknown
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AAF26925.1	47	1252	99.01129943502825	0.0
+ctg47_8	AAF26923.1	46	729	81.77613320999075	8.9e-210
+ctg47_9	AAF26921.1	46	756	98.44617092119867	4.4e-218
+ctg47_9	AAF26923.1	46	741	98.11320754716981	1.4e-213
+ctg47_9	AAF26919.1	46	740	98.22419533851277	2.5e-213
+
+
+
+>>
+20. BGC0001024
+Source: myxothiazol
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3843
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF19809.1	AAF19809.1	1	834	+	MtaA
+AAF19810.1	AAF19810.1	1388	13399	+	MtaB
+AAF19811.1	AAF19811.1	13537	17409	+	mtaC
+AAF19812.1	AAF19812.1	17406	27281	+	MtaD
+AAF19813.1	AAF19813.1	27340	33183	+	MtaE
+AAF19814.1	AAF19814.1	33188	37270	+	MtaF
+AAF19815.1	AAF19815.1	37285	42537	+	mtaG
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AAF19812.1	47	1213	99.2231638418079	0.0
+ctg47_7	AAF19811.1	50	892	64.90112994350282	8e-259
+ctg47_8	AAF19814.1	48	840	86.03145235892691	3.6e-243
+ctg47_9	AAF19814.1	51	898	97.669256381798	1.2e-260
+
+
+
+>>
+21. BGC0001009
+Source: melithiazol A
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3712
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAD89764.1	CAD89764.1	1	253	-	hypothetical_protein
+CAD89765.1	CAD89765.1	442	1488	-	hypothetical_protein
+CAD89766.1	CAD89766.1	3093	4529	-	hypothetical_protein
+CAD89767.1	CAD89767.1	6939	8291	+	hypothetical_protein
+CAD89768.1	CAD89768.1	8857	9420	+	hypothetical_protein
+CAD89769.1	CAD89769.1	10009	10707	+	hypothetical_protein
+CAD89770.1	CAD89770.1	10704	12062	+	hypothetical_protein
+CAD89771.1	CAD89771.1	12120	13082	+	hypothetical_protein
+CAD89772.1	CAD89772.1	13098	13454	-	hypothetical_protein
+CAD89773.1	CAD89773.1	13880	17032	+	MelB_protein
+CAD89774.1	CAD89774.1	17065	21036	+	MelC_protein
+CAD89775.1	CAD89775.1	21033	30887	+	MelD_protein
+CAD89776.1	CAD89776.1	30940	36678	+	MelE_protein
+CAD89777.1	CAD89777.1	36675	40757	+	MelF_protein
+CAD89778.1	CAD89778.1	40757	46000	+	MelG_protein
+CAD89779.1	CAD89779.1	46019	47008	+	MelH_protein
+CAD89780.1	CAD89780.1	47014	48021	-	MelJ_protein
+CAD89781.1	CAD89781.1	48018	48923	-	MelK_protein
+CAD89782.1	CAD89782.1	50068	51855	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	CAD89775.1	46	1192	98.65819209039547	0.0
+ctg47_7	CAD89774.1	46	877	68.57344632768361	2.7e-254
+ctg47_8	CAD89777.1	46	787	81.77613320999075	2.8e-227
+ctg47_9	CAD89777.1	49	856	97.55826859045506	3.1e-248
+
+
+
+>>
+22. BGC0001010
+Source: melithiazol A
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3712
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAD89764.1	CAD89764.1	1	253	-	hypothetical_protein
+CAD89765.1	CAD89765.1	442	1488	-	hypothetical_protein
+CAD89766.1	CAD89766.1	3093	4529	-	hypothetical_protein
+CAD89767.1	CAD89767.1	6939	8291	+	hypothetical_protein
+CAD89768.1	CAD89768.1	8857	9420	+	hypothetical_protein
+CAD89769.1	CAD89769.1	10009	10707	+	hypothetical_protein
+CAD89770.1	CAD89770.1	10704	12062	+	hypothetical_protein
+CAD89771.1	CAD89771.1	12120	13082	+	hypothetical_protein
+CAD89772.1	CAD89772.1	13098	13454	-	hypothetical_protein
+CAD89773.1	CAD89773.1	13880	17032	+	MelB_protein
+CAD89774.1	CAD89774.1	17065	21036	+	MelC_protein
+CAD89775.1	CAD89775.1	21033	30887	+	MelD_protein
+CAD89776.1	CAD89776.1	30940	36678	+	MelE_protein
+CAD89777.1	CAD89777.1	36675	40757	+	MelF_protein
+CAD89778.1	CAD89778.1	40757	46000	+	MelG_protein
+CAD89779.1	CAD89779.1	46019	47008	+	MelH_protein
+CAD89780.1	CAD89780.1	47014	48021	-	MelJ_protein
+CAD89781.1	CAD89781.1	48018	48923	-	MelK_protein
+CAD89782.1	CAD89782.1	50068	51855	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	CAD89775.1	46	1192	98.65819209039547	0.0
+ctg47_7	CAD89774.1	46	877	68.57344632768361	2.7e-254
+ctg47_8	CAD89777.1	46	787	81.77613320999075	2.8e-227
+ctg47_9	CAD89777.1	49	856	97.55826859045506	3.1e-248
+
+
+
+>>
+23. BGC0000990
+Source: epothilone
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3486
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADB12488.1	ADB12488.1	437	4702	+	EpoA
+ADB12489.1	ADB12489.1	4699	8931	+	EpoB
+ADB12490.1	ADB12490.1	9078	14576	+	EpoC
+ADB12491.1	ADB12491.1	14573	36346	+	EpoD
+ADB12492.1	ADB12492.1	36351	47747	+	EpoE
+ADB12493.1	ADB12493.1	47762	55081	+	EpoF
+ADB12494.1	ADB12494.1	55196	56455	+	EpoK
+ADB12495.1	ADB12495.1	56633	57172	+	hypothetical_protein
+ADB12496.1	ADB12496.1	57202	57759	+	hypothetical_protein
+ADB12497.1	ADB12497.1	57847	58701	-	hypothetical_protein
+ADB12498.1	ADB12498.1	58713	59180	-	hypothetical_protein
+ADB12499.1	ADB12499.1	59531	59980	+	hypothetical_protein
+ADB12500.1	ADB12500.1	60188	61105	+	cation_efflux_protein
+ADB12501.1	ADB12501.1	61505	61903	+	type_I_restriction-modification_system_endonuclease
+ADB12502.1	ADB12502.1	62141	62791	+	hypothetical_protein
+ADB12503.1	ADB12503.1	62812	65931	+	putative_iron-sulfur_binding_oxidoreductase
+ADB12504.1	ADB12504.1	65935	67296	+	NrfD_family_oxidoreductase
+ADB12505.1	ADB12505.1	67296	67832	+	hypothetical_protein
+ADB12506.1	ADB12506.1	67829	68455	+	hypothetical_protein
+ADB12507.1	ADB12507.1	68452	69633	+	hypothetical_protein
+ADB12508.1	ADB12508.1	69633	70001	+	hypothetical_protein
+ADB12509.1	ADB12509.1	69998	70951	+	hypothetical_protein
+ADB12510.1	ADB12510.1	70948	72111	+	cytochrome_c_oxidase_subunit_II
+ADB12511.1	ADB12511.1	72108	72852	+	cytochrome_c_oxidase_subunit_I
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	ADB12489.1	47	1250	99.15254237288136	0.0
+ctg47_8	ADB12493.1	46	733	81.77613320999075	3.6e-211
+ctg47_9	ADB12491.1	46	756	98.44617092119867	4.4e-218
+ctg47_9	ADB12488.1	46	747	98.22419533851277	2e-215
+
+
+
+>>
+24. BGC0000991
+Source: epothilone
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3479
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF62878.1	AAF62878.1	1	992	+	putative_transposase
+AAF62879.1	AAF62879.1	989	1501	+	putative_transposase
+AAF62880.1	AAF62880.1	1998	6263	+	EpoA
+AAF62881.1	AAF62881.1	6260	10492	+	EpoB
+AAF62882.1	AAF62882.1	10639	16137	+	EpoC
+AAF62883.1	AAF62883.1	16134	37907	+	epoD
+AAF62884.1	AAF62884.1	37912	49308	+	EpoE
+AAF62885.1	AAF62885.1	49323	56642	+	EpoF
+AAF62886.1	AAF62886.1	56757	58016	+	EpoK
+AAF62887.1	AAF62887.1	58194	58733	+	putative_membrane_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AAF62881.1	47	1247	99.15254237288136	0.0
+ctg47_8	AAF62885.1	46	731	81.77613320999075	1.8e-210
+ctg47_9	AAF62883.1	46	754	98.44617092119867	1.7e-217
+ctg47_9	AAF62880.1	46	747	98.22419533851277	3.4e-215
+
+
+
+>>
+25. BGC0000380
+Source: leupyrrin
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3388
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADZ24981.1	ADZ24981.1	469	2577	+	hypothetical_protein
+ADZ24982.1	ADZ24982.1	3294	4130	+	phospholipid/glycerol_acyl_transferase
+ADZ24983.1	ADZ24983.1	4221	4742	+	hypothetical_protein
+ADZ24984.1	ADZ24984.1	4739	6160	+	protein_kinase-like_protein
+ADZ24985.1	ADZ24985.1	6346	7125	+	type_II_thioesterase
+ADZ24986.1	ADZ24986.1	7128	9428	+	formate_dehydrogenase
+ADZ24987.1	ADZ24987.1	9476	10780	+	hydroxycinnamoyl-CoA_shikimate/quinate_hydroxycinnamoyltransferase-like_protein
+ADZ24988.1	ADZ24988.1	10927	12363	+	acyltransferase
+ADZ24989.1	ADZ24989.1	12385	13953	-	prolin_adenylation_protein
+ADZ24990.1	ADZ24990.1	14047	15186	-	prolyl-ACP_dehydrogenase
+ADZ24991.1	ADZ24991.1	15471	15749	+	acyl_carrier_protein
+ADZ24992.1	ADZ24992.1	15927	16688	-	dehydrogenase
+ADZ24993.1	ADZ24993.1	17478	19277	+	C_and_PCP_domain_protein
+ADZ24994.1	ADZ24994.1	19342	20541	+	carboxylase/reductase
+ADZ24995.1	ADZ24995.1	20648	29653	+	non-ribosomal_peptide_synthase/polyketide_synthase
+ADZ24996.1	ADZ24996.1	29666	36448	+	polyketide_synthase
+ADZ24997.1	ADZ24997.1	36457	42057	+	polyketide_synthase
+ADZ24998.1	ADZ24998.1	42069	48761	+	polyketide_synthase
+ADZ24999.1	ADZ24999.1	48758	53011	+	non-ribosomal_peptide_synthase
+ADZ25000.1	ADZ25000.1	53008	54138	+	phospholipase
+ADZ25001.1	ADZ25001.1	54135	55337	+	geranyl-geranyl_reductase
+ADZ25002.1	ADZ25002.1	55402	56826	+	Cytochrome_P450_enzyme
+ADZ25003.1	ADZ25003.1	57214	58128	+	O-methyltransferase
+ADZ25004.1	ADZ25004.1	58157	59170	+	Rieske_(2Fe-2S)_domain-containing_protein
+ADZ25005.1	ADZ25005.1	59322	60062	+	TetR_family_transcriptional_regulator
+ADZ25006.1	ADZ25006.1	60188	61993	-	long-chain_acyl_CoA_synthetase
+ADZ25007.1	ADZ25007.1	62201	63649	+	carotenoid_oxygenase
+ADZ25008.1	ADZ25008.1	63733	64854	-	HpcH/HpaI_aldolase
+ADZ25009.1	ADZ25009.1	65302	66198	+	HpcH/HpaI_aldolase
+ADZ25010.1	ADZ25010.1	66306	66833	+	dehydratase
+ADZ25011.1	ADZ25011.1	66918	68366	-	cytochrome_P450_hydroxylase
+ADZ25012.1	ADZ25012.1	69262	71409	-	hypothetical_protein
+ADZ25013.1	ADZ25013.1	71433	72665	-	hypothetical_protein
+ADZ25014.1	ADZ25014.1	72676	73602	-	putative_methanol_dehydrogenase
+ADZ25015.1	ADZ25015.1	74219	75148	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	ADZ24995.1	48	947	69.77401129943502	2.7e-275
+ctg47_8	ADZ24997.1	46	779	81.96114708603145	9.8e-225
+ctg47_9	ADZ24997.1	47	843	100.33296337402886	2.7e-244
+ctg47_9	ADZ24998.1	46	819	97.78024417314096	4.2e-237
+
+
+
+>>
+26. BGC0000989
+Source: epothilone
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2722
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACB46192.1	ACB46192.1	1	4266	+	polyketide_synthase
+ACB46193.1	ACB46193.1	4263	8495	+	nonribosomal_peptide_synthetase
+ACB46194.1	ACB46194.1	8642	14140	+	polyketide_synthase
+ACB46195.1	ACB46195.1	14137	35910	+	polyketide_synthase
+ACB46196.1	ACB46196.1	35915	47311	+	polyketide_synthase
+ACB46197.1	ACB46197.1	47326	54645	+	polyketide_synthase
+ACB46198.1	ACB46198.1	54760	56019	+	cytochrome_P450
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	ACB46193.1	47	1242	99.01129943502825	0.0
+ctg47_8	ACB46197.1	46	727	81.77613320999075	3.4e-209
+ctg47_9	ACB46195.1	46	753	98.44617092119867	2.8e-217
+
+
+
+>>
+27. BGC0000982
+Source: cystothiazole A
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2504
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAW03320.1	AAW03320.1	7734	8291	+	hypothetical_protein
+AAW03321.1	AAW03321.1	8865	10055	+	hypothetical_protein
+AAW03322.1	AAW03322.1	10860	14087	+	hypothetical_protein
+AAW03323.1	AAW03323.1	15382	17442	-	hypothetical_protein
+AAW03324.1	AAW03324.1	17754	18650	+	hypothetical_protein
+AAW03325.1	AAW03325.1	19334	22489	+	CtaB
+AAW03326.1	AAW03326.1	22528	26457	+	CtaC
+AAW03327.1	AAW03327.1	26454	36314	+	CtaD
+AAW03328.1	AAW03328.1	36369	42092	+	CtaE
+AAW03329.1	AAW03329.1	42089	46171	+	CtaF
+AAW03330.1	AAW03330.1	46168	51408	+	CtaG
+AAW03331.1	AAW03331.1	51427	52416	+	hypothetical_protein
+AAW03332.1	AAW03332.1	52448	53479	-	CtaJ
+AAW03333.1	AAW03333.1	53476	54381	-	CtaK
+AAW03334.1	AAW03334.1	55066	56451	-	hypothetical_protein
+AAW03335.1	AAW03335.1	58085	61021	-	hypothetical_protein
+AAW03336.1	AAW03336.1	62217	62681	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AAW03326.1	47	891	68.22033898305084	1.4e-258
+ctg47_8	AAW03329.1	46	765	81.6836262719704	8.6e-221
+ctg47_9	AAW03329.1	50	848	97.55826859045506	1.1e-245
+
+
+
+>>
+28. BGC0001161
+Source: 1-heptadecene
+Type: Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2493
+
+Table of genes, locations, strands and annotations of subject cluster:
+AHH34187.1	AHH34187.1	1	2454	+	fatty_acyl_ACP_ligase
+AHH34186.1	AHH34186.1	2466	9161	+	polyketide_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	AHH34187.1	47	80	70.87378640776699	2.1e-15
+ctg47_8	AHH34186.1	48	821	84.9213691026827	2.3e-237
+ctg47_9	AHH34186.1	51	917	103.66259711431742	1.9e-266
+ctg47_15	AHH34187.1	56	675	100.49180327868852	6.6e-194
+
+
+
+>>
+29. BGC0001711
+Source: occidiofungin A
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2450
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_3	JM78_19275	47	71	64.07766990291263	9.6e-13
+ctg47_8	JM78_19275	46	519	58.74190564292322	1.4e-146
+ctg47_9	JM78_19285	47	774	99.66703662597114	2e-223
+ctg47_9	JM78_19275	49	554	70.81021087680355	3.3e-157
+ctg47_15	JM78_19275	48	532	92.78688524590164	6.9e-151
+
+
+
+>>
+30. BGC0001971
+Source: malyngamide I
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 9326
+
+Table of genes, locations, strands and annotations of subject cluster:
+AZH23824.1	AZH23824.1	1	2340	+	hypothetical_protein
+AZH23832.1	AZH23832.1	2630	3547	+	hypothetical_protein
+AZH23834.1	AZH23834.1	3826	4575	-	MgiA
+AZH23831.1	AZH23831.1	4981	5958	-	MgiB
+AZH23838.1	AZH23838.1	6057	6431	-	MgiC
+AZH23835.1	AZH23835.1	6591	7328	+	MgiD
+AZH23836.1	AZH23836.1	7782	8318	+	MgiE
+AZH23839.1	AZH23839.1	8722	9027	+	MgiF
+AZH23820.1	AZH23820.1	9248	14956	+	MgiG
+AZH23821.1	AZH23821.1	15207	20252	+	MgiH
+AZH23818.1	AZH23818.1	20327	26881	+	MgiI
+AZH23822.1	AZH23822.1	26878	31638	+	MgiJ
+AZH23823.1	AZH23823.1	31714	35430	+	MgiK
+AZH23840.1	AZH23840.1	35453	35692	+	MgiL
+AZH23830.1	AZH23830.1	35734	36954	+	MgiM
+AZH23829.1	AZH23829.1	36959	38218	+	MgiN
+AZH23826.1	AZH23826.1	38388	39830	+	MgiO
+AZH23833.1	AZH23833.1	39883	40647	+	MgiP
+AZH23817.1	AZH23817.1	40635	48953	+	MgiQ
+AZH23819.1	AZH23819.1	49010	55036	+	MgiR
+AZH23837.1	AZH23837.1	55369	55869	+	MgiS
+AZH23827.1	AZH23827.1	56302	57657	+	MgiT
+AZH23828.1	AZH23828.1	58132	59442	-	hypothetical_protein
+AZH23825.1	AZH23825.1	60065	61846	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_4	AZH23827.1	48	402	93.11827956989247	8.2e-112
+ctg47_8	AZH23819.1	50	924	89.54671600370028	1.4e-268
+ctg47_8	AZH23818.1	50	911	86.30897317298798	1.7e-264
+ctg47_8	AZH23821.1	47	872	92.78445883441259	8.5e-253
+ctg47_8	AZH23820.1	46	852	89.82423681776133	7e-247
+ctg47_8	AZH23817.1	46	790	81.59111933395005	2.5e-228
+ctg47_9	AZH23818.1	54	972	100.77691453940068	5e-283
+ctg47_9	AZH23819.1	52	949	100.11098779134295	4.6e-276
+ctg47_9	AZH23821.1	51	936	103.44062153163152	2.3e-272
+ctg47_9	AZH23817.1	47	862	99.55604883462819	5.6e-250
+ctg47_9	AZH23820.1	47	856	100.88790233074363	5.3e-248
+
+
+
+>>
+31. BGC0001970
+Source: malyngamide C acetate
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 8001
+
+Table of genes, locations, strands and annotations of subject cluster:
+AZH23794.1	AZH23794.1	1	2340	+	hypothetical_protein
+AZH23804.1	AZH23804.1	2606	3547	+	hypothetical_protein
+AZH23807.1	AZH23807.1	3826	4575	-	MgcA
+AZH23805.1	AZH23805.1	4981	5874	-	MgcB
+AZH23809.1	AZH23809.1	5875	6429	-	MgcC
+AZH23808.1	AZH23808.1	6589	7326	+	MgcD
+AZH23815.1	AZH23815.1	7780	8043	+	MgcE
+AZH23813.1	AZH23813.1	8722	9030	+	MgcF
+AZH23790.1	AZH23790.1	9256	14967	+	MgcG
+AZH23791.1	AZH23791.1	15218	20263	+	MgcH
+AZH23789.1	AZH23789.1	20335	26889	+	MgcI
+AZH23792.1	AZH23792.1	26868	31631	+	MgcJ
+AZH23793.1	AZH23793.1	31716	35441	+	MgcK
+AZH23816.1	AZH23816.1	35543	35791	+	MgcL
+AZH23802.1	AZH23802.1	35833	37056	+	MgcM
+AZH23801.1	AZH23801.1	37061	38320	+	MgcN
+AZH23796.1	AZH23796.1	38485	39927	+	MgcO
+AZH23806.1	AZH23806.1	39988	40755	+	MgcP
+AZH23787.1	AZH23787.1	40743	49115	+	MgcQ
+AZH23788.1	AZH23788.1	49163	56896	+	MgcR
+AZH23810.1	AZH23810.1	57057	57566	+	MgcS
+AZH23798.1	AZH23798.1	57672	59027	+	MgcT
+AZH23797.1	AZH23797.1	59219	60619	+	MgcU
+AZH23799.1	AZH23799.1	61039	62370	+	MgcV
+AZH23803.1	AZH23803.1	62514	63548	-	hypothetical_protein
+AZH23811.1	AZH23811.1	63758	64222	+	hypothetical_protein
+AZH23812.1	AZH23812.1	64257	64631	+	hypothetical_protein
+AZH23814.1	AZH23814.1	64871	65161	+	hypothetical_protein
+AZH23800.1	AZH23800.1	65236	66540	-	hypothetical_protein
+AZH23795.1	AZH23795.1	66661	68448	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_4	AZH23798.1	49	421	96.7741935483871	1.7e-117
+ctg47_4	AZH23797.1	47	398	95.91397849462365	2e-110
+ctg47_8	AZH23789.1	50	908	86.30897317298798	1.4e-263
+ctg47_8	AZH23791.1	47	873	92.78445883441259	5e-253
+ctg47_8	AZH23790.1	46	859	89.73172987974098	5.7e-249
+ctg47_9	AZH23789.1	54	970	100.77691453940068	1.9e-282
+ctg47_9	AZH23791.1	52	945	103.44062153163152	5.1e-275
+ctg47_9	AZH23788.1	52	935	100.66592674805773	8.9e-272
+ctg47_9	AZH23790.1	47	862	100.77691453940068	7.4e-250
+ctg47_9	AZH23787.1	46	830	100.66592674805773	2.4e-240
+
+
+
+>>
+32. BGC0000974
+Source: crocacin
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 5303
+
+Table of genes, locations, strands and annotations of subject cluster:
+CBD77727.1	CBD77727.1	312	2426	+	hypothetical_protein
+CBD77728.1	CBD77728.1	3673	5499	+	hypothetical_protein
+CBD77730.1	CBD77730.1	5523	7367	+	hypothetical_protein
+CBD77732.1	CBD77732.1	7669	15435	+	polyketide_synthase
+CBD77734.1	CBD77734.1	15432	21140	+	polyketide_synthase
+CBD77736.1	CBD77736.1	21208	26844	+	polyketide_synthase
+CBD77738.1	CBD77738.1	26841	29633	+	polyketide_synthase
+CBD77739.1	CBD77739.1	29630	30883	+	hydroxymethylglutaryl-coenzyme_A
+CBD77741.1	CBD77741.1	30874	31677	+	enoyl-coA-hydratase/isomerase
+CBD77742.1	CBD77742.1	31674	32462	+	enoyl-coA-hydratase/isomerase
+CBD77744.1	CBD77744.1	32449	32700	+	acyl_carrier_protein
+CBD77746.1	CBD77746.1	32700	41591	+	non-ribosomal_peptide_synthetase/polyketide_synthase
+CBD77748.1	CBD77748.1	41588	47272	+	polyketide_synthase
+CBD77749.1	CBD77749.1	47269	51879	+	non-ribosomal_peptide_synthetase
+CBD77751.1	CBD77751.1	51991	52713	+	O-methyltransferase
+CBD77752.1	CBD77752.1	52781	54028	-	cytochrome_P450
+CBD77754.1	CBD77754.1	54050	56128	-	hypothetical_protein
+CBD77756.1	CBD77756.1	56487	56942	-	hypothetical_protein
+CBD77757.1	CBD77757.1	57147	58493	-	cytochrome-c_peroxidase
+CBD77759.1	CBD77759.1	58845	59963	+	hypothetical_protein
+CBD77761.1	CBD77761.1	59960	60742	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	CBD77736.1	48	824	83.8112858464385	1.6e-238
+ctg47_8	CBD77748.1	47	798	81.40610545790933	1.6e-230
+ctg47_9	CBD77748.1	50	905	100.33296337402886	5.8e-263
+ctg47_9	CBD77736.1	51	882	96.78135405105438	6.9e-256
+ctg47_9	CBD77738.1	48	816	98.00221975582686	6e-236
+ctg47_15	CBD77754.1	50	568	93.44262295081968	1.1e-161
+ctg47_15	CBD77732.1	47	510	95.57377049180327	4.8e-144
+
+
+
+>>
+33. BGC0001559
+Source: crocagin A / crocagin B
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 5300
+
+Table of genes, locations, strands and annotations of subject cluster:
+AIR74909.1	AIR74909.1	1	1827	+	ABC-1_domain_protein
+AIR74908.1	AIR74908.1	1998	3695	+	ABC-1_domain_protein
+AIR74910.1	AIR74910.1	4051	11763	+	polyketide_synthase
+AIR74911.1	AIR74911.1	11769	17468	+	polyketide_synthase
+AIR74912.1	AIR74912.1	17536	23172	+	polyketide_synthase
+AIR74913.1	AIR74913.1	23169	25961	+	polyketide_synthase
+AIR74914.1	AIR74914.1	25958	27211	+	hydroxymethylglutaryl-coenzyme_A_synthase-like_protein
+AIR74915.1	AIR74915.1	27208	28005	+	enoyl-CoA_hydratase/isomerase-like_protein
+AIR74916.1	AIR74916.1	28002	28790	+	enoyl-CoA_hydratase/isomerase-like_protein
+AIR74924.1	AIR74924.1	28828	29028	+	acyl_carrier_protein
+AIR74926.1	AIR74926.1	29028	37919	+	polyketide_synthase
+AIR74917.1	AIR74917.1	37916	43600	+	polyketide_synthase
+AIR74925.1	AIR74925.1	43597	48207	+	non-ribosomal_peptide_synthetase
+AIR74923.1	AIR74923.1	48319	49041	+	O-methyltransferase
+AIR74918.1	AIR74918.1	49109	50356	-	cytochrome_P450
+AIR74919.1	AIR74919.1	50378	52414	-	long-chain-fatty-acid-CoA_ligase
+AIR74920.1	AIR74920.1	53475	55196	-	di-heme_cytochrome-c_peroxidase
+AIR74921.1	AIR74921.1	55197	56291	+	two-component_histidine_kinase
+AIR74922.1	AIR74922.1	56288	57070	+	regulatory_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AIR74912.1	48	824	83.8112858464385	1.6e-238
+ctg47_8	AIR74917.1	47	798	81.40610545790933	1.6e-230
+ctg47_9	AIR74917.1	50	905	100.33296337402886	5.8e-263
+ctg47_9	AIR74912.1	51	882	96.78135405105438	6.9e-256
+ctg47_9	AIR74913.1	48	816	98.00221975582686	6e-236
+ctg47_15	AIR74919.1	50	568	93.44262295081968	1.1e-161
+ctg47_15	AIR74910.1	47	507	94.91803278688525	4.1e-143
+
+
+
+>>
+34. BGC0001163
+Source: 1-heptadecene
+Type: Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2375
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	LYNGBM3L_11280	46	797	87.04902867715079	2e-230
+ctg47_9	LYNGBM3L_11280	49	897	106.43729189789124	1.6e-260
+ctg47_15	LYNGBM3L_11270	57	681	99.18032786885246	1.2e-195
+
+
+
+>>
+35. BGC0000975
+Source: cryptophycin-327
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2270
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABM21569.1	ABM21569.1	9964	18789	+	crpA
+ABM21570.1	ABM21570.1	18814	29223	+	crpB
+ABM21571.1	ABM21571.1	29220	35051	+	crpC
+ABM21572.1	ABM21572.1	35090	45121	+	crpD
+ABM21573.1	ABM21573.1	45180	46532	+	crpE
+ABM21574.1	ABM21574.1	46916	47800	+	crpF
+ABM21575.1	ABM21575.1	47812	48153	+	crpG
+ABM21576.1	ABM21576.1	48796	50271	+	crpH
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_4	ABM21573.1	46	404	92.25806451612904	2.2e-112
+ctg47_8	ABM21570.1	50	871	83.99629972247918	1.1e-252
+ctg47_9	ABM21570.1	56	995	100.66592674805773	5.6e-290
+
+
+
+>>
+36. BGC0000153
+Source: stigmatellin
+Type: NRP + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 7979
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAD19077.1	CAD19077.1	4978	6231	-	cytochrome_P450_monooxygenase
+CAD19078.1	CAD19078.1	6369	7730	+	protein_kinase
+CAD19079.1	CAD19079.1	7849	8577	-	methyl_transferase
+CAD19080.1	CAD19080.1	8622	8879	-	acyl-CoA_binding_protein
+CAD19081.1	CAD19081.1	8961	10070	+	potassium_channel_beta_chain
+CAD19082.1	CAD19082.1	10428	10862	+	ribosome_binding_factor
+CAD19083.1	CAD19083.1	10859	12016	+	
+CAD19084.1	CAD19084.1	12082	13974	-	cellulase
+CAD19085.1	CAD19085.1	14345	21466	+	StiA_protein
+CAD19086.1	CAD19086.1	21463	26220	+	StiB_protein
+CAD19087.1	CAD19087.1	26284	31941	+	StiC_protein
+CAD19088.1	CAD19088.1	31943	37738	+	StiD_protein
+CAD19089.1	CAD19089.1	37740	43553	+	StiE_protein
+CAD19090.1	CAD19090.1	43546	50202	+	StiF_protein
+CAD19091.1	CAD19091.1	50205	54401	+	StiG_protein
+CAD19092.1	CAD19092.1	54398	59212	+	StiH_protein
+CAD19093.1	CAD19093.1	59223	63002	+	StiJ_protein
+CAD19094.1	CAD19094.1	63070	63840	+	methyl_transferase
+CAD19095.1	CAD19095.1	63899	65470	+	cytochrome_P450_dependent_monooxygenase
+CAD19096.1	CAD19096.1	65537	66808	+	polynucleotide_adenyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	CAD19086.1	50	882	81.40610545790933	6.3e-256
+ctg47_8	CAD19087.1	48	866	87.14153561517114	4.7e-251
+ctg47_8	CAD19092.1	49	851	81.77613320999075	2e-246
+ctg47_8	CAD19090.1	49	850	81.77613320999075	2.7e-246
+ctg47_9	CAD19092.1	53	924	97.89123196448391	1.2e-268
+ctg47_9	CAD19087.1	52	923	99.55604883462819	3.5e-268
+ctg47_9	CAD19086.1	52	908	98.77913429522752	8.9e-264
+ctg47_9	CAD19090.1	50	888	97.55826859045506	7.3e-258
+ctg47_9	CAD19093.1	51	887	97.78024417314096	1.6e-257
+
+
+
+>>
+37. BGC0000981
+Source: cylindrospermopsin
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 6050
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADF88266.1	ADF88266.1	190	1092	+	RNA-binding_S1_domain-containing_protein
+ADF88267.1	ADF88267.1	1374	3617	+	oxidoreductase_alpha_subunit
+ADF88268.1	ADF88268.1	4170	5810	-	transposase
+ADF88269.1	ADF88269.1	6213	6536	+	hypothetical_protein
+ADF88270.1	ADF88270.1	7145	7930	-	putative_sulfotransferase
+ADF88271.1	ADF88271.1	8933	10363	-	aminohydrolase
+ADF88272.1	ADF88272.1	10809	12248	+	multidrug_exporter_MatE
+ADF88273.1	ADF88273.1	13364	14194	-	proline_dioxygenase-like_protein
+ADF88274.1	ADF88274.1	14248	15684	-	putative_uracil_ring_formation
+ADF88275.1	ADF88275.1	15903	19976	-	polyketide_synthase
+ADF88276.1	ADF88276.1	20032	25587	-	polyketide_synthase
+ADF88277.1	ADF88277.1	25587	30590	-	polyketide_synthase
+ADF88278.1	ADF88278.1	31142	32317	+	amidinotransferase
+ADF88279.1	ADF88279.1	32332	41085	+	mixed_NRPS/PKS
+ADF88280.1	ADF88280.1	41090	46756	+	polyketide_synthase
+ADF88281.1	ADF88281.1	47180	47623	+	hypothetical_protein
+ADF88282.1	ADF88282.1	47667	48065	-	hypothetical_protein
+ADF88283.1	ADF88283.1	49222	49599	+	hypothetical_protein
+ADF88284.1	ADF88284.1	49808	50167	+	hypothetical_protein
+ADF88285.1	ADF88285.1	50265	50612	+	hypothetical_protein
+ADF88286.1	ADF88286.1	50678	51079	+	hypothetical_protein
+ADF88287.1	ADF88287.1	51719	52795	-	putative_nucleotidyl_transferase
+ADF88288.1	ADF88288.1	53153	54658	+	putative_cell_envelope-like_transcriptional_attenuator
+ADF88289.1	ADF88289.1	54745	55251	+	pentapeptide_repeat-containing_protein
+ADF88290.1	ADF88290.1	55715	56914	+	putative_integral_membrane_protein_MviN
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	ADF88280.1	51	854	82.23866790009251	2.4e-247
+ctg47_8	ADF88276.1	47	819	83.16373728029602	6.6e-237
+ctg47_9	ADF88280.1	53	915	100.44395116537181	5.6e-266
+ctg47_9	ADF88275.1	53	913	100.33296337402886	3.6e-265
+ctg47_9	ADF88276.1	52	904	99.22308546059934	1.3e-262
+ctg47_9	ADF88277.1	51	878	100.66592674805773	9.9e-255
+ctg47_9	ADF88279.1	47	767	100.2219755826859	1.9e-221
+
+
+
+>>
+38. BGC0000978
+Source: cylindrospermopsin
+Type: NRP + Alkaloid + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 6045
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABX60152.1	ABX60152.1	444	6074	+	polyketide_synthase
+ABX60153.1	ABX60153.1	6130	10203	+	polyketide_synthase
+ABX60154.1	ABX60154.1	10251	11687	+	putative_uracil_ring_formation
+ABX60155.1	ABX60155.1	11741	12571	+	proline_dioxygenase-like_protein
+ABX60156.1	ABX60156.1	12568	13965	-	multidrug_exporter_MatE
+ABX60157.1	ABX60157.1	14037	14786	+	transposase
+ABX60158.1	ABX60158.1	14886	16316	+	aminohydrolase
+ABX60159.1	ABX60159.1	16893	17672	+	putative_sulfotransferase
+ABX60160.1	ABX60160.1	18113	19288	+	amidinotransferase
+ABX60161.1	ABX60161.1	19303	28056	+	mixed_NRPS/PKS
+ABX60162.1	ABX60162.1	28061	33727	+	polyketide_synthase
+ABX60163.1	ABX60163.1	34299	39302	+	polyketide_synthase
+ABX60164.1	ABX60164.1	39793	40392	-	adenylylsulfate_kinase
+ABX60165.1	ABX60165.1	40501	42048	+	CyrO
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	ABX60162.1	51	856	82.23866790009251	4.8e-248
+ctg47_8	ABX60152.1	47	814	83.16373728029602	2.8e-235
+ctg47_9	ABX60162.1	53	917	100.44395116537181	1.5e-266
+ctg47_9	ABX60153.1	52	909	100.33296337402886	5.2e-264
+ctg47_9	ABX60152.1	52	903	99.22308546059934	2.9e-262
+ctg47_9	ABX60163.1	51	879	101.77580466148723	4.5e-255
+ctg47_9	ABX60161.1	47	767	100.2219755826859	2.5e-221
+
+
+
+>>
+39. BGC0000017
+Source: anatoxin-a / homoanatoxin-a
+Type: Alkaloid + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 5160
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACR33072.1	ACR33072.1	877	1596	+	cyclase-like_protein
+ACR33073.1	ACR33073.1	1986	2741	+	thioesterase
+ACR33074.1	ACR33074.1	3652	4797	+	Prolyl-ACP_oxidase
+ACR33075.1	ACR33075.1	4810	6426	+	Proline_adenylation_protein
+ACR33076.1	ACR33076.1	6449	6712	+	Acyl_carrier_protein
+ACR33077.1	ACR33077.1	6866	13306	+	polyketide_synthase
+ACR33078.1	ACR33078.1	13308	18905	+	polyketide_synthase
+ACR33079.1	ACR33079.1	19181	24082	+	polyketide_synthase
+ACR33080.1	ACR33080.1	24527	25009	+	transposase
+ACR33081.1	ACR33081.1	25283	25630	+	putative_ATP_synthase_beta_subunit
+ACR33082.1	ACR33082.1	25504	26589	-	putative_serine/threonine_protein_kinase
+ACR33083.1	ACR33083.1	26759	27457	+	putative_SAM-dependent_methyltransferase
+ACR33084.1	ACR33084.1	27369	27713	+	putative_acyl-CoA_dehydrogenase
+ACR33085.1	ACR33085.1	27485	27763	-	hypothetical_conserved_protein
+ACR33086.1	ACR33086.1	28215	28862	+	putative_phosphoglycerate_mutase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	ACR33078.1	49	844	81.8686401480111	1.5e-244
+ctg47_8	ACR33079.1	47	826	81.96114708603145	7e-239
+ctg47_8	ACR33077.1	48	825	83.71877890841813	1.2e-238
+ctg47_9	ACR33078.1	53	940	97.44728079911211	2.1e-273
+ctg47_9	ACR33077.1	50	869	101.55382907880133	3.5e-252
+ctg47_9	ACR33079.1	49	856	100.55493895671476	3.1e-248
+
+
+
+>>
+40. BGC0001772
+Source: scytophycin
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 4511
+
+Table of genes, locations, strands and annotations of subject cluster:
+ATX68106.1	ATX68106.1	171	1067	-	phytanoyl-CoA_dioxygenase
+ATX68107.1	ATX68107.1	1081	2013	-	phytanoyl-CoA_dioxygenase
+ATX68108.1	ATX68108.1	2066	3442	-	cytochrome_P450
+ATX68109.1	ATX68109.1	3609	27482	-	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68110.1	ATX68110.1	27546	58559	-	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68111.1	ATX68111.1	58626	73748	-	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68112.1	ATX68112.1	73959	88781	-	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68113.1	ATX68113.1	89385	94076	+	hypothetical_protein
+ATX68114.1	ATX68114.1	94550	97762	+	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68115.1	ATX68115.1	97764	103565	+	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68116.1	ATX68116.1	103441	110250	+	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68117.1	ATX68117.1	110384	111343	+	hypothetical_protein
+ATX68118.1	ATX68118.1	111358	113145	-	ubiquinone_biosynthesis_monooxygenase_UbiB
+ATX68119.1	ATX68119.1	113761	114825	-	malonyl_CoA-acyl_carrier_protein_transacylase
+ATX68120.1	ATX68120.1	114929	115801	-	methyltransferase
+ATX68121.1	ATX68121.1	115928	117190	-	glycosyl_transferase_family_1
+ATX68122.1	ATX68122.1	118181	118492	-	hypothetical_protein
+ATX68123.1	ATX68123.1	119044	120018	-	1,4-dihydroxy-2-naphthoyl-CoA_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	ATX68115.1	50	917	89.17668825161887	2.3e-266
+ctg47_8	ATX68116.1	50	908	89.36170212765957	8.2e-264
+ctg47_9	ATX68115.1	54	966	99.55604883462819	3.6e-281
+ctg47_9	ATX68116.1	54	948	99.22308546059934	6e-276
+ctg47_9	ATX68114.1	46	772	100.0	7.7e-223
+
+
+
+>>
+41. BGC0001029
+Source: nostophycin
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3796
+
+Table of genes, locations, strands and annotations of subject cluster:
+AEU10996.1	AEU10996.1	1	1390	+	ResB-like_protein
+AEU10997.1	AEU10997.1	1487	2578	+	ABC_transporter
+AEU10998.1	AEU10998.1	2610	4286	-	hypothetical_protein
+AEU10999.1	AEU10999.1	4439	4849	-	GTP_cyclohydrolase
+AEU11000.1	AEU11000.1	4881	5279	-	hypothetical_protein
+AEU11001.1	AEU11001.1	5432	5812	-	hypothetical_protein
+AEU11002.1	AEU11002.1	6331	6888	+	putative_RNA_ligase
+AEU11005.1	AEU11005.1	7801	23181	+	NpnA
+AEU11006.1	AEU11006.1	23208	37514	+	NpnB
+AEU11003.1	AEU11003.1	37517	52732	+	NpnC
+AEU11004.1	AEU11004.1	52949	55249	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AEU11006.1	52	900	82.33117483811286	2.9e-261
+ctg47_8	AEU11005.1	52	881	81.96114708603145	1.8e-255
+ctg47_9	AEU11006.1	58	1009	98.11320754716981	2.9e-294
+ctg47_9	AEU11005.1	57	1006	99.11209766925639	3.2e-293
+
+
+
+>>
+42. BGC0001800
+Source: theonellamide
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3330
+
+Table of genes, locations, strands and annotations of subject cluster:
+AVI26388.1	AVI26388.1	622	8811	+	polyketide_synthase
+AVI26389.1	AVI26389.1	8825	14383	+	polyketide_synthase
+AVI26390.1	AVI26390.1	14419	28872	+	polyketide_synthase_/_nonribosomal_peptide_synthase_hybrid
+AVI26391.1	AVI26391.1	28877	29941	+	putative_dioxygenase
+AVI26392.1	AVI26392.1	29947	35355	+	putative_nonribosomal_peptide_synthase
+AVI26393.1	AVI26393.1	35352	47435	+	nonribosomal_peptide_synthase
+AVI26394.1	AVI26394.1	47425	48444	+	putative_monooxygenase
+AVI26395.1	AVI26395.1	48492	50999	+	nonribosomal_peptide_synthase-like_protein
+AVI26395.1	AVI26395.1	48492	50999	+	nonribosomal_peptide_synthase-like_protein
+AVI26396.1	AVI26396.1	51115	52440	+	glycosyltransferase
+AVI26397.1	AVI26397.1	52567	53190	-	DUF2063-containing_hypothetical_protein
+AVI26398.1	AVI26398.1	53299	53436	-	hypothetical_protein
+AVI26399.1	AVI26399.1	53672	53992	+	putative_dehydrogenase
+AVI26400.1	AVI26400.1	54264	54827	-	transport_protein
+AVI26401.1	AVI26401.1	54835	55291	-	transport_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AVI26389.1	49	819	81.59111933395005	8.6e-237
+ctg47_9	AVI26389.1	51	879	97.44728079911211	3.4e-255
+ctg47_9	AVI26390.1	48	826	98.22419533851277	5.8e-239
+ctg47_9	AVI26388.1	47	806	100.33296337402886	3.7e-233
+
+
+
+>>
+43. BGC0000986
+Source: dkxanthene
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 3154
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAQ34914.1	CAQ34914.1	1	1524	-	putative_L-prolyl_AMP-ligase
+CAQ34915.1	CAQ34915.1	1521	2660	-	putative_L-prolyl-S-PCP_Dehydrogenase
+CAQ34916.1	CAQ34916.1	2821	5040	+	polyketide_synthase
+CAQ34917.1	CAQ34917.1	5040	9425	+	polyketide_synthase
+CAQ34918.1	CAQ34918.1	9422	18337	+	nonribosomal_peptide_synthetase/_polyketide_synthase
+CAQ34919.1	CAQ34919.1	18344	23911	+	polyketide_synthase
+CAQ34920.1	CAQ34920.1	23919	29432	+	polyketide_synthase
+CAQ34921.1	CAQ34921.1	29429	33760	+	nonribosomal_peptide_synthetase
+CAQ34922.1	CAQ34922.1	33760	34857	+	putative_phospholipase,_patatin-like
+CAQ34923.1	CAQ34923.1	34899	36065	+	putative_anion-transporting_ATPase
+CAQ34924.1	CAQ34924.1	36146	36544	+	hypothetical_protein
+CAQ34925.1	CAQ34925.1	36589	38922	+	putative_polyketide_synthase
+CAQ34926.1	CAQ34926.1	38919	39416	+	putative_polyketide_synthase
+CAQ34927.1	CAQ34927.1	39564	41441	+	putative_radical_SAM_protein
+CAQ34928.1	CAQ34928.1	41451	47045	+	polyketide_synthase
+CAQ34929.1	CAQ34929.1	47067	49916	+	putative_polyketide_synthase
+CAQ34930.1	CAQ34930.1	50220	51005	-	type_II_thioesterase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	CAQ34928.1	46	766	82.42368177613321	6.6e-221
+ctg47_9	CAQ34928.1	48	808	98.66814650388457	9.6e-234
+ctg47_9	CAQ34919.1	48	802	97.669256381798	9e-232
+ctg47_9	CAQ34920.1	46	778	99.33407325194229	1.4e-224
+
+
+
+>>
+44. BGC0001737
+Source: phenalamide
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2423
+
+Table of genes, locations, strands and annotations of subject cluster:
+AQW44896.1	AQW44896.1	1	1041	+	phenylpyruvate_dehydrogenase_complex,_E1_component,_subunit_alpha
+AQW44897.1	AQW44897.1	1038	2015	+	phenylpyruvate_dehydrogenase_complex,_E1_component,_subunit_beta
+AQW44895.1	AQW44895.1	2015	3703	+	phenylpyruvate_dehydrogenase_complex,_E2_component_and_acyl_carrier_protein
+AQW44889.1	AQW44889.1	3700	10212	+	polyketide_synthase
+AQW44892.1	AQW44892.1	10235	15802	+	polyketide_synthase
+AQW44893.1	AQW44893.1	15799	21366	+	polyketide_synthase
+AQW44891.1	AQW44891.1	21383	26956	+	polyketide_synthase
+AQW44888.1	AQW44888.1	26959	42495	+	polyketide_synthase
+AQW44890.1	AQW44890.1	42492	48947	+	polyketide_synthase
+AQW44894.1	AQW44894.1	48944	53488	+	non-ribosomal_peptide_synthetase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AQW44888.1	47	814	86.86401480111007	2.8e-235
+ctg47_9	AQW44888.1	50	881	99.55604883462819	9e-256
+ctg47_9	AQW44889.1	46	728	98.22419533851277	1.3e-209
+
+
+
+>>
+45. BGC0001328
+Source: rakicidin A / rakicidin B
+Type: NRP:Cyclic depsipeptide + Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2013
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_9	MCBG_00133	49	871	98.33518312985572	9.3e-253
+ctg47_9	MCBG_00130	48	524	66.37069922308547	4.7e-148
+ctg47_11	MCBG_00130	49	76	69.72477064220183	2.4e-14
+ctg47_15	MCBG_00130	49	542	93.93442622950819	6.7e-154
+
+
+
+>>
+46. BGC0001941
+Source: fulvuthiacene A / fulvuthiacene B
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1981
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXM42940.1	AXM42940.1	18	215	+	lysine_biosynthesis_protein_LysW
+AXM42941.1	AXM42941.1	229	1092	+	phage_major_capsid_protein
+AXM42942.1	AXM42942.1	1115	2083	-	methyl_transferase_type_11
+AXM42943.1	AXM42943.1	2216	4393	-	FadJ-like_protein
+AXM42944.1	AXM42944.1	4434	5645	-	thioesterase
+AXM42945.1	AXM42945.1	5819	6352	-	hypothetical_protein
+AXM42946.1	AXM42946.1	6496	7392	-	bifunctional_5,10-methylene-tetrahydrofolate_dehydrogenase/5-10-methylene-tetrahydrofolate_cyclohydrolase
+AXM42947.1	AXM42947.1	7488	8918	-	S-adenosylhomocysteinase
+AXM42948.1	AXM42948.1	9530	18913	+	type_1_polyketide_synthase
+AXM42949.1	AXM42949.1	18910	28578	+	hybrid_type_1_PKS/NRPS
+AXM42950.1	AXM42950.1	28619	34417	+	polyketide_synthase
+AXM42951.1	AXM42951.1	34410	38480	+	polyketide_synthase
+AXM42952.1	AXM42952.1	38477	43714	+	non-ribosomal_peptide_synthetase
+AXM42953.1	AXM42953.1	43730	44755	+	alphahydroxyglycine_hydrolase-like_protein
+AXM42954.1	AXM42954.1	44752	45660	+	methyl_transferase
+AXM42955.1	AXM42955.1	45674	46726	+	amide_hydrolase
+AXM42956.1	AXM42956.1	46749	48347	-	lysyl_endopeptidase
+AXM42957.1	AXM42957.1	48673	48993	+	hypothetical_protein
+AXM42958.1	AXM42958.1	49674	50147	+	hypothetical_protein
+AXM42959.1	AXM42959.1	50179	52182	+	thioredoxin
+AXM42960.1	AXM42960.1	52206	52844	+	hypothetical_protein
+AXM42961.1	AXM42961.1	53045	53734	-	phage_tail_fiber_protein
+AXM42962.1	AXM42962.1	54084	54281	-	hypothetical_protein
+AXM42963.1	AXM42963.1	54386	54952	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AXM42949.1	46	1192	98.23446327683615	0.0
+ctg47_9	AXM42951.1	47	789	97.55826859045506	7.9e-228
+
+
+
+>>
+47. BGC0001646
+Source: lagriamide
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1310
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXA20086.1	AXA20086.1	1190	1714	-	sigma-70_RpoE
+AXA20087.1	AXA20087.1	1915	2109	+	competence_protein_ComEC
+AXA20088.1	AXA20088.1	2205	2315	+	transposase
+AXA20089.1	AXA20089.1	2828	3118	+	hypothetical_protein
+AXA20090.1	AXA20090.1	3132	13793	+	hybrid_trans-AT_PKS/NRPS_LgaA
+AXA20091.1	AXA20091.1	13790	33007	+	hybrid_trans-AT_PKS/NRPS_LgaB
+AXA20092.1	AXA20092.1	33004	53403	+	trans-AT_PKS_LgaC
+AXA20093.1	AXA20093.1	53400	57239	+	trans-AT_PKS_LgaD
+AXA20094.1	AXA20094.1	57289	58401	+	acyltransferase_LgaE
+AXA20095.1	AXA20095.1	58398	59783	+	enoylreductase_LgaF
+AXA20096.1	AXA20096.1	59909	86623	+	trans-AT_PKS_LgaG
+AXA20097.1	AXA20097.1	86717	87112	+	nuclear_transport_factor_2_(NTF2)-like_protein_LgaL
+AXA20098.1	AXA20098.1	87147	88520	+	MATE_family_efflux_transporter_LgaH
+AXA20099.1	AXA20099.1	88580	89593	+	acylhydrolase_LgaI
+AXA20100.1	AXA20100.1	90318	90704	+	transposase
+AXA20101.1	AXA20101.1	90836	92020	+	cytochrome_P450_LgaJ
+AXA20102.1	AXA20102.1	92083	92817	+	LgaM
+AXA20103.1	AXA20103.1	92859	93680	+	ketoreductase_LgaK
+AXA20104.1	AXA20104.1	93904	95667	-	phosphoenolpyruvate-protein_phosphotransferase
+AXA20105.1	AXA20105.1	95865	97904	+	squalene--hopene_cyclase
+AXA20106.1	AXA20106.1	98026	98871	+	all-trans-phytoene_synthase
+AXA20107.1	AXA20107.1	98927	99394	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AXA20096.1	48	440	47.82608695652174	8.3e-123
+ctg47_9	AXA20096.1	50	460	57.158712541620424	4.9e-129
+ctg47_9	AXA20091.1	46	410	52.38623751387348	1e-113
+
+
+
+>>
+48. BGC0001946
+Source: lagriamide
+Type: NRP + Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1310
+
+Table of genes, locations, strands and annotations of subject cluster:
+AXA20086.1	AXA20086.1	1190	1714	-	sigma-70_RpoE
+AXA20087.1	AXA20087.1	1915	2109	+	competence_protein_ComEC
+AXA20088.1	AXA20088.1	2205	2315	+	transposase
+AXA20089.1	AXA20089.1	2828	3118	+	hypothetical_protein
+AXA20090.1	AXA20090.1	3132	13793	+	hybrid_trans-AT_PKS/NRPS_LgaA
+AXA20091.1	AXA20091.1	13790	33007	+	hybrid_trans-AT_PKS/NRPS_LgaB
+AXA20092.1	AXA20092.1	33004	53403	+	trans-AT_PKS_LgaC
+AXA20093.1	AXA20093.1	53400	57239	+	trans-AT_PKS_LgaD
+AXA20094.1	AXA20094.1	57289	58401	+	acyltransferase_LgaE
+AXA20095.1	AXA20095.1	58398	59783	+	enoylreductase_LgaF
+AXA20096.1	AXA20096.1	59909	86623	+	trans-AT_PKS_LgaG
+AXA20097.1	AXA20097.1	86717	87112	+	nuclear_transport_factor_2_(NTF2)-like_protein_LgaL
+AXA20098.1	AXA20098.1	87147	88520	+	MATE_family_efflux_transporter_LgaH
+AXA20099.1	AXA20099.1	88580	89593	+	acylhydrolase_LgaI
+AXA20100.1	AXA20100.1	90318	90704	+	transposase
+AXA20101.1	AXA20101.1	90836	92020	+	cytochrome_P450_LgaJ
+AXA20102.1	AXA20102.1	92083	92817	+	LgaM
+AXA20103.1	AXA20103.1	92859	93680	+	ketoreductase_LgaK
+AXA20104.1	AXA20104.1	93904	95667	-	phosphoenolpyruvate-protein_phosphotransferase
+AXA20105.1	AXA20105.1	95865	97904	+	squalene--hopene_cyclase
+AXA20106.1	AXA20106.1	98026	98871	+	all-trans-phytoene_synthase
+AXA20107.1	AXA20107.1	98927	99394	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_8	AXA20096.1	48	440	47.82608695652174	8.3e-123
+ctg47_9	AXA20096.1	50	460	57.158712541620424	4.9e-129
+ctg47_9	AXA20091.1	46	410	52.38623751387348	1e-113
+
+
+
+>>
+49. BGC0001162
+Source: 1-heptadecene
+Type: Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1586
+
+Table of genes, locations, strands and annotations of subject cluster:
+AHH34188.1	AHH34188.1	1	2454	+	fatty_acyl_ACP_ligase
+AHH34189.1	AHH34189.1	2464	9348	+	polyketide_synthase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_9	AHH34189.1	50	903	105.54938956714761	3.8e-262
+ctg47_15	AHH34188.1	57	683	99.8360655737705	4.1e-196
+
+
+
+>>
+50. BGC0001822
+Source: vioprolide A
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1568
+
+Table of genes, locations, strands and annotations of subject cluster:
+AWI62625.1	AWI62625.1	1	1137	+	lysine_cyclodeaminase
+AWI62626.1	AWI62626.1	1137	15878	+	nonribosomal_peptide_synthetase
+AWI62627.1	AWI62627.1	15899	22378	+	nonribosomal_peptide_synthetase
+AWI62628.1	AWI62628.1	22375	32337	+	nonribosomal_peptide_synthetase
+AWI62629.1	AWI62629.1	32334	37721	+	nonribosomal_peptide_synthetase
+AWI62630.1	AWI62630.1	37718	39520	+	hypothetical_protein
+AWI62631.1	AWI62631.1	39535	40866	+	hypothetical_protein
+AWI62632.1	AWI62632.1	40946	42598	+	hypothetical_protein
+AWI62633.1	AWI62633.1	42595	43308	+	hypothetical_protein
+AWI62634.1	AWI62634.1	43380	43670	+	hypothetical_protein
+AWI62635.1	AWI62635.1	43708	43998	+	hypothetical_protein
+AWI62636.1	AWI62636.1	44106	44318	+	MbtH-like_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg47_7	AWI62627.1	53	984	65.04237288135593	2e-286
+ctg47_15	AWI62626.1	54	584	92.1311475409836	2.6e-166
+

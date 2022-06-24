@@ -1,0 +1,25 @@
+ClusterBlast scores for c00065_NODE_57..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg65_2	1151	2462	-		
+ctg65_3	2654	2948	+		
+ctg65_4	3441	3792	-		
+ctg65_5	3827	4607	-		
+ctg65_6	4609	5827	-		
+ctg65_7	5823	7326	-		
+ctg65_8	7783	9130	+		
+ctg65_9	9130	9781	-		
+ctg65_10	10089	10287	+		
+ctg65_11	10554	10764	+		
+ctg65_12	10980	14235	+		
+ctg65_13	14345	14552	+		
+ctg65_14	14577	16017	+		
+ctg65_15	16246	18484	+		
+ctg65_16	18491	21425	+		
+ctg65_17	21530	23426	-		
+
+
+Significant hits: 
+
+
+Details:

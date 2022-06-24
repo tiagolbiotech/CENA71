@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 6,40 11,35 6,30 0,30 0,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_1&lt;/b&gt;&lt;br&gt;ctg47 1&lt;br&gt;Location: 251 - 845" locus_tag="ctg47_1" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+<polygon points="23,35 28,30 49,30 49,40 28,40 23,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_2&lt;/b&gt;&lt;br&gt;ctg47 2&lt;br&gt;Location: 1511 - 2918" locus_tag="ctg47_2" class="clusterblast-orf" id="dummy-1_q1_0_all"  />
+<polygon points="49,35 54,30 55,30 55,40 54,40 49,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_3&lt;/b&gt;&lt;br&gt;ctg47 3&lt;br&gt;Location: 2955 - 3267" locus_tag="ctg47_3" class="clusterblast-orf" id="dummy-1_q2_0_all"  />
+<polygon points="59,35 64,30 85,30 85,40 64,40 59,35 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_4&lt;/b&gt;&lt;br&gt;ctg47 4&lt;br&gt;Location: 3481 - 4879" locus_tag="ctg47_4" class="clusterblast-orf" id="dummy-1_q3_0_all"  />
+<polygon points="86,35 91,30 110,30 110,40 91,40 86,35 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_5&lt;/b&gt;&lt;br&gt;ctg47 5&lt;br&gt;Location: 4959 - 6282" locus_tag="ctg47_5" class="clusterblast-orf" id="dummy-1_q4_0_all"  />
+<polygon points="114,35 119,30 234,30 234,40 119,40 114,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_6&lt;/b&gt;&lt;br&gt;ctg47 6&lt;br&gt;Location: 6455 - 13022" locus_tag="ctg47_6" class="clusterblast-orf" id="dummy-1_q5_0_all"  />
+<polygon points="234,35 239,30 312,30 312,40 239,40 234,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_7&lt;/b&gt;&lt;br&gt;ctg47 7&lt;br&gt;Location: 13018 - 17269" locus_tag="ctg47_7" class="clusterblast-orf" id="dummy-1_q6_0_all"  />
+<polygon points="312,35 317,30 372,30 372,40 317,40 312,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_8&lt;/b&gt;&lt;br&gt;ctg47 8&lt;br&gt;Location: 17265 - 20511" locus_tag="ctg47_8" class="clusterblast-orf" id="dummy-1_q7_0_all"  />
+<polygon points="372,35 377,30 422,30 422,40 377,40 372,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_9&lt;/b&gt;&lt;br&gt;ctg47 9&lt;br&gt;Location: 20552 - 23258" locus_tag="ctg47_9" class="clusterblast-orf" id="dummy-1_q8_0_all"  />
+<polygon points="423,35 428,30 439,30 439,40 428,40 423,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_10&lt;/b&gt;&lt;br&gt;ctg47 10&lt;br&gt;Location: 23304 - 24192" locus_tag="ctg47_10" class="clusterblast-orf" id="dummy-1_q9_0_all"  />
+<polygon points="457,35 462,30 463,30 463,40 462,40 457,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_11&lt;/b&gt;&lt;br&gt;ctg47 11&lt;br&gt;Location: 25168 - 25498" locus_tag="ctg47_11" class="clusterblast-orf" id="dummy-1_q10_0_all"  />
+<polygon points="464,35 469,30 481,30 481,40 469,40 464,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_12&lt;/b&gt;&lt;br&gt;ctg47 12&lt;br&gt;Location: 25557 - 26484" locus_tag="ctg47_12" class="clusterblast-orf" id="dummy-1_q11_0_all"  />
+<polygon points="493,35 498,30 518,30 518,40 498,40 493,35 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_13&lt;/b&gt;&lt;br&gt;ctg47 13&lt;br&gt;Location: 27104 - 28478" locus_tag="ctg47_13" class="clusterblast-orf" id="dummy-1_q12_0_all"  />
+<polygon points="525,35 530,30 535,30 535,40 530,40 525,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_14&lt;/b&gt;&lt;br&gt;ctg47 14&lt;br&gt;Location: 28888 - 29401" locus_tag="ctg47_14" class="clusterblast-orf" id="dummy-1_q13_0_all"  />
+<polygon points="537,35 542,30 571,30 571,40 542,40 537,35 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_15&lt;/b&gt;&lt;br&gt;ctg47 15&lt;br&gt;Location: 29518 - 31351" locus_tag="ctg47_15" class="clusterblast-orf" id="dummy-1_q14_0_all"  />
+<polygon points="577,35 580,30 580,40 577,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_16&lt;/b&gt;&lt;br&gt;ctg47 16&lt;br&gt;Location: 31704 - 31836" locus_tag="ctg47_16" class="clusterblast-orf" id="dummy-1_q15_0_all"  />
+<polygon points="606,35 611,30 659,30 659,40 611,40 606,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_17&lt;/b&gt;&lt;br&gt;ctg47 17&lt;br&gt;Location: 33271 - 36166" locus_tag="ctg47_17" class="clusterblast-orf" id="dummy-1_q16_0_all"  />
+<polygon points="676,40 693,40 698,35 693,30 676,30 676,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_18&lt;/b&gt;&lt;br&gt;ctg47 18&lt;br&gt;Location: 37107 - 38292" locus_tag="ctg47_18" class="clusterblast-orf" id="dummy-1_q17_0_all"  />
+<polygon points="719,40 732,40 737,35 732,30 719,30 719,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_19&lt;/b&gt;&lt;br&gt;ctg47 19&lt;br&gt;Location: 39408 - 40404" locus_tag="ctg47_19" class="clusterblast-orf" id="dummy-1_q18_0_all"  />
+<polygon points="737,40 753,40 758,35 753,30 737,30 737,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_20&lt;/b&gt;&lt;br&gt;ctg47 20&lt;br&gt;Location: 40400 - 41561" locus_tag="ctg47_20" class="clusterblast-orf" id="dummy-1_q19_0_all"  />
+<polygon points="758,40 775,40 780,35 775,30 758,30 758,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg47_21&lt;/b&gt;&lt;br&gt;ctg47 21&lt;br&gt;Location: 41560 - 42733" locus_tag="ctg47_21" class="clusterblast-orf" id="dummy-1_q20_0_all"  />
+</g>
+<g label="BGC0001467" description="BGC0001467_c1: hapalosin (40% of genes show similarity), NRP:Cyclic depsipeptide + Polyketide:Modular type I" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0001467/1" target="_blank">BGC0001467</a>:                                                                        hapalosin (40% of genes show similarity), NRP:Cyclic depsipeptide + Polyketide:Modular type I</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="153,85 158,80 253,80 253,90 158,90 153,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FIS9431_RS0128775&lt;/b&gt;&lt;br&gt;type I polyketide synthase&lt;br&gt;Location: 1 - 5457" locus_tag="FIS9431_RS0128775" class="clusterblast-orf" id="dummy-1_h1_8_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="253,85 258,80 337,80 337,90 258,90 253,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FIS9431_RS32925&lt;/b&gt;&lt;br&gt;non-ribosomal peptide synthetase&lt;br&gt;Location: 5472 - 10052" locus_tag="FIS9431_RS32925" class="clusterblast-orf" id="dummy-1_h1_8_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="340,85 345,80 469,80 469,90 345,90 340,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FIS9431_RS0128785&lt;/b&gt;&lt;br&gt;non-ribosomal peptide synthetase&lt;br&gt;Location: 10197 - 17243" locus_tag="FIS9431_RS0128785" class="clusterblast-orf" id="dummy-1_h1_8_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="469,85 474,80 578,80 578,90 474,90 469,85 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;FIS9431_RS32930&lt;/b&gt;&lt;br&gt;type I polyketide synthase&lt;br&gt;Location: 17240 - 23185&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg47_8&lt;/b&gt;&lt;br&gt;Percentage identity: 53&lt;br&gt;Percentage coverage: 90&lt;br&gt;BLAST bit score: 1005&lt;br&gt;E-value: 6.5e-293&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg47_9&lt;/b&gt;&lt;br&gt;Percentage identity: 54&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 970&lt;br&gt;E-value: 2.5e-282" locus_tag="FIS9431_RS32930" class="clusterblast-orf" id="dummy-1_h1_8_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="587,85 592,80 626,80 626,90 592,90 587,85 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;FIS9431_RS0128795&lt;/b&gt;&lt;br&gt;AMP-dependent synthetase&lt;br&gt;Location: 23656 - 25782&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg47_3&lt;/b&gt;&lt;br&gt;Percentage identity: 47&lt;br&gt;Percentage coverage: 83&lt;br&gt;BLAST bit score: 82&lt;br&gt;E-value: 4.2e-16&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg47_11&lt;/b&gt;&lt;br&gt;Percentage identity: 50&lt;br&gt;Percentage coverage: 64&lt;br&gt;BLAST bit score: 85&lt;br&gt;E-value: 5.2e-17&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg47_15&lt;/b&gt;&lt;br&gt;Percentage identity: 58&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 683&lt;br&gt;E-value: 4.1e-196" locus_tag="FIS9431_RS0128795" class="clusterblast-orf" id="dummy-1_h1_8_4"  />
+</g>
+</svg>

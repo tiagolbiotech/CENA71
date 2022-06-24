@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="342,35 347,30 438,30 438,40 347,40 342,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg137_1&lt;/b&gt;&lt;br&gt;ctg137 1&lt;br&gt;Location: 1 - 2068" locus_tag="ctg137_1" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+</g>
+<g label="BGC0001135" description="BGC0001135_c1: bicornutin A1 / bicornutin A2 (100% of genes show similarity), NRP" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0001135/1" target="_blank">BGC0001135</a>:                                                    bicornutin A1 / bicornutin A2 (100% of genes show similarity), NRP</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,85 5,80 780,80 780,90 5,90 0,85 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;AFP87549.1&lt;/b&gt;&lt;br&gt;NrpS&lt;br&gt;Location: 16848 - 1&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg137_1&lt;/b&gt;&lt;br&gt;Percentage identity: 46&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 572&lt;br&gt;E-value: 8.9e-163" locus_tag="AFP87549.1" class="clusterblast-orf" id="dummy-1_h1_3_0"  />
+</g>
+</svg>

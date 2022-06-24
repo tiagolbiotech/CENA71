@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHB62782.1</td>
+              <td>anthranilate_phosphoribosyltransferase_(TrpD)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>680.0</td>
+              <td>2.1e-195</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79572.1</td>
+              <td>FimI6</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>680.0</td>
+              <td>2.1e-195</td>
+          </tr>
+    
+          <tr>
+              <td>APB62268.1</td>
+              <td>anthranilate_phosphoribosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>680.0</td>
+              <td>2.1e-195</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79605.1</td>
+              <td>FilI6</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>96.0</td>
+              <td>100.0</td>
+              <td>679.0</td>
+              <td>2.7e-195</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79628.1</td>
+              <td>FisI6</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>97.0</td>
+              <td>100.0</td>
+              <td>678.0</td>
+              <td>8e-195</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58830.1</td>
+              <td>anthranilate_phosphoribosyltransferase_(TrpD)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>93.0</td>
+              <td>100.0</td>
+              <td>653.0</td>
+              <td>2.1e-187</td>
+          </tr>
+    
+          <tr>
+              <td>CAB38583.1</td>
+              <td>probable_anthranilate_phosphoribotransferase_(trpD2)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000315/1">BGC0000315</a></td>
+              <td>NRP:Ca+-dependent lipopeptide</td>
+              <td>38.0</td>
+              <td>89.0</td>
+              <td>182.0</td>
+              <td>1.1e-45</td>
+          </tr>
+    
+          <tr>
+              <td>ALV86861.1</td>
+              <td>Tlo15</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001406/1">BGC0001406</a></td>
+              <td>NRP</td>
+              <td>37.0</td>
+              <td>94.0</td>
+              <td>181.0</td>
+              <td>2.3e-45</td>
+          </tr>
+    
+          <tr>
+              <td>ATU31821.1</td>
+              <td>anthranilate_phosphoribosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001814/1">BGC0001814</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>94.5</td>
+              <td>177.0</td>
+              <td>3.4e-44</td>
+          </tr>
+    
+          <tr>
+              <td>AFJ52662.1</td>
+              <td>anthranilate_phosphoribosyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001073/1">BGC0001073</a></td>
+              <td>NRP + Polyketide</td>
+              <td>29.0</td>
+              <td>71.8</td>
+              <td>76.0</td>
+              <td>8.1e-14</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

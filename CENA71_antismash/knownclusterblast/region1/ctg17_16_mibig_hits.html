@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>APB62241.1</td>
+              <td>2OG-Fe(II)_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001612/1">BGC0001612</a></td>
+              <td>Alkaloid</td>
+              <td>87.0</td>
+              <td>100.0</td>
+              <td>530.0</td>
+              <td>1.2e-150</td>
+          </tr>
+    
+          <tr>
+              <td>AHB62755.1</td>
+              <td>halogenase,_2OG-Fe(II)_oxygenase_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001126/1">BGC0001126</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>87.0</td>
+              <td>100.0</td>
+              <td>526.0</td>
+              <td>2.4e-149</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79577.1</td>
+              <td>FilB1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001501/1">BGC0001501</a></td>
+              <td>Alkaloid</td>
+              <td>87.0</td>
+              <td>100.0</td>
+              <td>525.0</td>
+              <td>5.3e-149</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79546.1</td>
+              <td>FimB1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001594/1">BGC0001594</a></td>
+              <td>Alkaloid</td>
+              <td>85.0</td>
+              <td>100.0</td>
+              <td>520.0</td>
+              <td>2.2e-147</td>
+          </tr>
+    
+          <tr>
+              <td>APZ79607.1</td>
+              <td>FisB1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001595/1">BGC0001595</a></td>
+              <td>Alkaloid</td>
+              <td>86.0</td>
+              <td>100.0</td>
+              <td>519.0</td>
+              <td>3.8e-147</td>
+          </tr>
+    
+          <tr>
+              <td>AHI58816.1</td>
+              <td>halogenase,_2OG-Fe(II)_oxygenase_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000668/1">BGC0000668</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>86.0</td>
+              <td>100.0</td>
+              <td>517.0</td>
+              <td>1.9e-146</td>
+          </tr>
+    
+          <tr>
+              <td>ATN39907.1</td>
+              <td>MstM</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001664/1">BGC0001664</a></td>
+              <td>Terpene</td>
+              <td>50.0</td>
+              <td>102.1</td>
+              <td>309.0</td>
+              <td>7.7e-84</td>
+          </tr>
+    
+          <tr>
+              <td>ACY13419.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001367/1">BGC0001367</a></td>
+              <td>NRP + Polyketide</td>
+              <td>35.0</td>
+              <td>101.0</td>
+              <td>157.0</td>
+              <td>3.8e-38</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ20782.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000369/1">BGC0000369</a></td>
+              <td>NRP + Saccharide:Hybrid/tailoring</td>
+              <td>46.0</td>
+              <td>42.4</td>
+              <td>125.0</td>
+              <td>1.2e-28</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

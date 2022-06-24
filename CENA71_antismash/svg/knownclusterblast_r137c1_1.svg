@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="268,35 273,30 514,30 514,40 273,40 268,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;ctg137_1&lt;/b&gt;&lt;br&gt;ctg137 1&lt;br&gt;Location: 1 - 2068" locus_tag="ctg137_1" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+</g>
+<g label="BGC0001479" description="BGC0001479_c1: anabaenopeptin NZ857 / nostamide A (100% of genes show similarity), NRP" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0001479/1" target="_blank">BGC0001479</a>:                                               anabaenopeptin NZ857 / nostamide A (100% of genes show similarity), NRP</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,85 5,80 780,80 780,90 5,90 0,85 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;Npun_F2460&lt;/b&gt;&lt;br&gt;non-ribosomal peptide synthetase&lt;br&gt;Location: 6546 - 1&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with ctg137_1&lt;/b&gt;&lt;br&gt;Percentage identity: 48&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 613&lt;br&gt;E-value: 5.9e-175" locus_tag="Npun_F2460" class="clusterblast-orf" id="dummy-1_h1_1_0"  />
+</g>
+</svg>

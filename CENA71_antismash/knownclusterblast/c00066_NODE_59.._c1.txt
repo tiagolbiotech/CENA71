@@ -1,0 +1,74 @@
+ClusterBlast scores for c00066_NODE_59..
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg66_1	2	98	+		
+ctg66_2	168	336	-		
+ctg66_3	339	1254	-		
+ctg66_4	1884	5316	-		
+ctg66_5	5421	5706	-		
+ctg66_6	5990	6149	+		
+ctg66_7	6428	6884	-		
+ctg66_8	7083	8667	+		
+ctg66_9	8792	9152	+		
+ctg66_10	9126	9516	-		
+ctg66_11	10465	10663	+		
+ctg66_12	10750	10948	+		
+ctg66_13	11035	11233	+		
+ctg66_14	11587	12751	+		
+ctg66_15	12757	13897	+		
+ctg66_16	13893	14931	+		
+ctg66_17	15212	15995	+		
+ctg66_18	16201	16990	-		
+ctg66_19	17044	18556	-		
+ctg66_20	18616	21715	-		
+ctg66_21	21722	22319	-		
+ctg66_22	22992	23337	+		
+ctg66_23	23325	24441	-		
+ctg66_24	24708	26112	-		
+ctg66_25	26183	27017	-		
+ctg66_26	27021	28251	-		
+ctg66_27	28590	28737	-		
+ctg66_28	29242	29377	-		
+
+
+Significant hits: 
+1. BGC0001615	hexose-palythine-serine / hexose-shinorine
+2. BGC0000427	shinorine / 4-deoxygadusol / mycosporine glycine
+
+
+Details:
+
+>>
+1. BGC0001615
+Source: hexose-palythine-serine / hexose-shinorine
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1814
+
+Table of genes, locations, strands and annotations of subject cluster:
+ANY58986.1	ANY58986.1	1378	2607	+	3-dehydroquinate_synthase
+ANY58987.1	ANY58987.1	2764	3654	+	O-methyltransferase
+ANY58985.1	ANY58985.1	3655	5046	+	ATP-grasp_domain-containing_protein
+ANY58984.1	ANY58984.1	5233	9219	+	non-ribosomal_synthetase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg66_24	ANY58985.1	76	729	97.00214132762312	3e-210
+ctg66_25	ANY58987.1	76	410	99.63898916967509	1.8e-114
+ctg66_26	ANY58986.1	80	675	99.51100244498777	5.8e-194
+
+
+
+>>
+2. BGC0000427
+Source: shinorine / 4-deoxygadusol / mycosporine glycine
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1673
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg66_24	Ava_3856	74	700	98.92933618843684	1.9e-201
+ctg66_25	Ava_3857	64	346	100.0	4.2e-95
+ctg66_26	Ava_3858	74	627	99.75550122249389	1.8e-179
+
